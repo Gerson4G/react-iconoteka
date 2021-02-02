@@ -1,0 +1,29 @@
+"use strict";
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function SvgWaterBedBoldLine(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    "data-name": "Layer 1",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 24 24"
+  }, props), /*#__PURE__*/React.createElement("path", {
+    d: "M20 11V6a2 2 0 00-2-2H6a2 2 0 00-2 2v5H2v9h20v-9zM6 6h12v5h-.85l-.52-1a1.73 1.73 0 00-1.56-1h-.47a1.74 1.74 0 00-1.6 1l-.52 1h-1L11 10a1.74 1.74 0 00-1.6-1h-.47a1.73 1.73 0 00-1.56 1l-.52 1H6zm14 12H4v-5h16zM8.75 15.84a1.89 1.89 0 011.11.4 3.6 3.6 0 004.28 0 1.75 1.75 0 012.22 0 3.73 3.73 0 002.14.76v-1.86a1.88 1.88 0 01-1.11-.39 3.6 3.6 0 00-4.28 0 1.75 1.75 0 01-2.22 0A3.73 3.73 0 008.75 14a3.73 3.73 0 00-2.14.71 1.88 1.88 0 01-1.11.39V17a3.73 3.73 0 002.14-.71 1.89 1.89 0 011.11-.45z"
+  }));
+}
+
+var _default = SvgWaterBedBoldLine;
+exports.default = _default;
