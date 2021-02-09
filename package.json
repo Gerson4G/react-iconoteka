@@ -1,7 +1,7 @@
 {
   "name": "react-iconoteka",
   "version": "0.1.2",
-  "main": "dist/index.js",
+  "main": "dist/index.ts",
   "private": false,
   "files": [ "dist", "README.md" ],
   "repository": {
