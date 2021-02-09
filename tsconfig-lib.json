@@ -19,6 +19,6 @@
     "lib": ["dom", "dom.iterable", "esnext"]
   },
   "include": ["src/components/**/*"],
-  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/**/*.stories.ts", "src/**/*.stories.tsx"],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx"],
   "files": ["index.ts"]
 }
