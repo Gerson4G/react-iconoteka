@@ -1,8 +1,18 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
+import { Story, Meta } from '@storybook/react';
+import Component from './index';
+import { IconProps } from './types';
 
-import Icon from './Icon';
+export default {
+  title: 'Icon',
+  component: Component,
+  argTypes: {
+    color: { control: 'color' },
+  },
+} as Meta;
 
-storiesOf('Icon', module)
-  .add('default', () => <Icon name="Svg3DRotation" />);
+export const Icon: Story<IconProps> = (args) => <Component {...args} />;
+
+Icon.args = {
+  name: 'AlarmSnooze',
+};
