@@ -26,6 +26,7 @@ It has the props types defined like this:
 TODO:
 [ ] Reduce icons files to use only simple icon (Fill or Line) nad set the stroke value by SVG values
 [ ] Add default imports for Different icon if user prefer to just import the Icon directly
+[ ] Improve typings of the dist Story
 
 ## Iconoteka
 Web: https://iconoteka.com/
