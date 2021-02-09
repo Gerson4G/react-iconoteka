@@ -16,10 +16,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Icon = void 0;
 var jsx_runtime_1 = require("react/jsx-runtime");
+var storybook_addon_designs_1 = require("storybook-addon-designs");
 var index_1 = __importDefault(require("./index"));
 exports.default = {
     title: 'Icon',
     component: index_1.default,
+    decorators: [storybook_addon_designs_1.withDesign],
     argTypes: {
         color: { control: 'color' },
     },
@@ -28,4 +30,9 @@ var Icon = function (args) { return jsx_runtime_1.jsx(index_1.default, __assign(
 exports.Icon = Icon;
 exports.Icon.args = {
     name: 'AlarmSnooze',
+    className: '',
+    stroke: 'regular',
+    type: 'line',
+    height: 20,
+    width: 20,
 };
