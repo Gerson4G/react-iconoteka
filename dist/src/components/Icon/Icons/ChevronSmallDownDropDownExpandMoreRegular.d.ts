@@ -1,0 +1,2 @@
+declare function SvgChevronSmallDownDropDownExpandMoreRegular(props: any): JSX.Element;
+export default SvgChevronSmallDownDropDownExpandMoreRegular;

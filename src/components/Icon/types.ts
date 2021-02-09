@@ -9,8 +9,8 @@ export type IconProps = {
 };
 
 export type IconName =
-  | '3DRotation'
-  | '5CirclesGroupSupplies'
+  | 'Svg3DRotation'
+  | 'Svg5CirclesGroupSupplies'
   | 'AddDocument'
   | 'AddNote'
   | 'AddToClipboard'

@@ -1,0 +1,2 @@
+declare function SvgMinusInCircleDoNotDisturbOnRemoveMediumLine(props: any): JSX.Element;
+export default SvgMinusInCircleDoNotDisturbOnRemoveMediumLine;

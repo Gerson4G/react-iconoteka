@@ -1,0 +1,2 @@
+declare function SvgHeadsetWithMicrophoneHeadphonesVoiceChatLightFill(props: any): JSX.Element;
+export default SvgHeadsetWithMicrophoneHeadphonesVoiceChatLightFill;

@@ -1,0 +1,2 @@
+declare function SvgInfoSansSerifMoreDetailsInformationAboutRegularFill(props: any): JSX.Element;
+export default SvgInfoSansSerifMoreDetailsInformationAboutRegularFill;

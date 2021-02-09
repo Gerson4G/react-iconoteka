@@ -1,0 +1,2 @@
+declare function SvgInfoMonospacedMoreDetailsInformationAboutMediumFill(props: any): JSX.Element;
+export default SvgInfoMonospacedMoreDetailsInformationAboutMediumFill;

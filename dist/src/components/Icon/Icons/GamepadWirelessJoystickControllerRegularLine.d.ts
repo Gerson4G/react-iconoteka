@@ -1,0 +1,2 @@
+declare function SvgGamepadWirelessJoystickControllerRegularLine(props: any): JSX.Element;
+export default SvgGamepadWirelessJoystickControllerRegularLine;

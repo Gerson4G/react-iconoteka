@@ -1,0 +1,2 @@
+declare function SvgInfoItalicMoreDetailsInformationAboutRegularLine(props: any): JSX.Element;
+export default SvgInfoItalicMoreDetailsInformationAboutRegularLine;

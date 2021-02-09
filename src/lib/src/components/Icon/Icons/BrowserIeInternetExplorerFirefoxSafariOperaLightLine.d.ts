@@ -1,0 +1,2 @@
+declare function SvgBrowserIeInternetExplorerFirefoxSafariOperaLightLine(props: any): JSX.Element;
+export default SvgBrowserIeInternetExplorerFirefoxSafariOperaLightLine;

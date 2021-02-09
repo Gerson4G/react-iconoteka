@@ -1,0 +1,2 @@
+declare function SvgSlightlyFrowningSadSentimentDissatisfiedLightFill(props: any): JSX.Element;
+export default SvgSlightlyFrowningSadSentimentDissatisfiedLightFill;

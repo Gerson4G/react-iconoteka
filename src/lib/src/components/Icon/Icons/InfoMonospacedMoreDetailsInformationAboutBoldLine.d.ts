@@ -1,0 +1,2 @@
+declare function SvgInfoMonospacedMoreDetailsInformationAboutBoldLine(props: any): JSX.Element;
+export default SvgInfoMonospacedMoreDetailsInformationAboutBoldLine;

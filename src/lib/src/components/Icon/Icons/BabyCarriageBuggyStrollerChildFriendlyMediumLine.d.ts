@@ -1,0 +1,2 @@
+declare function SvgBabyCarriageBuggyStrollerChildFriendlyMediumLine(props: any): JSX.Element;
+export default SvgBabyCarriageBuggyStrollerChildFriendlyMediumLine;

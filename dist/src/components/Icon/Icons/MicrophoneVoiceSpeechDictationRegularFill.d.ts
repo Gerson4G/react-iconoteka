@@ -1,0 +1,2 @@
+declare function SvgMicrophoneVoiceSpeechDictationRegularFill(props: any): JSX.Element;
+export default SvgMicrophoneVoiceSpeechDictationRegularFill;

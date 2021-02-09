@@ -1,0 +1,2 @@
+declare function SvgBrowserIeInternetExplorerFirefoxSafariOperaLightFill(props: any): JSX.Element;
+export default SvgBrowserIeInternetExplorerFirefoxSafariOperaLightFill;

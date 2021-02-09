@@ -5,4 +5,4 @@ import { action } from '@storybook/addon-actions';
 import Icon from './Icon';
 
 storiesOf('Icon', module)
-  .add('default', () => <Icon name="3DRotation" />);
+  .add('default', () => <Icon name="Svg3DRotation" />);

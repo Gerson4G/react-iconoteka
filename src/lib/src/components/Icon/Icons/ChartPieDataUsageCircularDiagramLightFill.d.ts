@@ -1,0 +1,2 @@
+declare function SvgChartPieDataUsageCircularDiagramLightFill(props: any): JSX.Element;
+export default SvgChartPieDataUsageCircularDiagramLightFill;

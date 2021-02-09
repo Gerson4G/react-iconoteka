@@ -1,0 +1,2 @@
+declare function SvgInfoItalicMoreDetailsInformationAboutRegularFill(props: any): JSX.Element;
+export default SvgInfoItalicMoreDetailsInformationAboutRegularFill;

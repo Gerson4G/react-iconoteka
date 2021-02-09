@@ -1,0 +1,2 @@
+declare function SvgHeadsetHeadphonesListenAudioAuditionMediumLine(props: any): JSX.Element;
+export default SvgHeadsetHeadphonesListenAudioAuditionMediumLine;

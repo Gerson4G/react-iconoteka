@@ -1,0 +1,2 @@
+declare function SvgBabyCarriageBuggyStrollerChildFriendlyLightFill(props: any): JSX.Element;
+export default SvgBabyCarriageBuggyStrollerChildFriendlyLightFill;

@@ -7,7 +7,8 @@ function Icon({ name, stroke, type, color, ...props }: IconProps): JSX.Element {
   if (!namesArray.includes(iconName)) {
     iconName += `${type[0].toUpperCase()}${type?.slice(1)}`;
   }
-  const Component = lazy(() => import(`./Icons/${iconName}`));
+  console.log(iconName)
+  const Component = lazy(() => import(`./Icons`).then((module: any) => ({ default: module[iconName] })));
   return (
     <Suspense fallback={<></>}>
       <Component width={24} height={24} fill={color} {...props} />
