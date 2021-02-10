@@ -8,6 +8,8 @@ export type IconProps = {
   color?: string;
 };
 
+export default IconName;
+
 export type IconName =
   | 'Svg3DRotation'
   | 'Svg5CirclesGroupSupplies'
