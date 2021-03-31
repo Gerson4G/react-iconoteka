@@ -5408,7 +5408,7 @@ export const uniqueNames = [
   'CameraVideoMovie',
   'CameraVideoOff',
   'Can',
-  'CancelClearCloseCircleDeleteTextHighOff',
+  'CancelClearCloseCircleDeleteTextHighlightOff',
   'Capslock',
   'CapsuleHotel',
   'CartonBoxCardboard',

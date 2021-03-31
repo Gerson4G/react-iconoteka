@@ -155,7 +155,7 @@ export type IconName =
   | 'CameraVideoMovie'
   | 'CameraVideoOff'
   | 'Can'
-  | 'CancelClearCloseCircleDeleteTextHighOff'
+  | 'CancelClearCloseCircleDeleteTextHighlightOff'
   | 'Capslock'
   | 'CapsuleHotel'
   | 'CartonBoxCardboard'
