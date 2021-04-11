@@ -5410,7 +5410,7 @@ exports.uniqueNames = [
     'CameraVideoMovie',
     'CameraVideoOff',
     'Can',
-    'CancelClearCloseCircleDeleteTextHighOff',
+    'CancelClearCloseCircleDeleteTextHighlightOff',
     'Capslock',
     'CapsuleHotel',
     'CartonBoxCardboard',
@@ -6108,4 +6108,5 @@ exports.uniqueNames = [
     'ZoomIn',
     'ZoomOutArrows',
     'ZoomOut',
+    'Eye',
 ];
