@@ -1887,6 +1887,7 @@ export { default as ExplicitContentFuckCuntShitMediumFill } from './ExplicitCont
 export { default as ExplicitContentFuckCuntShitMediumLine } from './ExplicitContentFuckCuntShitMediumLine'
 export { default as ExplicitContentFuckCuntShitRegularFill } from './ExplicitContentFuckCuntShitRegularFill'
 export { default as ExplicitContentFuckCuntShitRegularLine } from './ExplicitContentFuckCuntShitRegularLine'
+export { default as EyeRegularLine } from './EyeRegularLine'
 export { default as FLetterBold } from './FLetterBold'
 export { default as FLetterLight } from './FLetterLight'
 export { default as FLetterMedium } from './FLetterMedium'

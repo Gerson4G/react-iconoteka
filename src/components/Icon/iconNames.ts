@@ -6106,4 +6106,5 @@ export const uniqueNames = [
   'ZoomIn',
   'ZoomOutArrows',
   'ZoomOut',
+  'Eye',
 ];

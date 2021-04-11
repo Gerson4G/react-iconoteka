@@ -852,4 +852,5 @@ export type IconName =
   | 'ZoomInArrows'
   | 'ZoomIn'
   | 'ZoomOutArrows'
-  | 'ZoomOut';
+  | 'ZoomOut'
+  | 'Eye'
