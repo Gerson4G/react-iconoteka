@@ -854,3 +854,4 @@ export type IconName =
   | 'ZoomOutArrows'
   | 'ZoomOut'
   | 'Eye'
+  | 'AddUser'

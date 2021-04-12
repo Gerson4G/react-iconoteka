@@ -6109,4 +6109,5 @@ exports.uniqueNames = [
     'ZoomOutArrows',
     'ZoomOut',
     'Eye',
+    'AddUser',
 ];

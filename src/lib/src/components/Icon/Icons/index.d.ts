@@ -35,6 +35,7 @@ export { default as AddToClipboardMediumFill } from './AddToClipboardMediumFill'
 export { default as AddToClipboardMediumLine } from './AddToClipboardMediumLine';
 export { default as AddToClipboardRegularFill } from './AddToClipboardRegularFill';
 export { default as AddToClipboardRegularLine } from './AddToClipboardRegularLine';
+export { default as AddUserRegularLine } from './AddUserRegularLine';
 export { default as AirMattressFill } from './AirMattressFill';
 export { default as AirMattressBoldLine } from './AirMattressBoldLine';
 export { default as AirMattressLightLine } from './AirMattressLightLine';
