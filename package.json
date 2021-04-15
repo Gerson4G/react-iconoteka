@@ -1,6 +1,6 @@
 {
   "name": "react-iconoteka",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "private": false,
@@ -12,8 +12,7 @@
     "type": "git",
     "url": "https://github.com/Gerson4G/react-iconoteka"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
