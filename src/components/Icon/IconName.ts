@@ -1,846 +1,1435 @@
 export type IconName =
-  | 'Svg3DRotation'
-  | 'Svg5CirclesGroupSupplies'
-  | 'AddDocument'
-  | 'AddNote'
-  | 'AddToClipboard'
-  | 'Airfare'
-  | 'AirMattress'
-  | 'AirplaneModeFAirport'
-  | 'AirplaneModeOff'
-  | 'Airplay'
-  | 'AlarmAdd'
-  | 'AlarmOff'
-  | 'AlarmOn'
-  | 'AlarmSnooze'
-  | 'AlertAdd'
-  | 'AlertError'
-  | 'ALetter'
-  | 'AlighHorizontalCenter'
-  | 'AlighVerticalCenter'
-  | 'AlignBottom'
-  | 'AlignLeft'
-  | 'AlignRight'
-  | 'AlignTop'
-  | 'AllInboxes'
-  | 'AllInclusiveInfinity'
-  | 'AllOut'
-  | 'AmericanFootballBall'
-  | 'AmericanFootballHelmet'
-  | 'AngryOnyx'
-  | 'Application'
-  | 'ApplicationsApps'
-  | 'ApplicationSettingsOptions'
-  | 'Archive'
-  | 'Archives'
-  | 'ArrowDown'
-  | 'ArrowInCircleDown'
-  | 'ArrowInCircleLeft'
-  | 'ArrowInCircleLeftDown'
-  | 'ArrowInCircleLeftUp'
-  | 'ArrowInCircleRight'
-  | 'ArrowInCircleRightDown'
-  | 'ArrowInCircleRightUp'
-  | 'ArrowInCircleUp'
-  | 'ArrowLeft'
-  | 'ArrowLeftDown'
-  | 'ArrowLeftUp'
-  | 'ArrowRightDown'
-  | 'ArrowRightForward'
-  | 'ArrowRightUpOpenInNewApple'
-  | 'ArrowThinDown'
-  | 'ArrowThinLeftBackspace'
-  | 'ArrowThinLeftDown'
-  | 'ArrowThinLeftUp'
-  | 'ArrowThinRight'
-  | 'ArrowThinRightDown'
-  | 'ArrowThinRightUp'
-  | 'ArrowThinUp'
-  | 'ArrowUp'
-  | 'ArtTrack'
-  | 'AspectRatio'
-  | 'Assignment'
-  | 'AssignmentLate'
-  | 'AssignmentOn'
-  | 'AssignmentReturn'
-  | 'AssignmentReturned'
-  | 'Atheism'
-  | 'AtmAutomatedTellerMachine'
-  | 'AtmCard'
-  | 'AtmCash'
-  | 'AtmCashDeposit'
-  | 'AtmCashWithdrawal'
-  | 'BabyCarriageBuggyStrollerChildFriendly'
-  | 'BackspaceAlt'
-  | 'BackupRestore'
-  | 'BagBaggageLuggage'
-  | 'BaggageClaim'
-  | 'BankAccount'
-  | 'BankBuildingUsd'
-  | 'BankCardCreditDebit'
-  | 'BarbershopHaircutHairdressingSalon'
-  | 'BarChair'
-  | 'BasketballBall'
-  | 'Battery0Empty'
-  | 'Battery100Full'
-  | 'Battery25'
-  | 'Battery50'
-  | 'Battery75'
-  | 'BatteryAlert'
-  | 'Battery'
-  | 'BatteryCharging0Empty'
-  | 'BatteryCharging100Full'
-  | 'BatteryCharging25'
-  | 'BatteryCharging50'
-  | 'BatteryCharging75'
-  | 'BatteryCharging'
-  | 'BatteryUnknown'
-  | 'BeachVacationUmbrella'
-  | 'Bicycle'
-  | 'BLetter'
-  | 'BlockNotInterestedProhibited'
-  | 'BluetoothAudio'
-  | 'Bluetooth'
-  | 'BluetoothOff'
-  | 'BluetoothOn'
-  | 'BluetoothSettings'
-  | 'BluetoothSignal'
-  | 'BookCover'
-  | 'Bookmark'
-  | 'BorderAll'
-  | 'BorderBottom'
-  | 'BorderCenterHorizontal'
-  | 'BorderCenterVertical'
-  | 'BorderClear'
-  | 'BorderInner'
-  | 'BorderLeft'
-  | 'BorderOuter'
-  | 'BorderRight'
-  | 'BorderStyle'
-  | 'BorderTop'
-  | 'BoxAdd'
-  | 'BoxClose'
-  | 'BoxDelete'
-  | 'BoxingGloveBox'
-  | 'BrandingWatermark'
-  | 'BrightnessLow'
-  | 'Brightness'
-  | 'BrigtnessAuto'
-  | 'BroadcastTv'
-  | 'BrowserIeInternetExplorerFirefoxSafariOpera'
-  | 'Buddhism'
-  | 'BugReport'
-  | 'BunkBed'
-  | 'Button'
-  | 'ButtonWithText'
-  | 'CakeBirthday'
-  | 'Calendar'
-  | 'CallMissed'
-  | 'CallMissedOutgoing'
-  | 'CallToActionCtaButton'
-  | 'CameraDsrlLocalSeePhotoShoot'
-  | 'CamerasPhotoFearPartyMode'
-  | 'CameraVideoMovie'
-  | 'CameraVideoOff'
-  | 'Can'
-  | 'CancelClearCloseCircleDeleteTextHighlightOff'
-  | 'Capslock'
-  | 'CapsuleHotel'
-  | 'CartonBoxCardboard'
-  | 'CashMoney'
-  | 'CastConnected'
-  | 'CastDisabled'
-  | 'CellPhoneFlip'
-  | 'CellPhoneSlider'
-  | 'CellPhoneWithKeyboardOldPhone'
-  | 'CellPhoneWithQwertyKeyboard'
-  | 'CelularOff'
-  | 'ChairClassic'
-  | 'ChairModern'
-  | 'ChairModernCrossStruts'
-  | 'CharityDonations'
-  | 'ChartAssessment'
-  | 'ChartBarInvestmentEqualizerGraphicEq'
-  | 'ChartBubble'
-  | 'ChartInvestment'
-  | 'ChartMultiple'
-  | 'ChartPieDataUsageCircularDiagram'
-  | 'ChatQuestionAnswer'
-  | 'CheckAllDoneAllDoubleCheckTickAll'
-  | 'CheckboxChecked'
-  | 'CheckBoxIndeterminate'
-  | 'CheckboxUnchecked'
-  | 'CheckChecking'
-  | 'CheckedCheckCircle'
-  | 'CheckmarkDoneCheckTick'
-  | 'ChevronDownKeyboardArrowDown'
-  | 'ChevronInCircleDownDropDown'
-  | 'ChevronInCircleLeft'
-  | 'ChevronInCircleLeftDown'
-  | 'ChevronInCircleLeftUp'
-  | 'ChevronInCircleRight'
-  | 'ChevronInCircleRightDown'
-  | 'ChevronInCircleRightUp'
-  | 'ChevronInCircleUp'
-  | 'ChevronLeftDown'
-  | 'ChevronLeftKeyboardArrowLeft'
-  | 'ChevronLeftUp'
-  | 'ChevronRightDown'
-  | 'ChevronRightKeyboardArrowRight'
-  | 'ChevronRightUp'
-  | 'ChevronSmallDownDropDownExpandMore'
-  | 'ChevronSmallLeft'
-  | 'ChevronSmallLeftDown'
-  | 'ChevronSmallLeftUp'
-  | 'ChevronSmallRight'
-  | 'ChevronSmallRightDown'
-  | 'ChevronSmallRightUp'
-  | 'ChevronSmallUpExpandLess'
-  | 'ChevronUpKeyboardArrowUp'
-  | 'Christianity'
-  | 'CircleFullMoon'
-  | 'CircleMoonFull'
-  | 'City'
-  | 'CLetter'
-  | 'ClipboardPaste'
-  | 'ClockAlarm'
-  | 'ClockTimeWatchLater'
-  | 'CloseAllClear'
-  | 'ClosedCaption'
-  | 'CloseDeleteCrossClear'
-  | 'CloudCloudy'
-  | 'CloudDownloadBackup'
-  | 'CloudOff'
-  | 'CloudQueue'
-  | 'CloudSync'
-  | 'CloudSynced'
-  | 'CloudUpload'
-  | 'CocktailBarDrink'
-  | 'Code'
-  | 'CollegeSchoolEducation'
-  | 'CompactCamera'
-  | 'CompassExplore'
-  | 'ComputerTable'
-  | 'ConfirmationNumber'
-  | 'ControllerRemoteWireless'
-  | 'ControlPointDuplicate'
-  | 'CoordinatesGpsLocationNotFixed'
-  | 'CoordinatesOffLocationOffGpsOff'
-  | 'Copy'
-  | 'Copyright'
-  | 'Cosmetics'
-  | 'CouchSofaWeekend'
-  | 'CourseCourses'
-  | 'CreateNewFolder'
-  | 'CreditCard'
-  | 'Crib'
-  | 'Cricket'
-  | 'Crop16X9'
-  | 'Crop3X2'
-  | 'Crop5X4'
-  | 'Crop7X5'
-  | 'CropFree'
-  | 'Crop_&Rotate'
-  | 'CropVertical'
-  | 'CupCoffeeTeaCafeCaffeeTeahouse'
-  | 'CupPrizeCompetitions'
-  | 'DashboardViewDashboard'
-  | 'DateRange'
-  | 'DebitCard'
-  | 'Decagon'
-  | 'DeleteForever'
-  | 'DeleteSweep'
-  | 'DesktopMac'
-  | 'DesktopWindows'
-  | 'DeviceInformation'
-  | 'DeviceSettings'
-  | 'DiamondRedDiamond'
-  | 'DiceCasino'
-  | 'Dining'
-  | 'DiskAlertFull'
-  | 'DiskCompactCd'
-  | 'DizzySentimentVeryDissatisfied'
-  | 'DLetter'
-  | 'DockStation'
-  | 'DocumentBackup'
-  | 'DocumentDiagramPoll'
-  | 'DocumentNewEmpty'
-  | 'DocumentTable'
-  | 'DocumentTextDescription'
-  | 'Domain'
-  | 'DonutDiagram'
-  | 'DoubleBedBedroom'
-  | 'DownloadGetApp'
-  | 'Drooling'
-  | 'DropHumidity'
-  | 'DropPinLocationPlace'
-  | 'DropWaterHumidity'
-  | 'EarthAmericaPlanet'
-  | 'EarthAustraliaPlanet'
-  | 'EarthEurasiaAfricaPlanet'
-  | 'EarthPlanet'
-  | 'EasternChristianity'
-  | 'Eject'
-  | 'EjectCircle'
-  | 'ELetter'
-  | 'EnergyElectricity'
-  | 'EnhancedEncryption'
-  | 'EnterEntranceExitToApp'
-  | 'ESimEmbeddedMff2'
-  | 'Ethernet'
-  | 'Euro'
-  | 'EvChargingStation'
-  | 'EventAvailable'
-  | 'EventBusy'
-  | 'EventNote'
-  | 'Exit'
-  | 'ExpensesOutcomePayment'
-  | 'ExplicitContentFuckCuntShit'
-  | 'FaceChildChildCareBabysitter'
-  | 'FastForward'
-  | 'FastForwardCircle'
-  | 'FastRewind'
-  | 'FastRewindCircle'
-  | 'FeaturedPlaylist'
-  | 'FeaturedVideo'
-  | 'FiberDvr'
-  | 'FiberSmartRecord'
-  | 'FilmRollMovieMovies'
-  | 'FindReplace'
-  | 'FireHot'
-  | 'First'
-  | 'FitnessCenterGymSportDumbbell'
-  | 'Flag'
-  | 'FLetter'
-  | 'FlipToBack'
-  | 'FlipToFront'
-  | 'FloorMattress'
-  | 'FloppyDiskSaveDisketteDisk'
-  | 'FogHaze'
-  | 'Fold'
-  | 'Folder'
-  | 'FolderFavorite'
-  | 'FolderMedia'
-  | 'FolderOpened'
-  | 'FolderPersonal'
-  | 'FolderShared'
-  | 'FontFile'
-  | 'FontFileDownload'
-  | 'FoodDiningRestaurant'
-  | 'FootballBallSoccerBall'
-  | 'FreehandGesture'
-  | 'Fridge'
-  | 'FrowningDissatisfiedSentimentVeryDissatisfied'
-  | 'FrowningMoodBad'
-  | 'Fullscreen'
-  | 'FullscreenExit'
-  | 'GamepadJoystickController'
-  | 'GamepadWireJoystickController'
-  | 'GamepadWirelessJoystickController'
-  | 'Games'
-  | 'GasStation'
-  | 'GearSettingsMaintenance'
-  | 'GifGraphicsInterchangeFormat'
-  | 'GiftCardRedeem'
-  | 'GiftPresentCharity'
-  | 'GlassOfSparklingWater'
-  | 'GlassOfWaterDrinkHydration'
-  | 'GlassRecycledBottle'
-  | 'GLetter'
-  | 'Golf'
-  | 'GrimmingMoodGoodSentimentSatisfied'
-  | 'GrinSentimentVerySatisfiedGrinningFaceWithSmilingEyes'
-  | 'GroupPeopleCommunity'
-  | 'HailHeavy'
-  | 'HailLow'
-  | 'Hail'
-  | 'HalfCircleLeftMoonLastQuarter'
-  | 'HalfCircleRightMoonFirstQuarter'
-  | 'Hallway'
-  | 'Hammock'
-  | 'HdHighDefinition'
-  | 'HeadsetHeadphonesListenAudioAudition'
-  | 'HeadsetWithMicrophoneHeadphonesVoiceChat'
-  | 'HeartLikeLoveFavoriteDida'
-  | 'HelpQuestionFaq'
-  | 'HeptagonSeptagon'
-  | 'Hexagon'
-  | 'HideKeyboard'
-  | 'HighPriority'
-  | 'Hinduism'
-  | 'History'
-  | 'HistoryClock'
-  | 'HLetter'
-  | 'HospitalRedCrossHealthDoctor'
-  | 'Hostel'
-  | 'Hotel'
-  | 'Hourglass'
-  | 'HourglassFinish'
-  | 'HourglassStart'
-  | 'HouseHomeHousing'
-  | 'HqHighQuality'
-  | 'Http'
-  | 'IceCream'
-  | 'IceHockey'
-  | 'ILetter'
-  | 'Inbox'
-  | 'Income'
-  | 'IndentDecrease'
-  | 'IndentIncrease'
-  | 'index'
-  | 'InfoItalicMoreDetailsInformationAbout'
-  | 'InfoMonospacedMoreDetailsInformationAbout'
-  | 'InfoSansSerifMoreDetailsInformationAbout'
-  | 'Input'
-  | 'InvertColors'
-  | 'Ir'
-  | 'Islam'
-  | 'JLetter'
-  | 'Judaism'
-  | 'Keyboard'
-  | 'KeyboardWire'
-  | 'KeyboardWireless'
-  | 'KeyRentRentals'
-  | 'KingSizeBed'
-  | 'Kitchen'
-  | 'Kite'
-  | 'KLetter'
-  | 'Label'
-  | 'LaptopComputerNotebookMacbook'
-  | 'Last'
-  | 'Laundry'
-  | 'Layers'
-  | 'LayersOff'
-  | 'LibraryAdd'
-  | 'Library'
-  | 'LibraryBuilding'
-  | 'LibraryList'
-  | 'LibraryMusic'
-  | 'LibraryVideo'
-  | 'ningFlash'
-  | 'ningFlashElectricity'
-  | 'Spacing'
-  | 'Style'
-  | 'Weight'
-  | 'LinkChain'
-  | 'ListBulletedViewList'
-  | 'ListPlaylistQueue'
-  | 'LLetter'
-  | 'LoanCashBorrow'
-  | 'LoanRentBorrow'
-  | 'LocationAdd'
-  | 'LocationAlert'
-  | 'LocationEdit'
-  | 'LocationOff'
-  | 'LocationOnBeenhere'
-  | 'LocationPlace'
-  | 'LocationRemove'
-  | 'LocationUser'
-  | 'LockEncryptionSecurity'
-  | 'LockOpenUnlock'
-  | 'LoopCachedSync'
-  | 'LowPriority'
-  | 'Loyalty'
-  | 'Mailbox'
-  | 'MailEnvelope'
-  | 'MailReadDraft'
-  | 'Map'
-  | 'MedalPrizeCompetition'
-  | 'MedicalInsuranceHealth'
-  | 'MembershipCard'
-  | 'Menu'
-  | 'MenuHamburger'
-  | 'Merge'
-  | 'Message'
-  | 'MessageFailed'
-  | 'MessageListSpeakerNotes'
-  | 'MicrophoneConcertsSing'
-  | 'MicrophoneOffAltVoiceOff'
-  | 'MicrophoneOffVoiceOff'
-  | 'MicrophoneVoiceSpeechDictation'
-  | 'MicroSdCard'
-  | 'MicroSimCard'
-  | 'MiniSdCard'
-  | 'MinusDeleteRemove'
-  | 'MinusInCircleDoNotDisturbOnRemove'
-  | 'Mist'
-  | 'MLetter'
-  | 'Mms'
-  | 'MoonWaningCrescentRedCrescent'
-  | 'MoonWaningGibbous'
-  | 'MoonWaxingCrescent'
-  | 'MoonWaxingGibbous'
-  | 'More'
-  | 'MoreInCircleUncategorized'
-  | 'MoreVertical'
-  | 'Mortgage'
-  | 'Mouse'
-  | 'MouseClassic'
-  | 'MouseWire'
-  | 'MouseWireless'
-  | 'MoveToInbox'
-  | 'MusicVideo'
-  | 'MyLocationCoordinatesLocationOnGpsFixed'
-  | 'NanoSimCard'
-  | 'Navigation'
-  | 'NearMe'
-  | 'NetworkCellLock'
-  | 'NetworkCellSignalCellular1'
-  | 'NetworkCellSignalCellular2'
-  | 'NetworkCellSignalCellular3'
-  | 'NetworkCellSignalCellular4'
-  | 'NetworkCheck'
-  | 'NetworkSettingsMobileDataSettings'
-  | 'NeutralSentimentNeutral'
-  | 'New'
-  | 'NewReleases'
-  | 'Nirvana'
-  | 'NLetter'
-  | 'NoEncryption'
-  | 'NoEnergyNoPowerNoBattery'
-  | 'NoMessageSpeakerNotesOff'
-  | 'NoMouth'
-  | 'NonagonEnneagon'
-  | 'NoSimCard'
-  | 'Note'
-  | 'NoteEdit'
-  | 'NotificationBellAlert'
-  | 'NotificationOff'
-  | 'NotificationPaused'
-  | 'Octagon'
-  | 'OfferTagPrice'
-  | 'OfficeChair'
-  | 'OldTv'
-  | 'OLetter'
-  | 'OnDemandTv'
-  | 'OnDemandVideo'
-  | 'Opacity'
-  | 'OpenInBrowser'
-  | 'OpenInNewAndroidLaunch'
-  | 'OpenWith'
-  | 'OvalHorizontal'
-  | 'OvalVertical'
-  | 'Overscan'
-  | 'PaperClipAttachment'
-  | 'Parallelogram'
-  | 'PartlyCloudy'
-  | 'Pause'
-  | 'PauseCircle'
-  | 'PawPetsAnimalsPet'
-  | 'PencilEditCreate'
-  | 'PentagonPentagram'
-  | 'PermissionCameraMicrophone'
-  | 'PersonalAssignment'
-  | 'PersonalCalendarContactCalendar'
-  | 'PharmacyDrugStores'
-  | 'PhoneCall'
-  | 'PhoneForwarded'
-  | 'PhoneInTalk'
-  | 'PhoneLocked'
-  | 'PhoneMessage'
-  | 'PhoneMissed'
-  | 'PhonePaused'
-  | 'PhoneSettings'
-  | 'PhotoImageWallpaper'
-  | 'PictureDecoration'
-  | 'PictureInPictureAlt'
-  | 'PictureInPicture'
-  | 'Pin'
-  | 'PinText'
-  | 'PizzaSlice'
-  | 'PlaceFavorite'
-  | 'PlanetEarthInternetPublic'
-  | 'PlasticBottleRecycling'
-  | 'PlasticHdpe'
-  | 'PlasticLdpe'
-  | 'PlasticOther'
-  | 'PlasticPet'
-  | 'PlasticPp'
-  | 'PlasticPs'
-  | 'PlasticPvc'
-  | 'PlayCircle'
-  | 'PlaylistAddAddToQueue'
-  | 'PlaylistCheck'
-  | 'PlaylistPlayQueueMusic'
-  | 'PlaylistRemoveRemoveFromQueue'
-  | 'PlayStart'
-  | 'PLetterParking'
-  | 'PlusAddCreate'
-  | 'PlusInCircleAddCreate'
-  | 'PointAndShootCamera'
-  | 'Pool'
-  | 'PotCooking'
-  | 'PowerConnecotFork'
-  | 'PowerInput'
-  | 'PowerOnOffButton'
-  | 'PowerSettings'
-  | 'PowerSocketB'
-  | 'PowerSocket'
-  | 'PowerSocketC'
-  | 'PowerSocketD'
-  | 'PowerSocketE'
-  | 'PowerSocketF'
-  | 'PowerSocketG'
-  | 'PowerSocketH'
-  | 'PowerSocketI'
-  | 'PowerSocketJ'
-  | 'PowerSocketK'
-  | 'PowerSocketL'
-  | 'PowerSocketM'
-  | 'PowerSocketN'
-  | 'PowerSocketO'
-  | 'PrepaidCard'
-  | 'PrinterPrintPrintshop'
-  | 'ProgramSoftware'
-  | 'Publish'
-  | 'PuzzleExtension'
-  | 'QLetter'
-  | 'QueenSizeBed'
-  | 'RadioButtonOff'
-  | 'RadioButtonOn'
-  | 'RadioVintageStationReciever'
-  | 'RainHeavy'
-  | 'Rain'
-  | 'RateReview'
-  | 'RatingsStars'
-  | 'ReaderMode'
-  | 'Recycling'
-  | 'Redo'
-  | 'Reorder'
-  | 'Repeat'
-  | 'Replay'
-  | 'ReplyAll'
-  | 'Reply'
-  | 'Report'
-  | 'Restore'
-  | 'Return'
-  | 'Rhombus'
-  | 'RLetter'
-  | 'RockingChair'
-  | 'RoomService'
-  | 'RotateCcw'
-  | 'RotateCw'
-  | 'RoundedCorner'
-  | 'RouteDirections'
-  | 'Router'
-  | 'RugbyBall'
-  | 'RussianRoubleRur'
-  | 'Satanism'
-  | 'Savings'
-  | 'ScalesJudgeJusticeCourthouse'
-  | 'ScannerScan'
-  | 'Schedule'
-  | 'ScheduledVideo'
-  | 'Scientology'
-  | 'ScissorsCut'
-  | 'ScreenLockLandscape'
-  | 'ScreenLockPortrait'
-  | 'ScreenLockRotation'
-  | 'ScreenRotation'
-  | 'SdCard'
-  | 'SearchEdit'
-  | 'SearchHistorySearchedFor'
-  | 'SearchMagnifyingGlassHandLens'
-  | 'SearchOff'
-  | 'SearchOn'
-  | 'SearchOnPage'
-  | 'SearchPersonUser'
-  | 'SecurityOff'
-  | 'SecurityOnSecuredVerified'
-  | 'Send'
-  | 'ServerDnsServer'
-  | 'ShareApple'
-  | 'ShareGoogle'
-  | 'ShareMicrosoft'
-  | 'ShieldSecurityInsurance'
-  | 'ShoppingBagMallShopStore'
-  | 'ShoppingBasket'
-  | 'ShoppingCartGroceryStore'
-  | 'ShowHeavy'
-  | 'ShowToAll'
-  | 'Shuffle'
-  | 'SignalCellularAlert1'
-  | 'SignalCellularAlert2'
-  | 'SignalCellularAlert3'
-  | 'SignalCellularAlert4'
-  | 'SignalWifiOff'
-  | 'SimCard'
-  | 'SingleBed'
-  | 'SkipCircle'
-  | 'SkipNext'
-  | 'SkipPrevious'
-  | 'SkipPreviousCircle'
-  | 'Sleet'
-  | 'SLetter'
-  | 'SlyFrowningSadSentimentDissatisfied'
-  | 'SlowMotionVideo'
-  | 'SmartbandActivityTracker'
-  | 'SmartphoneAndroid'
-  | 'SmartphoneAppleIphone'
-  | 'SmartphoneIphoneAndroidBezelless'
-  | 'SmartphoneWithOneCamera'
-  | 'SmartphoneWithTwoCameras'
-  | 'SmartwatchRound'
-  | 'SmartwatchSquare'
-  | 'Smile'
-  | 'SmilingSmile'
-  | 'Smog'
-  | 'SnowflakeSnowAcUnitAirConditioner'
-  | 'Snow'
-  | 'SofaBed'
-  | 'SofaEventSeat'
-  | 'SortByAlphabetAz'
-  | 'SortHighToLowFilterList'
-  | 'SortLowToHighFilterList'
-  | 'SoundMessage'
-  | 'SoundOffMute'
-  | 'Spa'
-  | 'SpeakerGroupSpeakers'
-  | 'SpeakerSoundDynamic'
-  | 'SpellCheck'
-  | 'Split'
-  | 'SquareQuadrilateralTetragon'
-  | 'StarGradeRatingFavoriteFavourite'
-  | 'StationerySupplies'
-  | 'Stool'
-  | 'Stop'
-  | 'StopCircle'
-  | 'StorageServer'
-  | 'Store'
-  | 'Stove'
-  | 'SubdirectoryArrowLeft'
-  | 'SubdirectoryArrowRight'
-  | 'SubscriptionsAddedLibrary'
-  | 'Subtitles'
-  | 'SunBrightnessHigh'
-  | 'Sunrise'
-  | 'Sunset'
-  | 'SurroundSound3DSound'
-  | 'SwapCalls'
-  | 'SwapHorizontal'
-  | 'SwapVertical'
-  | 'SyncAutorenew'
-  | 'SyncDisabled'
-  | 'SyncError'
-  | 'SystemUpdate'
-  | 'TabButton'
-  | 'Table'
-  | 'TableOfContentTocContent'
-  | 'TabletAndroid'
-  | 'TabletAppleIpad'
-  | 'TableTennisPingPong'
-  | 'TabletIpad'
-  | 'TabTabs'
-  | 'Taoism'
-  | 'Tennis'
-  | 'TerrainMountains'
-  | 'TetraPak'
-  | 'TextAlignCenter'
-  | 'TextAlignLeftViewHeadList'
-  | 'TextAlignRight'
-  | 'TextClip'
-  | 'TextFormat'
-  | 'TextJustifyAlls'
-  | 'TextJustifyCenter'
-  | 'TextJustifyLeft'
-  | 'TextJustifyRight'
-  | 'TextMessage'
-  | 'TextOverflow'
-  | 'TextWrap'
-  | 'TheatersEntertainment'
-  | 'ThunderstormWithHail'
-  | 'ThunderstormWithRain'
-  | 'ThunderstormWithSnow'
-  | 'TicketActivityPlay'
-  | 'Time'
-  | 'Timer'
-  | 'TimerClock'
-  | 'TLetter'
-  | 'tmp.txt'
-  | 'TodayDate'
-  | 'ToddlerBed'
-  | 'ToysToyShopChildrensRoom'
-  | 'Track'
-  | 'Traffic'
-  | 'TransfersImportExportCompare'
-  | 'Transform'
-  | 'TranslateTranslation'
-  | 'Trapezoid'
-  | 'TrashFull'
-  | 'TrashGarbageDeleteRemoveBin'
-  | 'TrashPartlyFull'
-  | 'TravelCard'
-  | 'TrendingDown'
-  | 'TrendingFlat'
-  | 'TrendingUp'
-  | 'TriangleTrigon'
-  | 'TShirtRoundNeckClothing'
-  | 'TvTelevisionCable'
-  | 'ULetter'
-  | 'Unarchive'
-  | 'Undo'
-  | 'Unfold'
-  | 'UpdateRefresh'
-  | 'Upload'
-  | 'UpsideDown'
-  | 'UsdDollar'
-  | 'UserIdentityPersonPersonal'
-  | 'Utilities'
-  | 'VectorImage'
-  | 'Vibration'
-  | 'Video'
-  | 'VideoCall'
-  | 'VideoLabel'
-  | 'VideoMessage'
-  | 'ViewArray'
-  | 'ViewCarousel'
-  | 'ViewColumnsViewWeek'
-  | 'ViewDay'
-  | 'ViewGrid'
-  | 'ViewModule'
-  | 'ViewQuilt'
-  | 'ViewStreamViewAgenda'
-  | 'VinylAlbum'
-  | 'VLetter'
-  | 'VoiceMessage'
-  | 'VoiceSettingsMicrophone'
-  | 'VolumeDown'
-  | 'VolumeMute'
-  | 'VolumeUp'
-  | 'Vpn'
-  | 'Wallet'
-  | 'WarningReportInDiamondProblem'
-  | 'WarningReportProblem'
-  | 'WatchAnalog'
-  | 'WaterBed'
-  | 'Widgets'
-  | 'WifiAlertSignalWifi1'
-  | 'WifiAlertSignalWifi2'
-  | 'WifiAlertSignalWifi3'
-  | 'WifiAlertSignalWifi4'
-  | 'WifiLock'
-  | 'WifiSignal1'
-  | 'WifiSignal2'
-  | 'WifiSignal3'
-  | 'WifiSignal4'
-  | 'WifiTethering'
-  | 'WindowMacosMacintosh'
-  | 'WindowWindows'
-  | 'WindSpeedHign'
-  | 'WindSpeedLow'
-  | 'WindSpeed'
-  | 'WirelessNfc'
-  | 'WLetter'
-  | 'WorkBusinessCenterBag'
-  | 'Workspace'
-  | 'WorkTable'
-  | 'XLetter'
-  | 'YLetter'
-  | 'ZLetter'
-  | 'ZoomInArrows'
-  | 'ZoomIn'
-  | 'ZoomOutArrows'
-  | 'ZoomOut'
-  | 'Eye'
+'3DRotationLine.tsx' |
+'5CirclesGroupSuppliesFill.tsx' |
+'5CirclesGroupSuppliesLine.tsx' |
+'AddDocumentFill.tsx' |
+'AddDocumentLine.tsx' |
+'AddNoteFill.tsx' |
+'AddNoteLine.tsx' |
+'AddToClipboardFill.tsx' |
+'AddToClipboardLine.tsx' |
+'AirfareFill.tsx' |
+'AirfareLine.tsx' |
+'AirMattressFill.tsx' |
+'AirMattressLine.tsx' |
+'AirplaneModeFlightAirportFill.tsx' |
+'AirplaneModeFlightAirportLine.tsx' |
+'AirplaneModeOffFill.tsx' |
+'AirplaneModeOffLine.tsx' |
+'AirplayFill.tsx' |
+'AirplayLine.tsx' |
+'AlarmAddFill.tsx' |
+'AlarmAddLine.tsx' |
+'AlarmOffFill.tsx' |
+'AlarmOffLine.tsx' |
+'AlarmOnFill.tsx' |
+'AlarmOnLine.tsx' |
+'AlarmSnoozeFill.tsx' |
+'AlarmSnoozeLine.tsx' |
+'AlertAddFill.tsx' |
+'AlertAddLine.tsx' |
+'AlertErrorFill.tsx' |
+'AlertErrorLine.tsx' |
+'ALetterLine.tsx' |
+'AlighHorizontalCenterLine.tsx' |
+'AlighVerticalCenterLine.tsx' |
+'AlignBottomLine.tsx' |
+'AlignLeftLine.tsx' |
+'AlignRightLine.tsx' |
+'AlignTopLine.tsx' |
+'AllInboxesFill.tsx' |
+'AllInboxesLine.tsx' |
+'AllInclusiveInfinityLine.tsx' |
+'AllOutFill.tsx' |
+'AllOutLine.tsx' |
+'AmericanFootballBallFill.tsx' |
+'AmericanFootballBallLine.tsx' |
+'AmericanFootballHelmetFill.tsx' |
+'AmericanFootballHelmetLine.tsx' |
+'AngryOnyxFill.tsx' |
+'AngryOnyxLine.tsx' |
+'ApplicationFill.tsx' |
+'ApplicationLine.tsx' |
+'ApplicationsAppsFill.tsx' |
+'ApplicationsAppsLine.tsx' |
+'ApplicationSettingsOptionsFill.tsx' |
+'ApplicationSettingsOptionsLine.tsx' |
+'ArchiveFill.tsx' |
+'ArchiveLine.tsx' |
+'ArchivesFill.tsx' |
+'ArchivesLine.tsx' |
+'ArrowDownLine.tsx' |
+'ArrowInCircleDownFill.tsx' |
+'ArrowInCircleDownLine.tsx' |
+'ArrowInCircleLeftDownFill.tsx' |
+'ArrowInCircleLeftDownLine.tsx' |
+'ArrowInCircleLeftFill.tsx' |
+'ArrowInCircleLeftLine.tsx' |
+'ArrowInCircleLeftUpFill.tsx' |
+'ArrowInCircleLeftUpLine.tsx' |
+'ArrowInCircleRightDownFill.tsx' |
+'ArrowInCircleRightDownLine.tsx' |
+'ArrowInCircleRightFill.tsx' |
+'ArrowInCircleRightLine.tsx' |
+'ArrowInCircleRightUpFill.tsx' |
+'ArrowInCircleRightUpLine.tsx' |
+'ArrowInCircleUpFill.tsx' |
+'ArrowInCircleUpLine.tsx' |
+'ArrowLeftDownLine.tsx' |
+'ArrowLeftLine.tsx' |
+'ArrowLeftUpLine.tsx' |
+'ArrowRightDownLine.tsx' |
+'ArrowRightForwardLine.tsx' |
+'ArrowRightUpOpenInNewLine.tsx' |
+'ArrowThinDownLine.tsx' |
+'ArrowThinLeftBackspaceLine.tsx' |
+'ArrowThinLeftDownLine.tsx' |
+'ArrowThinLeftUpLine.tsx' |
+'ArrowThinRightDownLine.tsx' |
+'ArrowThinRightLine.tsx' |
+'ArrowThinRightUpLine.tsx' |
+'ArrowThinUpLine.tsx' |
+'ArrowUpLine.tsx' |
+'ArtTrackFill.tsx' |
+'ArtTrackLine.tsx' |
+'AspectRatioFill.tsx' |
+'AspectRatioLine.tsx' |
+'AssignmentFill.tsx' |
+'AssignmentLateFill.tsx' |
+'AssignmentLateLine.tsx' |
+'AssignmentLine.tsx' |
+'AssignmentOnFill.tsx' |
+'AssignmentOnLine.tsx' |
+'AssignmentReturnedFill.tsx' |
+'AssignmentReturnedLine.tsx' |
+'AssignmentReturnFill.tsx' |
+'AssignmentReturnLine.tsx' |
+'AtheismLine.tsx' |
+'AtmAutomatedTellerMachineFill.tsx' |
+'AtmAutomatedTellerMachineLine.tsx' |
+'AtmCardFill.tsx' |
+'AtmCardLine.tsx' |
+'AtmCashDepositFill.tsx' |
+'AtmCashDepositLine.tsx' |
+'AtmCashFill.tsx' |
+'AtmCashLine.tsx' |
+'AtmCashWithdrawalFill.tsx' |
+'AtmCashWithdrawalLine.tsx' |
+'BabyCarriageBuggyStrollerChildFriendlyFill.tsx' |
+'BabyCarriageBuggyStrollerChildFriendlyLine.tsx' |
+'BackspaceAltFill.tsx' |
+'BackspaceAltLine.tsx' |
+'BackupRestoreLine.tsx' |
+'BagBaggageLuggageFill.tsx' |
+'BagBaggageLuggageLine.tsx' |
+'BaggageClaimFill.tsx' |
+'BaggageClaimLine.tsx' |
+'BankAccountFill.tsx' |
+'BankAccountLine.tsx' |
+'BankBuildingUsdFill.tsx' |
+'BankBuildingUsdLine.tsx' |
+'BankCardCreditDebitFill.tsx' |
+'BankCardCreditDebitLine.tsx' |
+'BarbershopHaircutHairdressingSalonLine.tsx' |
+'BarChairFill.tsx' |
+'BarChairLine.tsx' |
+'BasketballBallFill.tsx' |
+'BasketballBallLine.tsx' |
+'Battery0EmptyLine.tsx' |
+'Battery100FullFill.tsx' |
+'Battery100FullLine.tsx' |
+'Battery25Fill.tsx' |
+'Battery25Line.tsx' |
+'Battery50Fill.tsx' |
+'Battery50Line.tsx' |
+'Battery75Fill.tsx' |
+'Battery75Line.tsx' |
+'BatteryAlertFill.tsx' |
+'BatteryAlertLine.tsx' |
+'BatteryCharging0EmptyFill.tsx' |
+'BatteryCharging0EmptyLine.tsx' |
+'BatteryCharging100FullFill.tsx' |
+'BatteryCharging100FullLine.tsx' |
+'BatteryCharging25Fill.tsx' |
+'BatteryCharging25Line.tsx' |
+'BatteryCharging50Fill.tsx' |
+'BatteryCharging50Line.tsx' |
+'BatteryCharging75Fill.tsx' |
+'BatteryCharging75Line.tsx' |
+'BatteryChargingFill.tsx' |
+'BatteryChargingLine.tsx' |
+'BatteryFill.tsx' |
+'BatteryLine.tsx' |
+'BatteryUnknownFill.tsx' |
+'BatteryUnknownLine.tsx' |
+'BeachVacationUmbrellaFill.tsx' |
+'BeachVacationUmbrellaLine.tsx' |
+'BicycleLine.tsx' |
+'BLetterLine.tsx' |
+'BlockNotInterestedProhibitedFill.tsx' |
+'BlockNotInterestedProhibitedLine.tsx' |
+'BluetoothAudioLine.tsx' |
+'BluetoothLine.tsx' |
+'BluetoothOffLine.tsx' |
+'BluetoothOnLine.tsx' |
+'BluetoothSettingsLine.tsx' |
+'BluetoothSignalLine.tsx' |
+'BookCoverFill.tsx' |
+'BookCoverLine.tsx' |
+'BookmarkFill.tsx' |
+'BookmarkLine.tsx' |
+'BorderAllLine.tsx' |
+'BorderBottomLine.tsx' |
+'BorderCenterHorizontalLine.tsx' |
+'BorderCenterVerticalLine.tsx' |
+'BorderClearLine.tsx' |
+'BorderInnerLine.tsx' |
+'BorderLeftLine.tsx' |
+'BorderOuterLine.tsx' |
+'BorderRightLine.tsx' |
+'BorderStyleLine.tsx' |
+'BorderTopLine.tsx' |
+'BoxAddFill.tsx' |
+'BoxAddLine.tsx' |
+'BoxCloseFill.tsx' |
+'BoxCloseLine.tsx' |
+'BoxDeleteFill.tsx' |
+'BoxDeleteLine.tsx' |
+'BoxingGloveBoxFill.tsx' |
+'BoxingGloveBoxLine.tsx' |
+'BrandingWatermarkFill.tsx' |
+'BrandingWatermarkLine.tsx' |
+'BrightnessLowFill.tsx' |
+'BrightnessLowLine.tsx' |
+'BrightnessMediumFill.tsx' |
+'BrightnessMediumLine.tsx' |
+'BrigtnessAutoLine.tsx' |
+'BroadcastTvFill.tsx' |
+'BroadcastTvLine.tsx' |
+'BrowserIeInternetExplorerFirefoxSafariOperaFill.tsx' |
+'BrowserIeInternetExplorerFirefoxSafariOperaLine.tsx' |
+'BuddhismLine.tsx' |
+'BugReportFill.tsx' |
+'BugReportLine.tsx' |
+'BunkBedFill.tsx' |
+'BunkBedLine.tsx' |
+'ButtonFill.tsx' |
+'ButtonLine.tsx' |
+'ButtonWithTextFill.tsx' |
+'ButtonWithTextLine.tsx' |
+'CakeBirthdayFill.tsx' |
+'CakeBirthdayLine.tsx' |
+'CalendarFill.tsx' |
+'CalendarLine.tsx' |
+'CallMissedLine.tsx' |
+'CallMissedOutgoingLine.tsx' |
+'CallToActionCtaButtonFill.tsx' |
+'CallToActionCtaButtonLine.tsx' |
+'CameraDsrlLocalSeePhotoShootFill.tsx' |
+'CameraDsrlLocalSeePhotoShootLine.tsx' |
+'CamerasPhotoFearPartyModeFill.tsx' |
+'CamerasPhotoFearPartyModeLine.tsx' |
+'CameraVideoMovieFill.tsx' |
+'CameraVideoMovieLine.tsx' |
+'CameraVideoOffFill.tsx' |
+'CameraVideoOffLine.tsx' |
+'CancelClearCloseCircleDeleteTextHighlightOffFill.tsx' |
+'CancelClearCloseCircleDeleteTextHighlightOffLine.tsx' |
+'CanFill.tsx' |
+'CanLine.tsx' |
+'CapslockLine.tsx' |
+'CapsuleHotelFill.tsx' |
+'CapsuleHotelLine.tsx' |
+'CartonBoxCardboardFill.tsx' |
+'CartonBoxCardboardLine.tsx' |
+'CashMoneyFill.tsx' |
+'CashMoneyLine.tsx' |
+'CastConnectedFill.tsx' |
+'CastConnectedLine.tsx' |
+'CastDisabledFill.tsx' |
+'CastDisabledLine.tsx' |
+'CellPhoneFlipFill.tsx' |
+'CellPhoneFlipLine.tsx' |
+'CellPhoneSliderFill.tsx' |
+'CellPhoneSliderLine.tsx' |
+'CellPhoneWithKeyboardOldPhoneFill.tsx' |
+'CellPhoneWithKeyboardOldPhoneLine.tsx' |
+'CellPhoneWithQwertyKeyboardFill.tsx' |
+'CellPhoneWithQwertyKeyboardLine.tsx' |
+'CelularOffLine.tsx' |
+'ChairClassicFill.tsx' |
+'ChairClassicLine.tsx' |
+'ChairModernCrossStrutsFill.tsx' |
+'ChairModernCrossStrutsLine.tsx' |
+'ChairModernFill.tsx' |
+'ChairModernLine.tsx' |
+'CharityDonationsFill.tsx' |
+'CharityDonationsLine.tsx' |
+'ChartAssessmentFill.tsx' |
+'ChartAssessmentLine.tsx' |
+'ChartBarInvestmentEqualizerGraphicEqLine.tsx' |
+'ChartBubbleFill.tsx' |
+'ChartBubbleLine.tsx' |
+'ChartLineInvestmentLine.tsx' |
+'ChartMultipleFill.tsx' |
+'ChartMultipleLine.tsx' |
+'ChartPieDataUsageCircularDiagramFill.tsx' |
+'ChartPieDataUsageCircularDiagramLine.tsx' |
+'ChatQuestionAnswerFill.tsx' |
+'ChatQuestionAnswerLine.tsx' |
+'CheckAllDoneAllDoubleCheckTickAllLine.tsx' |
+'CheckboxCheckedFill.tsx' |
+'CheckboxCheckedLine.tsx' |
+'CheckBoxIndeterminateFill.tsx' |
+'CheckBoxIndeterminateLine.tsx' |
+'CheckboxUncheckedFill.tsx' |
+'CheckboxUncheckedLine.tsx' |
+'CheckCheckingFill.tsx' |
+'CheckCheckingLine.tsx' |
+'CheckedCheckCircleFill.tsx' |
+'CheckedCheckCircleLine.tsx' |
+'CheckmarkDoneCheckTickLine.tsx' |
+'ChevronDownKeyboardArrowDownLine.tsx' |
+'ChevronInCircleDownDropDownFill.tsx' |
+'ChevronInCircleDownDropDownLine.tsx' |
+'ChevronInCircleLeftDownFill.tsx' |
+'ChevronInCircleLeftDownLine.tsx' |
+'ChevronInCircleLeftFill.tsx' |
+'ChevronInCircleLeftLine.tsx' |
+'ChevronInCircleLeftUpFill.tsx' |
+'ChevronInCircleLeftUpLine.tsx' |
+'ChevronInCircleRightDownFill.tsx' |
+'ChevronInCircleRightDownLine.tsx' |
+'ChevronInCircleRightFill.tsx' |
+'ChevronInCircleRightLine.tsx' |
+'ChevronInCircleRightUpFill.tsx' |
+'ChevronInCircleRightUpLine.tsx' |
+'ChevronInCircleUpFill.tsx' |
+'ChevronInCircleUpLine.tsx' |
+'ChevronLeftDownLine.tsx' |
+'ChevronLeftKeyboardArrowLeftLine.tsx' |
+'ChevronLeftUpLine.tsx' |
+'ChevronRightDownLine.tsx' |
+'ChevronRightKeyboardArrowRightLine.tsx' |
+'ChevronRightUpLine.tsx' |
+'ChevronSmallDownDropDownExpandMoreLine.tsx' |
+'ChevronSmallLeftDownLine.tsx' |
+'ChevronSmallLeftLine.tsx' |
+'ChevronSmallLeftUpLine.tsx' |
+'ChevronSmallRightDownLine.tsx' |
+'ChevronSmallRightLine.tsx' |
+'ChevronSmallRightUpLine.tsx' |
+'ChevronSmallUpExpandLessLine.tsx' |
+'ChevronUpKeyboardArrowUpLine.tsx' |
+'ChristianityFill.tsx' |
+'ChristianityLine.tsx' |
+'CircleFullMoonLine.tsx' |
+'CircleMoonFullFill.tsx' |
+'CityFill.tsx' |
+'CityLine.tsx' |
+'CLetterLine.tsx' |
+'ClipboardPasteFill.tsx' |
+'ClipboardPasteLine.tsx' |
+'ClockAlarmFill.tsx' |
+'ClockAlarmLine.tsx' |
+'ClockTimeWatchLaterFill.tsx' |
+'ClockTimeWatchLaterLine.tsx' |
+'CloseAllClearLine.tsx' |
+'ClosedCaptionFill.tsx' |
+'ClosedCaptionLine.tsx' |
+'CloseDeleteCrossClearLine.tsx' |
+'CloudCloudyFill.tsx' |
+'CloudCloudyLine.tsx' |
+'CloudDownloadBackupFill.tsx' |
+'CloudDownloadBackupLine.tsx' |
+'CloudOffFill.tsx' |
+'CloudOffLine.tsx' |
+'CloudQueueFill.tsx' |
+'CloudQueueLine.tsx' |
+'CloudSyncedFill.tsx' |
+'CloudSyncedLine.tsx' |
+'CloudSyncFill.tsx' |
+'CloudSyncLine.tsx' |
+'CloudUploadFill.tsx' |
+'CloudUploadLine.tsx' |
+'CocktailBarDrinkFill.tsx' |
+'CocktailBarDrinkLine.tsx' |
+'CodeLine.tsx' |
+'CollegeSchoolEducationFill.tsx' |
+'CollegeSchoolEducationLine.tsx' |
+'CompactCameraFill.tsx' |
+'CompactCameraLine.tsx' |
+'CompassExploreFill.tsx' |
+'CompassExploreLine.tsx' |
+'ComputerTableFill.tsx' |
+'ComputerTableLine.tsx' |
+'ConfirmationNumberFill.tsx' |
+'ConfirmationNumberLine.tsx' |
+'ControllerRemoteWirelessFill.tsx' |
+'ControllerRemoteWirelessLine.tsx' |
+'ControlPointDuplicateFill.tsx' |
+'ControlPointDuplicateLine.tsx' |
+'CoordinatesGpsLocationNotFixedLine.tsx' |
+'CoordinatesOffLocationOffGpsOffLine.tsx' |
+'CopyFill.tsx' |
+'CopyLine.tsx' |
+'CopyrightFill.tsx' |
+'CopyrightLine.tsx' |
+'CosmeticsFill.tsx' |
+'CosmeticsLine.tsx' |
+'CouchSofaWeekendFill.tsx' |
+'CouchSofaWeekendLine.tsx' |
+'CourseCoursesFill.tsx' |
+'CourseCoursesLine.tsx' |
+'CreateNewFolderFill.tsx' |
+'CreateNewFolderLine.tsx' |
+'CreditCardFill.tsx' |
+'CreditCardLine.tsx' |
+'CribFill.tsx' |
+'CribLine.tsx' |
+'CricketFill.tsx' |
+'CricketLine.tsx' |
+'Crop16X9Fill.tsx' |
+'Crop16X9Line.tsx' |
+'Crop3X2Fill.tsx' |
+'Crop3X2Line.tsx' |
+'Crop5X4Fill.tsx' |
+'Crop5X4Line.tsx' |
+'Crop7X5Fill.tsx' |
+'Crop7X5Line.tsx' |
+'CropAndRotateLine.tsx' |
+'CropFreeFill.tsx' |
+'CropFreeLine.tsx' |
+'CropVerticalFill.tsx' |
+'CropVerticalLine.tsx' |
+'CupCoffeeTeaCafeCaffeeTeahouseFill.tsx' |
+'CupCoffeeTeaCafeCaffeeTeahouseLine.tsx' |
+'CupPrizeCompetitionsFill.tsx' |
+'CupPrizeCompetitionsLine.tsx' |
+'DashboardViewDashboardFill.tsx' |
+'DashboardViewDashboardLine.tsx' |
+'DateRangeFill.tsx' |
+'DateRangeLine.tsx' |
+'DebitCardFill.tsx' |
+'DebitCardLine.tsx' |
+'DecagonFill.tsx' |
+'DecagonLine.tsx' |
+'DeleteForeverFill.tsx' |
+'DeleteForeverLine.tsx' |
+'DeleteSweepFill.tsx' |
+'DeleteSweepLine.tsx' |
+'DesktopMacFill.tsx' |
+'DesktopMacLine.tsx' |
+'DesktopWindowsFill.tsx' |
+'DesktopWindowsLine.tsx' |
+'DeviceInformationFill.tsx' |
+'DeviceInformationLine.tsx' |
+'DeviceSettingsFill.tsx' |
+'DeviceSettingsLine.tsx' |
+'DiamondRedDiamondFill.tsx' |
+'DiamondRedDiamondLine.tsx' |
+'DiceCasinoFill.tsx' |
+'DiceCasinoLine.tsx' |
+'DiningFill.tsx' |
+'DiningLine.tsx' |
+'DiskAlertFullFill.tsx' |
+'DiskAlertFullLine.tsx' |
+'DiskCompactCdFill.tsx' |
+'DiskCompactCdLine.tsx' |
+'DizzySentimentVeryDissatisfiedFill.tsx' |
+'DizzySentimentVeryDissatisfiedLine.tsx' |
+'DLetterLine.tsx' |
+'DockStationFill.tsx' |
+'DockStationLine.tsx' |
+'DocumentBackupFill.tsx' |
+'DocumentBackupLine.tsx' |
+'DocumentDiagramPollFill.tsx' |
+'DocumentDiagramPollLine.tsx' |
+'DocumentNewEmptyFill.tsx' |
+'DocumentNewEmptyLine.tsx' |
+'DocumentTableFill.tsx' |
+'DocumentTableLine.tsx' |
+'DocumentTextDescriptionFill.tsx' |
+'DocumentTextDescriptionLine.tsx' |
+'DomainFill.tsx' |
+'DomainLine.tsx' |
+'DonutDiagramFill.tsx' |
+'DonutDiagramLine.tsx' |
+'DoubleBedBedroomFill.tsx' |
+'DoubleBedBedroomLine.tsx' |
+'DownloadGetAppLine.tsx' |
+'DroolingFill.tsx' |
+'DroolingLine.tsx' |
+'DropHumidityFill.tsx' |
+'DropHumidityLine.tsx' |
+'DropPinLocationPlaceFill.tsx' |
+'DropPinLocationPlaceLine.tsx' |
+'DropWaterHumidityFill.tsx' |
+'DropWaterHumidityLine.tsx' |
+'EarthAmericaPlanetFill.tsx' |
+'EarthAmericaPlanetLine.tsx' |
+'EarthAustraliaPlanetFill.tsx' |
+'EarthAustraliaPlanetLine.tsx' |
+'EarthEurasiaAfricaPlanetFill.tsx' |
+'EarthEurasiaAfricaPlanetLine.tsx' |
+'EarthPlanetFill.tsx' |
+'EarthPlanetLine.tsx' |
+'EasternChristianityFill.tsx' |
+'EasternChristianityLine.tsx' |
+'EjectCircleFill.tsx' |
+'EjectCircleLine.tsx' |
+'EjectFill.tsx' |
+'EjectLine.tsx' |
+'ELetterLine.tsx' |
+'EnergyElectricityFill.tsx' |
+'EnergyElectricityLine.tsx' |
+'EnhancedEncryptionFill.tsx' |
+'EnhancedEncryptionLine.tsx' |
+'EnterEntranceExitToAppFill.tsx' |
+'EnterEntranceExitToAppLine.tsx' |
+'ESimEmbeddedMff2Fill.tsx' |
+'ESimEmbeddedMff2Line.tsx' |
+'EthernetLine.tsx' |
+'EuroLine.tsx' |
+'EvChargingStationFill.tsx' |
+'EvChargingStationLine.tsx' |
+'EventAvailableFill.tsx' |
+'EventAvailableLine.tsx' |
+'EventBusyFill.tsx' |
+'EventBusyLine.tsx' |
+'EventNoteFill.tsx' |
+'EventNoteLine.tsx' |
+'ExitFill.tsx' |
+'ExitLine.tsx' |
+'ExpensesOutcomePaymentFill.tsx' |
+'ExpensesOutcomePaymentLine.tsx' |
+'ExplicitContentFuckCuntShitFill.tsx' |
+'ExplicitContentFuckCuntShitLine.tsx' |
+'FaceChildChildCareBabysitterFill.tsx' |
+'FaceChildChildCareBabysitterLine.tsx' |
+'FastForwardCircleFill.tsx' |
+'FastForwardCircleLine.tsx' |
+'FastForwardFill.tsx' |
+'FastForwardLine.tsx' |
+'FastRewindCircleFill.tsx' |
+'FastRewindCircleLine.tsx' |
+'FastRewindFill.tsx' |
+'FastRewindLine.tsx' |
+'FeaturedPlaylistLine.tsx' |
+'FeaturedVideoFill.tsx' |
+'FeaturedVideoLine.tsx' |
+'FiberDvrFill.tsx' |
+'FiberDvrLine.tsx' |
+'FiberSmartRecordFill.tsx' |
+'FiberSmartRecordLine.tsx' |
+'FilmRollMovieMoviesFill.tsx' |
+'FilmRollMovieMoviesLine.tsx' |
+'FindReplaceLine.tsx' |
+'FireHotFill.tsx' |
+'FireHotLine.tsx' |
+'FirstLine.tsx' |
+'FitnessCenterGymSportDumbbellFill.tsx' |
+'FitnessCenterGymSportDumbbellLine.tsx' |
+'FlagFill.tsx' |
+'FlagLine.tsx' |
+'FLetterLine.tsx' |
+'FlipToBackFill.tsx' |
+'FlipToBackLine.tsx' |
+'FlipToFrontFill.tsx' |
+'FlipToFrontLine.tsx' |
+'FloorMattressFill.tsx' |
+'FloorMattressLine.tsx' |
+'FloppyDiskSaveDisketteDiskFill.tsx' |
+'FloppyDiskSaveDisketteDiskLine.tsx' |
+'FogHazeLine.tsx' |
+'FolderFavoriteFill.tsx' |
+'FolderFavoriteLine.tsx' |
+'FolderFill.tsx' |
+'FolderLine.tsx' |
+'FolderMediaFill.tsx' |
+'FolderMediaLine.tsx' |
+'FolderOpenedFill.tsx' |
+'FolderOpenedLine.tsx' |
+'FolderPersonalFill.tsx' |
+'FolderPersonalLine.tsx' |
+'FolderSharedFill.tsx' |
+'FolderSharedLine.tsx' |
+'FoldLine.tsx' |
+'FontFileDownloadFill.tsx' |
+'FontFileDownloadLine.tsx' |
+'FontFileFill.tsx' |
+'FontFileLine.tsx' |
+'FoodDiningRestaurantFill.tsx' |
+'FoodDiningRestaurantLine.tsx' |
+'FootballBallSoccerBallFill.tsx' |
+'FootballBallSoccerBallLine.tsx' |
+'FreehandGestureLine.tsx' |
+'FridgeFill.tsx' |
+'FridgeLine.tsx' |
+'FrowningDissatisfiedSentimentVeryDissatisfiedFill.tsx' |
+'FrowningDissatisfiedSentimentVeryDissatisfiedLine.tsx' |
+'FrowningMoodBadFill.tsx' |
+'FrowningMoodBadLine.tsx' |
+'FullscreenExitLine.tsx' |
+'FullscreenLine.tsx' |
+'GamepadJoystickControllerFill.tsx' |
+'GamepadJoystickControllerLine.tsx' |
+'GamepadWireJoystickControllerFill.tsx' |
+'GamepadWireJoystickControllerLine.tsx' |
+'GamepadWirelessJoystickControllerFill.tsx' |
+'GamepadWirelessJoystickControllerLine.tsx' |
+'GamesFill.tsx' |
+'GamesLine.tsx' |
+'GasStationFill.tsx' |
+'GasStationLine.tsx' |
+'GearSettingsMaintenanceFill.tsx' |
+'GearSettingsMaintenanceLine.tsx' |
+'GifGraphicsInterchangeFormatFill.tsx' |
+'GifGraphicsInterchangeFormatLine.tsx' |
+'GiftCardRedeemFill.tsx' |
+'GiftCardRedeemLine.tsx' |
+'GiftPresentCharityFill.tsx' |
+'GiftPresentCharityLine.tsx' |
+'GlassOfSparklingWaterFill.tsx' |
+'GlassOfSparklingWaterLine.tsx' |
+'GlassOfWaterDrinkHydrationFill.tsx' |
+'GlassOfWaterDrinkHydrationLine.tsx' |
+'GlassRecycledBottleFill.tsx' |
+'GlassRecycledBottleLine.tsx' |
+'GLetterLine.tsx' |
+'GolfFill.tsx' |
+'GolfLine.tsx' |
+'GrimmingMoodGoodSentimentSatisfiedFill.tsx' |
+'GrimmingMoodGoodSentimentSatisfiedLine.tsx' |
+'GrinSentimentVerySatisfiedGrinningFaceWithSmilingEyesFill.tsx' |
+'GrinSentimentVerySatisfiedGrinningFaceWithSmilingEyesLine.tsx' |
+'GroupPeopleCommunityFill.tsx' |
+'GroupPeopleCommunityLine.tsx' |
+'HailHeavyFill.tsx' |
+'HailHeavyLine.tsx' |
+'HailLowFill.tsx' |
+'HailLowLine.tsx' |
+'HailMediumFill.tsx' |
+'HailMediumLine.tsx' |
+'HalfCircleLeftMoonLastQuarterFill.tsx' |
+'HalfCircleLeftMoonLastQuarterLine.tsx' |
+'HalfCircleRightMoonFirstQuarterFill.tsx' |
+'HalfCircleRightMoonFirstQuarterLine.tsx' |
+'HallwayFill.tsx' |
+'HallwayLine.tsx' |
+'HammockFill.tsx' |
+'HammockLine.tsx' |
+'HdHighDefinitionFill.tsx' |
+'HdHighDefinitionLine.tsx' |
+'HeadsetHeadphonesListenAudioAuditionFill.tsx' |
+'HeadsetHeadphonesListenAudioAuditionLine.tsx' |
+'HeadsetWithMicrophoneHeadphonesVoiceChatFill.tsx' |
+'HeadsetWithMicrophoneHeadphonesVoiceChatLine.tsx' |
+'HeartLikeLoveFavoriteDidaFill.tsx' |
+'HeartLikeLoveFavoriteDidaLine.tsx' |
+'HelpQuestionFaqFill.tsx' |
+'HelpQuestionFaqLine.tsx' |
+'HeptagonSeptagonFill.tsx' |
+'HeptagonSeptagonLine.tsx' |
+'HexagonFill.tsx' |
+'HexagonLine.tsx' |
+'HideKeyboardFill.tsx' |
+'HideKeyboardLine.tsx' |
+'HighPriorityLine.tsx' |
+'HinduismLine.tsx' |
+'HistoryClockFill.tsx' |
+'HistoryClockLine.tsx' |
+'HistoryLine.tsx' |
+'HLetterLine.tsx' |
+'HospitalRedCrossHealthDoctorFill.tsx' |
+'HospitalRedCrossHealthDoctorLine.tsx' |
+'HostelFill.tsx' |
+'HostelLine.tsx' |
+'HotelFill.tsx' |
+'HotelLine.tsx' |
+'HourglassFill.tsx' |
+'HourglassFinishFill.tsx' |
+'HourglassFinishLine.tsx' |
+'HourglassLine.tsx' |
+'HourglassStartFill.tsx' |
+'HourglassStartLine.tsx' |
+'HouseHomeHousingFill.tsx' |
+'HouseHomeHousingLine.tsx' |
+'HqHighQualityFill.tsx' |
+'HqHighQualityLine.tsx' |
+'HttpFill.tsx' |
+'HttpLine.tsx' |
+'IceCreamFill.tsx' |
+'IceCreamLine.tsx' |
+'IceHockeyFill.tsx' |
+'IceHockeyLine.tsx' |
+'ILetterLine.tsx' |
+'InboxFill.tsx' |
+'InboxLine.tsx' |
+'IncomeFill.tsx' |
+'IncomeLine.tsx' |
+'IndentDecreaseLine.tsx' |
+'IndentIncreaseLine.tsx' |
+'InfoItalicMoreDetailsInformationAboutFill.tsx' |
+'InfoItalicMoreDetailsInformationAboutLine.tsx' |
+'InfoMonospacedMoreDetailsInformationAboutFill.tsx' |
+'InfoMonospacedMoreDetailsInformationAboutLine.tsx' |
+'InfoSansSerifMoreDetailsInformationAboutFill.tsx' |
+'InfoSansSerifMoreDetailsInformationAboutLine.tsx' |
+'InputFill.tsx' |
+'InputLine.tsx' |
+'InvertColorsFill.tsx' |
+'InvertColorsLine.tsx' |
+'IrregularFill.tsx' |
+'IrregularLine.tsx' |
+'IslamFill.tsx' |
+'IslamLine.tsx' |
+'JLetterLine.tsx' |
+'JudaismLine.tsx' |
+'KeyboardFill.tsx' |
+'KeyboardLine.tsx' |
+'KeyboardWireFill.tsx' |
+'KeyboardWirelessFill.tsx' |
+'KeyboardWirelessLine.tsx' |
+'KeyboardWireLine.tsx' |
+'KeyRentRentalsFill.tsx' |
+'KeyRentRentalsLine.tsx' |
+'KingSizeBedFill.tsx' |
+'KingSizeBedLine.tsx' |
+'KitchenFill.tsx' |
+'KitchenLine.tsx' |
+'KiteFill.tsx' |
+'KiteLine.tsx' |
+'KLetterLine.tsx' |
+'LabelFill.tsx' |
+'LabelLine.tsx' |
+'LaptopComputerNotebookMacbookFill.tsx' |
+'LaptopComputerNotebookMacbookLine.tsx' |
+'LastLine.tsx' |
+'LaundryFill.tsx' |
+'LaundryLine.tsx' |
+'LayersFill.tsx' |
+'LayersLine.tsx' |
+'LayersOffFill.tsx' |
+'LayersOffLine.tsx' |
+'LibraryAddFill.tsx' |
+'LibraryAddLine.tsx' |
+'LibraryBuildingFill.tsx' |
+'LibraryBuildingLine.tsx' |
+'LibraryFill.tsx' |
+'LibraryLine.tsx' |
+'LibraryListFill.tsx' |
+'LibraryListLine.tsx' |
+'LibraryMusicFill.tsx' |
+'LibraryMusicLine.tsx' |
+'LibraryVideoFill.tsx' |
+'LibraryVideoLine.tsx' |
+'LightningFlashElectricityFill.tsx' |
+'LightningFlashElectricityLine.tsx' |
+'LightningFlashFill.tsx' |
+'LightningFlashLine.tsx' |
+'LineSpacingLine.tsx' |
+'LineStyleLine.tsx' |
+'LineWeightLine.tsx' |
+'LinkChainLine.tsx' |
+'ListBulletedViewListLine.tsx' |
+'ListPlaylistQueueLine.tsx' |
+'LLetterLine.tsx' |
+'LoanCashBorrowFill.tsx' |
+'LoanCashBorrowLine.tsx' |
+'LoanRentBorrowFill.tsx' |
+'LoanRentBorrowLine.tsx' |
+'LocationAddFill.tsx' |
+'LocationAddLine.tsx' |
+'LocationAlertFill.tsx' |
+'LocationAlertLine.tsx' |
+'LocationEditFill.tsx' |
+'LocationEditLine.tsx' |
+'LocationOffFill.tsx' |
+'LocationOffLine.tsx' |
+'LocationOnBeenhereFill.tsx' |
+'LocationOnBeenhereLine.tsx' |
+'LocationPlaceFill.tsx' |
+'LocationPlaceLine.tsx' |
+'LocationRemoveFill.tsx' |
+'LocationRemoveLine.tsx' |
+'LocationUserFill.tsx' |
+'LocationUserLine.tsx' |
+'LockEncryptionSecurityFill.tsx' |
+'LockEncryptionSecurityLine.tsx' |
+'LockOpenUnlockFill.tsx' |
+'LockOpenUnlockLine.tsx' |
+'LoopCachedSyncLine.tsx' |
+'LowPriorityLine.tsx' |
+'LoyaltyFill.tsx' |
+'LoyaltyLine.tsx' |
+'MailboxFill.tsx' |
+'MailboxLine.tsx' |
+'MailEnvelopeFill.tsx' |
+'MailEnvelopeLine.tsx' |
+'MailReadDraftFill.tsx' |
+'MailReadDraftLine.tsx' |
+'MapFill.tsx' |
+'MapLine.tsx' |
+'MedalPrizeCompetitionFill.tsx' |
+'MedalPrizeCompetitionLine.tsx' |
+'MedicalInsuranceHealthFill.tsx' |
+'MedicalInsuranceHealthLine.tsx' |
+'MembershipCardFill.tsx' |
+'MembershipCardLine.tsx' |
+'MenuFill.tsx' |
+'MenuHamburgerLine.tsx' |
+'MenuLine.tsx' |
+'MergeLine.tsx' |
+'MessageFailedFill.tsx' |
+'MessageFailedLine.tsx' |
+'MessageFill.tsx' |
+'MessageLine.tsx' |
+'MessageListSpeakerNotesFill.tsx' |
+'MessageListSpeakerNotesLine.tsx' |
+'MicrophoneConcertsSingFill.tsx' |
+'MicrophoneConcertsSingLine.tsx' |
+'MicrophoneOffAltVoiceOffFill.tsx' |
+'MicrophoneOffAltVoiceOffLine.tsx' |
+'MicrophoneOffVoiceOffFill.tsx' |
+'MicrophoneOffVoiceOffLine.tsx' |
+'MicrophoneVoiceSpeechDictationFill.tsx' |
+'MicrophoneVoiceSpeechDictationLine.tsx' |
+'MicroSdCardFill.tsx' |
+'MicroSdCardLine.tsx' |
+'MicroSimCardFill.tsx' |
+'MicroSimCardLine.tsx' |
+'MiniSdCardFill.tsx' |
+'MiniSdCardLine.tsx' |
+'MinusDeleteRemoveLine.tsx' |
+'MinusInCircleDoNotDisturbOnRemoveFill.tsx' |
+'MinusInCircleDoNotDisturbOnRemoveLine.tsx' |
+'MistLine.tsx' |
+'MLetterLine.tsx' |
+'MmsFill.tsx' |
+'MmsLine.tsx' |
+'MoonWaningCrescentRedCrescentFill.tsx' |
+'MoonWaningCrescentRedCrescentLine.tsx' |
+'MoonWaningGibbousFill.tsx' |
+'MoonWaningGibbousLine.tsx' |
+'MoonWaxingCrescentFill.tsx' |
+'MoonWaxingCrescentLine.tsx' |
+'MoonWaxingGibbousFill.tsx' |
+'MoonWaxingGibbousLine.tsx' |
+'MoreInCircleUncategorizedFill.tsx' |
+'MoreInCircleUncategorizedLine.tsx' |
+'MoreLine.tsx' |
+'MoreVerticalLine.tsx' |
+'MortgageFill.tsx' |
+'MortgageLine.tsx' |
+'MouseClassicFill.tsx' |
+'MouseClassicLine.tsx' |
+'MouseFill.tsx' |
+'MouseLine.tsx' |
+'MouseWireFill.tsx' |
+'MouseWirelessFill.tsx' |
+'MouseWirelessLine.tsx' |
+'MouseWireLine.tsx' |
+'MoveToInboxFill.tsx' |
+'MoveToInboxLine.tsx' |
+'MusicVideoFill.tsx' |
+'MusicVideoLine.tsx' |
+'MyLocationCoordinatesLocationOnGpsFixedLine.tsx' |
+'NanoSimCardFill.tsx' |
+'NanoSimCardLine.tsx' |
+'NavigationFill.tsx' |
+'NavigationLine.tsx' |
+'NearMeFill.tsx' |
+'NearMeLine.tsx' |
+'NetworkCellLockLine.tsx' |
+'NetworkCellSignalCellular1Line.tsx' |
+'NetworkCellSignalCellular2Line.tsx' |
+'NetworkCellSignalCellular3Line.tsx' |
+'NetworkCellSignalCellular4Line.tsx' |
+'NetworkCheckLine.tsx' |
+'NetworkSettingsMobileDataSettingsLine.tsx' |
+'NeutralSentimentNeutralFill.tsx' |
+'NeutralSentimentNeutralLine.tsx' |
+'NewFill.tsx' |
+'NewLine.tsx' |
+'NewReleasesFill.tsx' |
+'NewReleasesLine.tsx' |
+'NirvanaFill.tsx' |
+'NirvanaLine.tsx' |
+'NLetterLine.tsx' |
+'NoEncryptionFill.tsx' |
+'NoEncryptionLine.tsx' |
+'NoEnergyNoPowerNoBatteryFill.tsx' |
+'NoEnergyNoPowerNoBatteryLine.tsx' |
+'NoMessageSpeakerNotesOffFill.tsx' |
+'NoMessageSpeakerNotesOffLine.tsx' |
+'NoMouthFill.tsx' |
+'NoMouthLine.tsx' |
+'NonagonEnneagonFill.tsx' |
+'NonagonEnneagonLine.tsx' |
+'NoSimCardFill.tsx' |
+'NoSimCardLine.tsx' |
+'NoteEditFill.tsx' |
+'NoteEditLine.tsx' |
+'NoteFill.tsx' |
+'NoteLine.tsx' |
+'NotificationBellAlertFill.tsx' |
+'NotificationBellAlertLine.tsx' |
+'NotificationOffFill.tsx' |
+'NotificationOffLine.tsx' |
+'NotificationPausedFill.tsx' |
+'NotificationPausedLine.tsx' |
+'OctagonFill.tsx' |
+'OctagonLine.tsx' |
+'OfferTagPriceFill.tsx' |
+'OfferTagPriceLine.tsx' |
+'OfficeChairFill.tsx' |
+'OfficeChairLine.tsx' |
+'OldTvFill.tsx' |
+'OldTvLine.tsx' |
+'OLetterLine.tsx' |
+'OnDemandTvFill.tsx' |
+'OnDemandTvLine.tsx' |
+'OnDemandVideoFill.tsx' |
+'OnDemandVideoLine.tsx' |
+'OpacityFill.tsx' |
+'OpacityLine.tsx' |
+'OpenInBrowserFill.tsx' |
+'OpenInBrowserLine.tsx' |
+'OpenInNewLaunchLine.tsx' |
+'OpenWithLine.tsx' |
+'OvalHorizontalFill.tsx' |
+'OvalHorizontalLine.tsx' |
+'OvalVerticalFill.tsx' |
+'OvalVerticalLine.tsx' |
+'OverscanFill.tsx' |
+'OverscanLine.tsx' |
+'PaperClipAttachmentLine.tsx' |
+'ParallelogramFill.tsx' |
+'ParallelogramLine.tsx' |
+'PartlyCloudyFill.tsx' |
+'PartlyCloudyLine.tsx' |
+'PauseCircleFill.tsx' |
+'PauseCircleLine.tsx' |
+'PauseLine.tsx' |
+'PawPetsAnimalsPetFill.tsx' |
+'PawPetsAnimalsPetLine.tsx' |
+'PencilEditCreateFill.tsx' |
+'PencilEditCreateLine.tsx' |
+'PentagonPentagramFill.tsx' |
+'PentagonPentagramLine.tsx' |
+'PermissionCameraMicrophoneFill.tsx' |
+'PermissionCameraMicrophoneLine.tsx' |
+'PersonalAssignmentFill.tsx' |
+'PersonalAssignmentLine.tsx' |
+'PersonalCalendarContactCalendarFill.tsx' |
+'PersonalCalendarContactCalendarLine.tsx' |
+'PharmacyDrugStoresFill.tsx' |
+'PharmacyDrugStoresLine.tsx' |
+'PhoneCallFill.tsx' |
+'PhoneCallLine.tsx' |
+'PhoneForwardedFill.tsx' |
+'PhoneForwardedLine.tsx' |
+'PhoneInTalkFill.tsx' |
+'PhoneInTalkLine.tsx' |
+'PhoneLockedFill.tsx' |
+'PhoneLockedLine.tsx' |
+'PhoneMessageFill.tsx' |
+'PhoneMessageLine.tsx' |
+'PhoneMissedFill.tsx' |
+'PhoneMissedLine.tsx' |
+'PhonePausedFill.tsx' |
+'PhonePausedLine.tsx' |
+'PhoneSettingsFill.tsx' |
+'PhoneSettingsLine.tsx' |
+'PhotoImageWallpaperFill.tsx' |
+'PhotoImageWallpaperLine.tsx' |
+'PictureDecorationFill.tsx' |
+'PictureDecorationLine.tsx' |
+'PictureInPictureAltFill.tsx' |
+'PictureInPictureAltLine.tsx' |
+'PictureInPictureFill.tsx' |
+'PictureInPictureLine.tsx' |
+'PinFill.tsx' |
+'PinLine.tsx' |
+'PinTextFill.tsx' |
+'PinTextLine.tsx' |
+'PizzaSliceFill.tsx' |
+'PizzaSliceLine.tsx' |
+'PlaceFavoriteFill.tsx' |
+'PlaceFavoriteLine.tsx' |
+'PlanetEarthInternetPublicFill.tsx' |
+'PlanetEarthInternetPublicLine.tsx' |
+'PlasticBottleRecyclingFill.tsx' |
+'PlasticBottleRecyclingLine.tsx' |
+'PlasticHdpeLine.tsx' |
+'PlasticLdpeLine.tsx' |
+'PlasticOtherLine.tsx' |
+'PlasticPetLine.tsx' |
+'PlasticPpLine.tsx' |
+'PlasticPsLine.tsx' |
+'PlasticPvcLine.tsx' |
+'PlayCircleFill.tsx' |
+'PlayCircleLine.tsx' |
+'PlaylistAddAddToQueueLine.tsx' |
+'PlaylistCheckLine.tsx' |
+'PlaylistPlayQueueMusicLine.tsx' |
+'PlaylistRemoveRemoveFromQueueLine.tsx' |
+'PlayStartFill.tsx' |
+'PlayStartLine.tsx' |
+'PLetterParkingLine.tsx' |
+'PlusAddCreateLine.tsx' |
+'PlusInCircleAddCreateFill.tsx' |
+'PlusInCircleAddCreateLine.tsx' |
+'PointAndShootCameraFill.tsx' |
+'PointAndShootCameraLine.tsx' |
+'PoolBLine.tsx' |
+'PotCookingFill.tsx' |
+'PotCookingLine.tsx' |
+'PowerConnecotForkFill.tsx' |
+'PowerConnecotForkLine.tsx' |
+'PowerInputLine.tsx' |
+'PowerOnOffButtonLine.tsx' |
+'PowerSettingsFill.tsx' |
+'PowerSettingsLine.tsx' |
+'PowerSocketALine.tsx' |
+'PowerSocketBFill.tsx' |
+'PowerSocketBLine.tsx' |
+'PowerSocketCFill.tsx' |
+'PowerSocketCLine.tsx' |
+'PowerSocketDFill.tsx' |
+'PowerSocketDLine.tsx' |
+'PowerSocketEFill.tsx' |
+'PowerSocketELine.tsx' |
+'PowerSocketFFill.tsx' |
+'PowerSocketFillill.tsx' |
+'PowerSocketFLine.tsx' |
+'PowerSocketGFill.tsx' |
+'PowerSocketGLine.tsx' |
+'PowerSocketHFill.tsx' |
+'PowerSocketHLine.tsx' |
+'PowerSocketIFill.tsx' |
+'PowerSocketILine.tsx' |
+'PowerSocketJFill.tsx' |
+'PowerSocketJLine.tsx' |
+'PowerSocketKFill.tsx' |
+'PowerSocketKLine.tsx' |
+'PowerSocketLFill.tsx' |
+'PowerSocketLLine.tsx' |
+'PowerSocketMFill.tsx' |
+'PowerSocketMLine.tsx' |
+'PowerSocketNFill.tsx' |
+'PowerSocketNLine.tsx' |
+'PowerSocketOFill.tsx' |
+'PowerSocketOLine.tsx' |
+'PrepaidCardFill.tsx' |
+'PrepaidCardLine.tsx' |
+'PrinterPrintPrintshopFill.tsx' |
+'PrinterPrintPrintshopLine.tsx' |
+'ProgramSoftwareFill.tsx' |
+'ProgramSoftwareLine.tsx' |
+'PublishLine.tsx' |
+'PuzzleExtensionFill.tsx' |
+'PuzzleExtensionLine.tsx' |
+'QLetterLine.tsx' |
+'QueenSizeBedFill.tsx' |
+'QueenSizeBedLine.tsx' |
+'RadioButtonOffFill.tsx' |
+'RadioButtonOffLine.tsx' |
+'RadioButtonOnFill.tsx' |
+'RadioButtonOnLine.tsx' |
+'RadioVintageStationRecieverFill.tsx' |
+'RadioVintageStationRecieverLine.tsx' |
+'RainHeavyFill.tsx' |
+'RainHeavyLine.tsx' |
+'RainLightFill.tsx' |
+'RainLightLine.tsx' |
+'RainMediumFill.tsx' |
+'RainMediumLine.tsx' |
+'RateReviewFill.tsx' |
+'RateReviewLine.tsx' |
+'RatingsStarsFill.tsx' |
+'RatingsStarsLine.tsx' |
+'ReaderModeFill.tsx' |
+'ReaderModeLine.tsx' |
+'RecyclingLine.tsx' |
+'RedoLine.tsx' |
+'ReorderLine.tsx' |
+'RepeatLine.tsx' |
+'ReplayLine.tsx' |
+'ReplyAllLine.tsx' |
+'ReplyLine.tsx' |
+'ReportFill.tsx' |
+'ReportLine.tsx' |
+'RestoreLine.tsx' |
+'ReturnLine.tsx' |
+'RhombusFill.tsx' |
+'RhombusLine.tsx' |
+'RLetterLine.tsx' |
+'RockingChairFill.tsx' |
+'RockingChairLine.tsx' |
+'RoomServiceFill.tsx' |
+'RoomServiceLine.tsx' |
+'RotateCcwLine.tsx' |
+'RotateCwLine.tsx' |
+'RoundedCornerLine.tsx' |
+'RouteDirectionsFill.tsx' |
+'RouteDirectionsLine.tsx' |
+'RouterFill.tsx' |
+'RouterLine.tsx' |
+'RugbyBallFill.tsx' |
+'RugbyBallLine.tsx' |
+'RussianRoubleRurLine.tsx' |
+'SatanismLine.tsx' |
+'SavingsFill.tsx' |
+'SavingsLine.tsx' |
+'ScalesJudgeJusticeCourthouseFill.tsx' |
+'ScalesJudgeJusticeCourthouseLine.tsx' |
+'ScannerScanFill.tsx' |
+'ScannerScanLine.tsx' |
+'ScheduledVideoFill.tsx' |
+'ScheduledVideoLine.tsx' |
+'ScheduleFill.tsx' |
+'ScheduleLine.tsx' |
+'ScientologyFill.tsx' |
+'ScientologyLine.tsx' |
+'ScissorsCutLine.tsx' |
+'ScreenLockLandscapeFill.tsx' |
+'ScreenLockLandscapeLine.tsx' |
+'ScreenLockPortraitFill.tsx' |
+'ScreenLockPortraitLine.tsx' |
+'ScreenLockRotationFill.tsx' |
+'ScreenLockRotationLine.tsx' |
+'ScreenRotationFill.tsx' |
+'ScreenRotationLine.tsx' |
+'SdCardFill.tsx' |
+'SdCardLine.tsx' |
+'SearchEditLine.tsx' |
+'SearchHistorySearchedForLine.tsx' |
+'SearchMagnifyingGlassHandLensLine.tsx' |
+'SearchOffLine.tsx' |
+'SearchOnLine.tsx' |
+'SearchOnPageFill.tsx' |
+'SearchOnPageLine.tsx' |
+'SearchPersonUserLine.tsx' |
+'SecurityOffFill.tsx' |
+'SecurityOffLine.tsx' |
+'SecurityOnSecuredVerifiedFill.tsx' |
+'SecurityOnSecuredVerifiedLine.tsx' |
+'SendFill.tsx' |
+'SendLine.tsx' |
+'ServerDnsServerFill.tsx' |
+'ServerDnsServerLine.tsx' |
+'ShareAppleFill.tsx' |
+'ShareAppleLine.tsx' |
+'ShareGoogleFill.tsx' |
+'ShareGoogleLine.tsx' |
+'ShareMicrosoftFill.tsx' |
+'ShareMicrosoftLine.tsx' |
+'ShieldSecurityInsuranceFill.tsx' |
+'ShieldSecurityInsuranceLine.tsx' |
+'ShoppingBagMallShopStoreFill.tsx' |
+'ShoppingBagMallShopStoreLine.tsx' |
+'ShoppingBasketFill.tsx' |
+'ShoppingBasketLine.tsx' |
+'ShoppingCartGroceryStoreFill.tsx' |
+'ShoppingCartGroceryStoreLine.tsx' |
+'ShowHeavyFill.tsx' |
+'ShowHeavyLine.tsx' |
+'ShowToAllFill.tsx' |
+'ShowToAllLine.tsx' |
+'ShuffleLine.tsx' |
+'SignalCellularAlert1Line.tsx' |
+'SignalCellularAlert2Line.tsx' |
+'SignalCellularAlert3Line.tsx' |
+'SignalCellularAlert4Line.tsx' |
+'SignalWifiOffLine.tsx' |
+'SimCardFill.tsx' |
+'SimCardLine.tsx' |
+'SingleBedFill.tsx' |
+'SingleBedLine.tsx' |
+'SkipCircleFill.tsx' |
+'SkipCircleLine.tsx' |
+'SkipNextFill.tsx' |
+'SkipNextLine.tsx' |
+'SkipPreviousCircleFill.tsx' |
+'SkipPreviousCircleLine.tsx' |
+'SkipPreviousFill.tsx' |
+'SkipPreviousLine.tsx' |
+'SleetFill.tsx' |
+'SleetLine.tsx' |
+'SLetterLine.tsx' |
+'SlightlyFrowningSadSentimentDissatisfiedFill.tsx' |
+'SlightlyFrowningSadSentimentDissatisfiedLine.tsx' |
+'SlowMotionVideoFill.tsx' |
+'SlowMotionVideoLine.tsx' |
+'SmartbandActivityTrackerFill.tsx' |
+'SmartbandActivityTrackerLine.tsx' |
+'SmartphoneAndroidFill.tsx' |
+'SmartphoneAndroidLine.tsx' |
+'SmartphoneAppleIphoneFill.tsx' |
+'SmartphoneAppleIphoneLine.tsx' |
+'SmartphoneIphoneAndroidBezellessFill.tsx' |
+'SmartphoneIphoneAndroidBezellessLine.tsx' |
+'SmartphoneWithOneCameraFill.tsx' |
+'SmartphoneWithOneCameraLine.tsx' |
+'SmartphoneWithTwoCamerasFill.tsx' |
+'SmartphoneWithTwoCamerasLine.tsx' |
+'SmartwatchRoundFill.tsx' |
+'SmartwatchRoundLine.tsx' |
+'SmartwatchSquareFill.tsx' |
+'SmartwatchSquareLine.tsx' |
+'SmileFill.tsx' |
+'SmileLine.tsx' |
+'SmilingSmileFill.tsx' |
+'SmilingSmileLine.tsx' |
+'SmogLine.tsx' |
+'SnowflakeSnowAcUnitAirConditionerLine.tsx' |
+'SnowLightFill.tsx' |
+'SnowLightLine.tsx' |
+'SnowMediumFill.tsx' |
+'SnowMediumLine.tsx' |
+'SofaBedFill.tsx' |
+'SofaBedLine.tsx' |
+'SofaEventSeatFill.tsx' |
+'SofaEventSeatLine.tsx' |
+'SortByAlphabetAzLine.tsx' |
+'SortHighToLowFilterListLine.tsx' |
+'SortLowToHighFilterListLine.tsx' |
+'SoundMessageFill.tsx' |
+'SoundMessageLine.tsx' |
+'SoundOffMuteFill.tsx' |
+'SoundOffMuteLine.tsx' |
+'SpaFill.tsx' |
+'SpaLine.tsx' |
+'SpeakerGroupSpeakersFill.tsx' |
+'SpeakerGroupSpeakersLine.tsx' |
+'SpeakerSoundDynamicFill.tsx' |
+'SpeakerSoundDynamicLine.tsx' |
+'SpellCheckLine.tsx' |
+'SplitLine.tsx' |
+'SquareQuadrilateralTetragonFill.tsx' |
+'SquareQuadrilateralTetragonLine.tsx' |
+'StarGradeRatingFavoriteFavouriteFill.tsx' |
+'StarGradeRatingFavoriteFavouriteLine.tsx' |
+'StationerySuppliesFill.tsx' |
+'StationerySuppliesLine.tsx' |
+'StoolFill.tsx' |
+'StoolLine.tsx' |
+'StopCircleFill.tsx' |
+'StopCircleLine.tsx' |
+'StopFill.tsx' |
+'StopLine.tsx' |
+'StorageServerFill.tsx' |
+'StorageServerLine.tsx' |
+'StoreFill.tsx' |
+'StoreLine.tsx' |
+'StoveFill.tsx' |
+'StoveLine.tsx' |
+'SubdirectoryArrowLeftLine.tsx' |
+'SubdirectoryArrowRightLine.tsx' |
+'SubscriptionsAddedLibraryFill.tsx' |
+'SubscriptionsAddedLibraryLine.tsx' |
+'SubtitlesFill.tsx' |
+'SubtitlesLine.tsx' |
+'SunBrightnessHighFill.tsx' |
+'SunBrightnessHighLine.tsx' |
+'SunriseFill.tsx' |
+'SunriseLine.tsx' |
+'SunsetFill.tsx' |
+'SunsetLine.tsx' |
+'SurroundSound3DSoundFill.tsx' |
+'SurroundSound3DSoundLine.tsx' |
+'SwapCallsLine.tsx' |
+'SwapHorizontalLine.tsx' |
+'SwapVerticalLine.tsx' |
+'SyncAutorenewLine.tsx' |
+'SyncDisabledLine.tsx' |
+'SyncErrorLine.tsx' |
+'SystemUpdateFill.tsx' |
+'SystemUpdateLine.tsx' |
+'TabButtonLine.tsx' |
+'TableFill.tsx' |
+'TableLine.tsx' |
+'TableOfContentTocContentLine.tsx' |
+'TabletAndroidFill.tsx' |
+'TabletAndroidLine.tsx' |
+'TabletAppleIpadFill.tsx' |
+'TabletAppleIpadLine.tsx' |
+'TableTennisPingPongFill.tsx' |
+'TableTennisPingPongLine.tsx' |
+'TabletIpadFill.tsx' |
+'TabletIpadLine.tsx' |
+'TabTabsFill.tsx' |
+'TabTabsLine.tsx' |
+'TaoismFill.tsx' |
+'TaoismLine.tsx' |
+'TennisFill.tsx' |
+'TennisLine.tsx' |
+'TerrainMountainsFill.tsx' |
+'TerrainMountainsLine.tsx' |
+'TetraPakFill.tsx' |
+'TetraPakLine.tsx' |
+'TextAlignCenterLine.tsx' |
+'TextAlignLeftViewHeadlineListLine.tsx' |
+'TextAlignRightLine.tsx' |
+'TextClipLine.tsx' |
+'TextFormatLine.tsx' |
+'TextJustifyAllLinesLine.tsx' |
+'TextJustifyCenterLine.tsx' |
+'TextJustifyLeftLine.tsx' |
+'TextJustifyRightLine.tsx' |
+'TextMessageFill.tsx' |
+'TextMessageLine.tsx' |
+'TextOverflowLine.tsx' |
+'TextWrapLine.tsx' |
+'TheatersEntertainmentFill.tsx' |
+'TheatersEntertainmentLine.tsx' |
+'ThunderstormWithHailFill.tsx' |
+'ThunderstormWithHailLine.tsx' |
+'ThunderstormWithRainFill.tsx' |
+'ThunderstormWithRainLine.tsx' |
+'ThunderstormWithSnowFill.tsx' |
+'ThunderstormWithSnowLine.tsx' |
+'TicketActivityPlayFill.tsx' |
+'TicketActivityPlayLine.tsx' |
+'TimelineFill.tsx' |
+'TimelineLine.tsx' |
+'TimerClockFill.tsx' |
+'TimerClockLine.tsx' |
+'TimerLine.tsx' |
+'TLetterLine.tsx' |
+'TodayDateFill.tsx' |
+'TodayDateLine.tsx' |
+'ToddlerBedFill.tsx' |
+'ToddlerBedLine.tsx' |
+'ToysToyShopChildrensRoomFill.tsx' |
+'ToysToyShopChildrensRoomLine.tsx' |
+'TrackLine.tsx' |
+'TrafficLightFill.tsx' |
+'TrafficLightLine.tsx' |
+'TransfersImportExportCompareLine.tsx' |
+'TransformLine.tsx' |
+'TranslateTranslationLine.tsx' |
+'TrapezoidFill.tsx' |
+'TrapezoidLine.tsx' |
+'TrashFullFill.tsx' |
+'TrashFullLine.tsx' |
+'TrashGarbageDeleteRemoveBinFill.tsx' |
+'TrashGarbageDeleteRemoveBinLine.tsx' |
+'TrashPartlyFullFill.tsx' |
+'TrashPartlyFullLine.tsx' |
+'TravelCardFill.tsx' |
+'TravelCardLine.tsx' |
+'TrendingDownLine.tsx' |
+'TrendingFlatLine.tsx' |
+'TrendingUpLine.tsx' |
+'TriangleTrigonFill.tsx' |
+'TriangleTrigonLine.tsx' |
+'TShirtRoundNeckClothingFill.tsx' |
+'TShirtRoundNeckClothingLine.tsx' |
+'TvTelevisionCableFill.tsx' |
+'TvTelevisionCableLine.tsx' |
+'ULetterLine.tsx' |
+'UnarchiveFill.tsx' |
+'UnarchiveLine.tsx' |
+'UndoLine.tsx' |
+'UnfoldLine.tsx' |
+'UpdateRefreshLine.tsx' |
+'UploadLine.tsx' |
+'UpsideDownFill.tsx' |
+'UpsideDownLine.tsx' |
+'UsdDollarLine.tsx' |
+'UserIdentityPersonPersonalFill.tsx' |
+'UserIdentityPersonPersonalLine.tsx' |
+'UtilitiesFill.tsx' |
+'UtilitiesLine.tsx' |
+'VectorImageFill.tsx' |
+'VectorImageLine.tsx' |
+'VibrationFill.tsx' |
+'VibrationLine.tsx' |
+'VideoCallFill.tsx' |
+'VideoCallLine.tsx' |
+'VideoFill.tsx' |
+'VideoLabelFill.tsx' |
+'VideoLabelLine.tsx' |
+'VideoLine.tsx' |
+'VideoMessageFill.tsx' |
+'VideoMessageLine.tsx' |
+'ViewArrayFill.tsx' |
+'ViewArrayLine.tsx' |
+'ViewCarouselFill.tsx' |
+'ViewCarouselLine.tsx' |
+'ViewColumnsViewWeekFill.tsx' |
+'ViewColumnsViewWeekLine.tsx' |
+'ViewDayFill.tsx' |
+'ViewDayLine.tsx' |
+'ViewGridFill.tsx' |
+'ViewGridLine.tsx' |
+'ViewModuleFill.tsx' |
+'ViewModuleLine.tsx' |
+'ViewQuiltFill.tsx' |
+'ViewQuiltLine.tsx' |
+'ViewStreamViewAgendaFill.tsx' |
+'ViewStreamViewAgendaLine.tsx' |
+'VinylAlbumFill.tsx' |
+'VinylAlbumLine.tsx' |
+'VLetterLine.tsx' |
+'VoiceMessageFill.tsx' |
+'VoiceMessageLine.tsx' |
+'VoiceSettingsMicrophoneFill.tsx' |
+'VoiceSettingsMicrophoneLine.tsx' |
+'VolumeDownFill.tsx' |
+'VolumeDownLine.tsx' |
+'VolumeMuteFill.tsx' |
+'VolumeMuteLine.tsx' |
+'VolumeUpFill.tsx' |
+'VolumeUpLine.tsx' |
+'VpnFill.tsx' |
+'VpnLine.tsx' |
+'WalletFill.tsx' |
+'WalletLine.tsx' |
+'WarningReportInDiamondProblemFill.tsx' |
+'WarningReportInDiamondProblemLine.tsx' |
+'WarningReportProblemFill.tsx' |
+'WarningReportProblemLine.tsx' |
+'WatchAnalogFill.tsx' |
+'WatchAnalogLine.tsx' |
+'WaterBedFill.tsx' |
+'WaterBedLine.tsx' |
+'WidgetsFill.tsx' |
+'WidgetsLine.tsx' |
+'WifiAlertSignalWifi1Line.tsx' |
+'WifiAlertSignalWifi2Line.tsx' |
+'WifiAlertSignalWifi3Line.tsx' |
+'WifiAlertSignalWifi4Line.tsx' |
+'WifiLockLine.tsx' |
+'WifiSignal1Line.tsx' |
+'WifiSignal2Line.tsx' |
+'WifiSignal3Line.tsx' |
+'WifiSignal4Line.tsx' |
+'WifiTetheringLine.tsx' |
+'WindowMacosMacintoshFill.tsx' |
+'WindowMacosMacintoshLine.tsx' |
+'WindowWindowsFill.tsx' |
+'WindowWindowsLine.tsx' |
+'WindSpeedHignLine.tsx' |
+'WindSpeedLowLine.tsx' |
+'WindSpeedMediumLine.tsx' |
+'WirelessNfcLine.tsx' |
+'WLetterLine.tsx' |
+'WorkBusinessCenterBagFill.tsx' |
+'WorkBusinessCenterBagLine.tsx' |
+'WorkspaceFill.tsx' |
+'WorkspaceLine.tsx' |
+'WorkTableFill.tsx' |
+'WorkTableLine.tsx' |
+'XLetterLine.tsx' |
+'YLetterLine.tsx' |
+'ZLetterLine.tsx' |
+'ZoomInArrowsLine.tsx' |
+'ZoomInLine.tsx' |
+'ZoomOutArrowsLine.tsx' |
+'ZoomOutLine.tsx';
 
 export default IconName;
