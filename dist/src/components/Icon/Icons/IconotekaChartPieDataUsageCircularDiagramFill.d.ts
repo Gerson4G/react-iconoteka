@@ -1,0 +1,2 @@
+declare function SvgIconotekaChartPieDataUsageCircularDiagramFill(props: any): JSX.Element;
+export default SvgIconotekaChartPieDataUsageCircularDiagramFill;

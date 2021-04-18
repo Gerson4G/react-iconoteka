@@ -1,0 +1,2 @@
+declare function SvgIconotekaDizzySentimentVeryDissatisfiedLine(props: any): JSX.Element;
+export default SvgIconotekaDizzySentimentVeryDissatisfiedLine;

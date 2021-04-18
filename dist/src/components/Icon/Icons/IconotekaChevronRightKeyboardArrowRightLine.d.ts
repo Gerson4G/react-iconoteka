@@ -1,0 +1,2 @@
+declare function SvgIconotekaChevronRightKeyboardArrowRightLine(props: any): JSX.Element;
+export default SvgIconotekaChevronRightKeyboardArrowRightLine;

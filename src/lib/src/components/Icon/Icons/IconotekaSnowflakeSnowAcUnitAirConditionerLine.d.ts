@@ -1,0 +1,2 @@
+declare function SvgIconotekaSnowflakeSnowAcUnitAirConditionerLine(props: any): JSX.Element;
+export default SvgIconotekaSnowflakeSnowAcUnitAirConditionerLine;

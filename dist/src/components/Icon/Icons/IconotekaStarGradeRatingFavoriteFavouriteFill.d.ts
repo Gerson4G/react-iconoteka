@@ -1,0 +1,2 @@
+declare function SvgIconotekaStarGradeRatingFavoriteFavouriteFill(props: any): JSX.Element;
+export default SvgIconotekaStarGradeRatingFavoriteFavouriteFill;

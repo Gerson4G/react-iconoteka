@@ -1,0 +1,2 @@
+declare function SvgIconotekaGamepadWirelessJoystickControllerLine(props: any): JSX.Element;
+export default SvgIconotekaGamepadWirelessJoystickControllerLine;

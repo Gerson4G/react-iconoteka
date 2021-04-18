@@ -1,0 +1,2 @@
+declare function SvgIconotekaHalfCircleLeftMoonLastQuarterFill(props: any): JSX.Element;
+export default SvgIconotekaHalfCircleLeftMoonLastQuarterFill;

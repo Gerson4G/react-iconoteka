@@ -1,0 +1,2 @@
+declare function SvgIconotekaFitnessCenterGymSportDumbbellFill(props: any): JSX.Element;
+export default SvgIconotekaFitnessCenterGymSportDumbbellFill;

@@ -1,0 +1,2 @@
+declare function SvgIconotekaFaceChildChildCareBabysitterFill(props: any): JSX.Element;
+export default SvgIconotekaFaceChildChildCareBabysitterFill;

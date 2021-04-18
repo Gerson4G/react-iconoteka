@@ -1,0 +1,2 @@
+declare function SvgIconotekaBlockNotInterestedProhibitedLine(props: any): JSX.Element;
+export default SvgIconotekaBlockNotInterestedProhibitedLine;

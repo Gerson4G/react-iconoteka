@@ -1,0 +1,2 @@
+declare function SvgIconotekaMicrophoneVoiceSpeechDictationFill(props: any): JSX.Element;
+export default SvgIconotekaMicrophoneVoiceSpeechDictationFill;

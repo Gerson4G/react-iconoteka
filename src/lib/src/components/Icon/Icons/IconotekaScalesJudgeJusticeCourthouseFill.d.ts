@@ -1,0 +1,2 @@
+declare function SvgIconotekaScalesJudgeJusticeCourthouseFill(props: any): JSX.Element;
+export default SvgIconotekaScalesJudgeJusticeCourthouseFill;

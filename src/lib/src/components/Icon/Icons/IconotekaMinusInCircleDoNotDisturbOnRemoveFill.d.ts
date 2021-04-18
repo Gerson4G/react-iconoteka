@@ -1,0 +1,2 @@
+declare function SvgIconotekaMinusInCircleDoNotDisturbOnRemoveFill(props: any): JSX.Element;
+export default SvgIconotekaMinusInCircleDoNotDisturbOnRemoveFill;

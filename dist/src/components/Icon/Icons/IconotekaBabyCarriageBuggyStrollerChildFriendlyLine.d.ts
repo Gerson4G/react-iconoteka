@@ -1,0 +1,2 @@
+declare function SvgIconotekaBabyCarriageBuggyStrollerChildFriendlyLine(props: any): JSX.Element;
+export default SvgIconotekaBabyCarriageBuggyStrollerChildFriendlyLine;

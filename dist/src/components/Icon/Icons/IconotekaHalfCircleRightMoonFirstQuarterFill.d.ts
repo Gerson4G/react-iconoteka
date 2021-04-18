@@ -1,0 +1,2 @@
+declare function SvgIconotekaHalfCircleRightMoonFirstQuarterFill(props: any): JSX.Element;
+export default SvgIconotekaHalfCircleRightMoonFirstQuarterFill;

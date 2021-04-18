@@ -1,0 +1,2 @@
+declare function SvgIconotekaGrimmingMoodGoodSentimentSatisfiedFill(props: any): JSX.Element;
+export default SvgIconotekaGrimmingMoodGoodSentimentSatisfiedFill;

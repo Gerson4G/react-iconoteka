@@ -1,0 +1,2 @@
+declare function SvgIconotekaSmartphoneIphoneAndroidBezellessFill(props: any): JSX.Element;
+export default SvgIconotekaSmartphoneIphoneAndroidBezellessFill;

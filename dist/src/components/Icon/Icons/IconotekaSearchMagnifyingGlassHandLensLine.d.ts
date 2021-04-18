@@ -1,0 +1,2 @@
+declare function SvgIconotekaSearchMagnifyingglassHandLensLine(props: any): JSX.Element;
+export default SvgIconotekaSearchMagnifyingglassHandLensLine;

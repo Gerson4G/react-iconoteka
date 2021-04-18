@@ -1,0 +1,2 @@
+declare function SvgIconotekaInfoItalicMoreDetailsInformationAboutLine(props: any): JSX.Element;
+export default SvgIconotekaInfoItalicMoreDetailsInformationAboutLine;

@@ -1,0 +1,2 @@
+declare function SvgIconotekaCameraDsrlLocalSeePhotoShootLine(props: any): JSX.Element;
+export default SvgIconotekaCameraDsrlLocalSeePhotoShootLine;

@@ -1,0 +1,2 @@
+declare function SvgIconotekaBarbershopHaircutHairdressingSalonLine(props: any): JSX.Element;
+export default SvgIconotekaBarbershopHaircutHairdressingSalonLine;

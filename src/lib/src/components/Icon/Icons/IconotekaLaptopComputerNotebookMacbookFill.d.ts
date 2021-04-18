@@ -1,0 +1,2 @@
+declare function SvgIconotekaLaptopComputerNotebookMacbookFill(props: any): JSX.Element;
+export default SvgIconotekaLaptopComputerNotebookMacbookFill;

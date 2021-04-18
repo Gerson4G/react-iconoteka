@@ -1,0 +1,2 @@
+declare function SvgIconotekaCancelClearCloseCircleDeleteTextHighlightOffLine(props: any): JSX.Element;
+export default SvgIconotekaCancelClearCloseCircleDeleteTextHighlightOffLine;

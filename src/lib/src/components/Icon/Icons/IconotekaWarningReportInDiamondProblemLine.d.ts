@@ -1,0 +1,2 @@
+declare function SvgIconotekaWarningReportInDiamondProblemLine(props: any): JSX.Element;
+export default SvgIconotekaWarningReportInDiamondProblemLine;

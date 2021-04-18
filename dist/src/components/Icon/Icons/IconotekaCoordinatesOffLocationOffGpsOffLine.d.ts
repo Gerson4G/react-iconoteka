@@ -1,0 +1,2 @@
+declare function SvgIconotekaCoordinatesOffLocationOffGpsOffLine(props: any): JSX.Element;
+export default SvgIconotekaCoordinatesOffLocationOffGpsOffLine;

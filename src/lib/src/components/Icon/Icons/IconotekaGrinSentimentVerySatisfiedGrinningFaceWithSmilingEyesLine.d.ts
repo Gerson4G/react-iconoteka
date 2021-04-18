@@ -1,0 +1,2 @@
+declare function SvgIconotekaGrinSentimentVerySatisfiedGrinningFaceWithSmilingEyesLine(props: any): JSX.Element;
+export default SvgIconotekaGrinSentimentVerySatisfiedGrinningFaceWithSmilingEyesLine;

@@ -1,0 +1,2 @@
+declare function SvgIconotekaMyLocationCoordinatesLocationOnGpsFixedLine(props: any): JSX.Element;
+export default SvgIconotekaMyLocationCoordinatesLocationOnGpsFixedLine;

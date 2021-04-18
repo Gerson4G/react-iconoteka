@@ -1,0 +1,2 @@
+declare function SvgIconotekaGifGraphicsInterchangeFormatFill(props: any): JSX.Element;
+export default SvgIconotekaGifGraphicsInterchangeFormatFill;

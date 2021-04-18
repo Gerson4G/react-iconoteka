@@ -1,0 +1,2 @@
+declare function SvgIconotekaHospitalRedCrossHealthDoctorLine(props: any): JSX.Element;
+export default SvgIconotekaHospitalRedCrossHealthDoctorLine;

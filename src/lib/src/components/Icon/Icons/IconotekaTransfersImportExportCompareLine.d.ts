@@ -1,0 +1,2 @@
+declare function SvgIconotekaTransfersImportExportCompareLine(props: any): JSX.Element;
+export default SvgIconotekaTransfersImportExportCompareLine;

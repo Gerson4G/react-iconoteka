@@ -1,0 +1,2 @@
+declare function SvgIconotekaTextAlignLeftViewHeadlineListLine(props: any): JSX.Element;
+export default SvgIconotekaTextAlignLeftViewHeadlineListLine;

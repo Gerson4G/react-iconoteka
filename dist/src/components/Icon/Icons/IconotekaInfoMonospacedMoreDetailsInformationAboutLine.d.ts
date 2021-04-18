@@ -1,0 +1,2 @@
+declare function SvgIconotekaInfoMonospacedMoreDetailsInformationAboutLine(props: any): JSX.Element;
+export default SvgIconotekaInfoMonospacedMoreDetailsInformationAboutLine;

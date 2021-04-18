@@ -1,0 +1,2 @@
+declare function SvgIconotekaCellPhoneWithKeyboardOldPhoneFill(props: any): JSX.Element;
+export default SvgIconotekaCellPhoneWithKeyboardOldPhoneFill;

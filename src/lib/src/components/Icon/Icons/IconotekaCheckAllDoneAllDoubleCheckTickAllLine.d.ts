@@ -1,0 +1,2 @@
+declare function SvgIconotekaCheckAllDoneAllDoubleCheckTickAllLine(props: any): JSX.Element;
+export default SvgIconotekaCheckAllDoneAllDoubleCheckTickAllLine;

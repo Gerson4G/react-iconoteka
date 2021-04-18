@@ -1,0 +1,2 @@
+declare function SvgIconotekaMoonWaningCrescentRedCrescentFill(props: any): JSX.Element;
+export default SvgIconotekaMoonWaningCrescentRedCrescentFill;

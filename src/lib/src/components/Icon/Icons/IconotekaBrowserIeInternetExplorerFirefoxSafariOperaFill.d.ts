@@ -1,0 +1,2 @@
+declare function SvgIconotekaBrowserIeInternetExplorerFirefoxSafariOperaFill(props: any): JSX.Element;
+export default SvgIconotekaBrowserIeInternetExplorerFirefoxSafariOperaFill;

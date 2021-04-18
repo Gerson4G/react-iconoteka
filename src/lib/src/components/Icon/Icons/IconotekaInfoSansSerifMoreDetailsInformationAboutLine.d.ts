@@ -1,0 +1,2 @@
+declare function SvgIconotekaInfoSansSerifMoreDetailsInformationAboutLine(props: any): JSX.Element;
+export default SvgIconotekaInfoSansSerifMoreDetailsInformationAboutLine;

@@ -1,0 +1,2 @@
+declare function SvgIconotekaPersonalCalendarContactCalendarLine(props: any): JSX.Element;
+export default SvgIconotekaPersonalCalendarContactCalendarLine;
