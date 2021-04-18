@@ -24,6 +24,6 @@ Icon.args = {
   className: '',
   stroke: 'regular',
   type: 'line',
-  height: 20,
-  width: 20,
+  height: 40,
+  width: 40,
 };
