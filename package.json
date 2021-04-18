@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "license" : "MIT",
   "description": "A React wrapper to be able to use Iconoteka (https://iconoteka.com/) icons easily",
+  "keywords": ["iconoteka", "react", "react-iconoteka", "icons", "wrapper"],
+  "author": "Gerson Goatache <gersongoatache@gmail.com> (https://github.com/Gerson4G)",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "private": false,
