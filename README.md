@@ -23,6 +23,10 @@ It has the props types defined like this:
   color?: string;
 ```
 
+Use the `svgr` script from the `package.json` to create the React components from the SVG files in `assets/icons`. 
+It uses the template already defined within `components/Icon`.
+After create the react components run the `get-names` script from `package.json` to strip the Iconoteka from the created components and create all the simple icon names type.
+
 TODO:
 [X] Reduce icons files to use only simple icon (Fill or Line) nad set the stroke value by SVG values
 [ ] Add default imports for Different icon if user prefer to just import the Icon directly
