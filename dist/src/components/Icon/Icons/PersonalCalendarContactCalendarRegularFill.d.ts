@@ -1,2 +1,0 @@
-declare function SvgPersonalCalendarContactCalendarRegularFill(props: any): JSX.Element;
-export default SvgPersonalCalendarContactCalendarRegularFill;

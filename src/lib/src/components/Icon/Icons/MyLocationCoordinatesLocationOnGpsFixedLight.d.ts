@@ -1,2 +1,0 @@
-declare function SvgMyLocationCoordinatesLocationOnGpsFixedLight(props: any): JSX.Element;
-export default SvgMyLocationCoordinatesLocationOnGpsFixedLight;

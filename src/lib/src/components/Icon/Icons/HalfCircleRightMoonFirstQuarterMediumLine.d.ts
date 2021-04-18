@@ -1,2 +1,0 @@
-declare function SvgHalfCircleRightMoonFirstQuarterMediumLine(props: any): JSX.Element;
-export default SvgHalfCircleRightMoonFirstQuarterMediumLine;

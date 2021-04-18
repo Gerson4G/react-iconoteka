@@ -1,2 +1,0 @@
-declare function SvgChartPieDataUsageCircularDiagramMediumLine(props: any): JSX.Element;
-export default SvgChartPieDataUsageCircularDiagramMediumLine;

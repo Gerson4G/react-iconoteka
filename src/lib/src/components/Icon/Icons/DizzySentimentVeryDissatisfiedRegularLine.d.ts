@@ -1,2 +1,0 @@
-declare function SvgDizzySentimentVeryDissatisfiedRegularLine(props: any): JSX.Element;
-export default SvgDizzySentimentVeryDissatisfiedRegularLine;

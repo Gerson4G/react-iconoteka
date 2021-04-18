@@ -1,2 +1,0 @@
-declare function SvgInfoItalicMoreDetailsInformationAboutBoldFill(props: any): JSX.Element;
-export default SvgInfoItalicMoreDetailsInformationAboutBoldFill;

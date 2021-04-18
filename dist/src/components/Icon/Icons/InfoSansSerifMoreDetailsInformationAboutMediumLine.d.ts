@@ -1,2 +1,0 @@
-declare function SvgInfoSansSerifMoreDetailsInformationAboutMediumLine(props: any): JSX.Element;
-export default SvgInfoSansSerifMoreDetailsInformationAboutMediumLine;

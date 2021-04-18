@@ -1,2 +1,0 @@
-declare function SvgGamepadWirelessJoystickControllerLightFill(props: any): JSX.Element;
-export default SvgGamepadWirelessJoystickControllerLightFill;

@@ -1,2 +1,0 @@
-declare function SvgPersonalCalendarContactCalendarMediumLine(props: any): JSX.Element;
-export default SvgPersonalCalendarContactCalendarMediumLine;

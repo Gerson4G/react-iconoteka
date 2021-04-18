@@ -1,2 +1,0 @@
-declare function SvgCancelClearCloseCircleDeleteTextHighlightOffBoldLine(props: any): JSX.Element;
-export default SvgCancelClearCloseCircleDeleteTextHighlightOffBoldLine;

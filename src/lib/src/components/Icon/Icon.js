@@ -43,20 +43,24 @@ var __rest = (this && this.__rest) || function (s, e) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 var react_1 = require("react");
-var iconNames_1 = require("./iconNames");
 function Icon(_a) {
-    var name = _a.name, stroke = _a.stroke, type = _a.type, color = _a.color, props = __rest(_a, ["name", "stroke", "type", "color"]);
-    var iconName = "" + name + stroke[0].toUpperCase() + stroke.slice(1);
-    if (!iconNames_1.namesArray.includes(iconName)) {
-        iconName += "" + type[0].toUpperCase() + (type === null || type === void 0 ? void 0 : type.slice(1));
-    }
-    console.log(iconName);
+    var name = _a.name, stroke = _a.stroke, type = _a.type, color = _a.color, fillColor = _a.fillColor, borderColor = _a.borderColor, props = __rest(_a, ["name", "stroke", "type", "color", "fillColor", "borderColor"]);
+    var iconName = "Iconoteka" + name + type[0].toUpperCase() + type.slice(1);
     var Component = react_1.lazy(function () { return Promise.resolve().then(function () { return __importStar(require("./Icons")); }).then(function (module) { return ({ default: module[iconName] }); }); });
-    return (jsx_runtime_1.jsx(react_1.Suspense, __assign({ fallback: jsx_runtime_1.jsx(jsx_runtime_1.Fragment, {}, void 0) }, { children: jsx_runtime_1.jsx(Component, __assign({ width: 24, height: 24, fill: color }, props), void 0) }), void 0));
+    var strokeWidth = {
+        lighter: 0.5,
+        light: 0.8,
+        regular: 1.2,
+        medium: 1.5,
+        bold: 1.8,
+        bolder: 2,
+    };
+    return (jsx_runtime_1.jsx(react_1.Suspense, __assign({ fallback: jsx_runtime_1.jsx(jsx_runtime_1.Fragment, {}, void 0) }, { children: jsx_runtime_1.jsx(Component, __assign({ width: 24, height: 24, fill: fillColor !== null && fillColor !== void 0 ? fillColor : color, stroke: borderColor !== null && borderColor !== void 0 ? borderColor : color, strokeWidth: strokeWidth[stroke] }, props), void 0) }), void 0));
 }
 Icon.defaultProps = {
     className: '',
     stroke: 'regular',
     type: 'line',
+    color: 'black',
 };
 exports.default = Icon;

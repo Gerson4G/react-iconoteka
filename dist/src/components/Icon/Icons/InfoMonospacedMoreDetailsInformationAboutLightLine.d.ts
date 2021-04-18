@@ -1,2 +1,0 @@
-declare function SvgInfoMonospacedMoreDetailsInformationAboutLightLine(props: any): JSX.Element;
-export default SvgInfoMonospacedMoreDetailsInformationAboutLightLine;

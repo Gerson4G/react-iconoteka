@@ -1,2 +1,0 @@
-declare function SvgInfoMonospacedMoreDetailsInformationAboutRegularFill(props: any): JSX.Element;
-export default SvgInfoMonospacedMoreDetailsInformationAboutRegularFill;

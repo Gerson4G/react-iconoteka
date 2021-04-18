@@ -1,2 +1,0 @@
-declare function SvgMyLocationCoordinatesLocationOnGpsFixedMedium(props: any): JSX.Element;
-export default SvgMyLocationCoordinatesLocationOnGpsFixedMedium;

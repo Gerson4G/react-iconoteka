@@ -1,2 +1,0 @@
-declare function SvgSmartphoneIphoneAndroidBezellessMediumLine(props: any): JSX.Element;
-export default SvgSmartphoneIphoneAndroidBezellessMediumLine;

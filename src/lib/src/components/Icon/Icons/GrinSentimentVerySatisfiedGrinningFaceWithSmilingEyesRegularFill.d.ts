@@ -1,2 +1,0 @@
-declare function SvgGrinSentimentVerySatisfiedGrinningFaceWithSmilingEyesRegularFill(props: any): JSX.Element;
-export default SvgGrinSentimentVerySatisfiedGrinningFaceWithSmilingEyesRegularFill;

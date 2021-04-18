@@ -1,2 +1,0 @@
-declare function SvgFrowningDissatisfiedSentimentVeryDissatisfiedMediumLine(props: any): JSX.Element;
-export default SvgFrowningDissatisfiedSentimentVeryDissatisfiedMediumLine;

@@ -1,2 +1,0 @@
-declare function SvgHeadsetWithMicrophoneHeadphonesVoiceChatRegularLine(props: any): JSX.Element;
-export default SvgHeadsetWithMicrophoneHeadphonesVoiceChatRegularLine;

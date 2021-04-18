@@ -1,2 +1,0 @@
-declare function SvgMinusInCircleDoNotDisturbOnRemoveBoldFill(props: any): JSX.Element;
-export default SvgMinusInCircleDoNotDisturbOnRemoveBoldFill;

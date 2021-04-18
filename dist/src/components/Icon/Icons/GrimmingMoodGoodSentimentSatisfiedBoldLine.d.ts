@@ -1,2 +1,0 @@
-declare function SvgGrimmingMoodGoodSentimentSatisfiedBoldLine(props: any): JSX.Element;
-export default SvgGrimmingMoodGoodSentimentSatisfiedBoldLine;

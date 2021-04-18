@@ -1,2 +1,0 @@
-declare function SvgInfoItalicMoreDetailsInformationAboutLightLine(props: any): JSX.Element;
-export default SvgInfoItalicMoreDetailsInformationAboutLightLine;

@@ -1,2 +1,0 @@
-declare function SvgBarbershopHaircutHairdressingSalonRegular(props: any): JSX.Element;
-export default SvgBarbershopHaircutHairdressingSalonRegular;

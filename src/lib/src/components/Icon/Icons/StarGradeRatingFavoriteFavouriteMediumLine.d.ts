@@ -1,2 +1,0 @@
-declare function SvgStarGradeRatingFavoriteFavouriteMediumLine(props: any): JSX.Element;
-export default SvgStarGradeRatingFavoriteFavouriteMediumLine;

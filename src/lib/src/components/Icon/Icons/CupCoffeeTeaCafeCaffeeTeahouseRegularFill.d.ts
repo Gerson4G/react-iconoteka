@@ -1,2 +1,0 @@
-declare function SvgCupCoffeeTeaCafeCaffeeTeahouseRegularFill(props: any): JSX.Element;
-export default SvgCupCoffeeTeaCafeCaffeeTeahouseRegularFill;

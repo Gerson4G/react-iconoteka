@@ -1,2 +1,0 @@
-declare function SvgChartBarInvestmentEqualizerGraphicEqMedium(props: any): JSX.Element;
-export default SvgChartBarInvestmentEqualizerGraphicEqMedium;

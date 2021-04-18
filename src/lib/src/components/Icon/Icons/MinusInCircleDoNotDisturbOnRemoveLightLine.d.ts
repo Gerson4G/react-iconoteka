@@ -1,2 +1,0 @@
-declare function SvgMinusInCircleDoNotDisturbOnRemoveLightLine(props: any): JSX.Element;
-export default SvgMinusInCircleDoNotDisturbOnRemoveLightLine;
