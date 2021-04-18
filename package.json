@@ -1,6 +1,10 @@
 {
   "name": "react-iconoteka",
-  "version": "0.1.8",
+  "version": "1.0.0",
+  "license" : "MIT",
+  "description": "A React wrapper to be able to use Iconoteka (https://iconoteka.com/) icons easily",
+  "keywords": ["iconoteka", "react", "react-iconoteka", "icons", "wrapper"],
+  "author": "Gerson Goatache <gersongoatache@gmail.com> (https://github.com/Gerson4G)",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "private": false,
@@ -24,6 +28,7 @@
     "build:dist": "npm run clean:dist && tsc -b tsconfig-lib.json && npm run postbuild:dist",
     "clean:dist": "rm -rf dist && rm -rf src/lib",
     "postbuild:dist": "node ./postbuild.js",
+    "get-names": "./getIconNames.sh",
     "svgr": "node_modules/@svgr/cli/bin/svgr --template src/components/Icon/svgr.template.js --ext tsx -d src/components/Icon/Icons src/assets/icons"
   },
   "eslintConfig": {

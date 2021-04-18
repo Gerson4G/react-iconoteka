@@ -11,6 +11,9 @@ export default {
   decorators: [withDesign],
   argTypes: {
     color: { control: 'color' },
+    borderColor: { control: 'color' },
+    fillColor: { control: 'color' },
+    strokeWidth: { control: 'text' },
   },
 } as Meta;
 
@@ -21,6 +24,6 @@ Icon.args = {
   className: '',
   stroke: 'regular',
   type: 'line',
-  height: 20,
-  width: 20,
+  height: 40,
+  width: 40,
 };

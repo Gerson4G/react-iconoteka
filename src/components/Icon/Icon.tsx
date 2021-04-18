@@ -1,17 +1,26 @@
 import React, { Suspense, lazy } from 'react';
 import { IconProps } from './types';
-import { namesArray } from './iconNames';
 
-function Icon({ name, stroke, type, color, ...props }: IconProps): JSX.Element {
-  let iconName = `${name}${stroke[0].toUpperCase()}${stroke.slice(1)}`;
-  if (!namesArray.includes(iconName)) {
-    iconName += `${type[0].toUpperCase()}${type?.slice(1)}`;
-  }
-  console.log(iconName)
+function Icon({ name, stroke, type, color, fillColor, borderColor, ...props }: IconProps): JSX.Element {
+  let iconName = `Iconoteka${name}${type[0].toUpperCase()}${type.slice(1)}`;
   const Component = lazy(() => import(`./Icons`).then((module: any) => ({ default: module[iconName] })));
+  const strokeWidth = {
+    lighter: 0.5,
+    light: 0.8,
+    regular: 1.2,
+    medium: 1.5,
+    bold: 1.8,
+    bolder: 2,
+  };
   return (
     <Suspense fallback={<></>}>
-      <Component width={24} height={24} fill={color} {...props} />
+      <Component 
+        width={24}
+        height={24}
+        fill={fillColor ?? color}
+        stroke={borderColor ?? color}
+        strokeWidth={strokeWidth[stroke]}
+        {...props} />
     </Suspense>
   );
 }
@@ -20,6 +29,7 @@ Icon.defaultProps = {
   className: '',
   stroke: 'regular',
   type: 'line',
+  color: 'black',
 };
 
 export default Icon;
