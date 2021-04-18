@@ -28,6 +28,7 @@
     "build:dist": "npm run clean:dist && tsc -b tsconfig-lib.json && npm run postbuild:dist",
     "clean:dist": "rm -rf dist && rm -rf src/lib",
     "postbuild:dist": "node ./postbuild.js",
+    "get-names": "for name in * ; do echo '${name/Iconoteka/}' ; done > src/components/Icon/IconName.ts",
     "svgr": "node_modules/@svgr/cli/bin/svgr --template src/components/Icon/svgr.template.js --ext tsx -d src/components/Icon/Icons src/assets/icons"
   },
   "eslintConfig": {
