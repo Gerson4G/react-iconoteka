@@ -1,6 +1,6 @@
 {
   "name": "react-iconoteka",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license" : "MIT",
   "description": "A React wrapper to be able to use Iconoteka (https://iconoteka.com/) icons easily",
   "keywords": ["iconoteka", "react", "react-iconoteka", "icons", "wrapper"],
