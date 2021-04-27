@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaFullscreenLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16 4v.5h5.5V10h.5V4zM2 10h.5V4.5H8V4H2zm.5 4H2v6h6v-.5H2.5zm19 5.5H16v.5h6v-6h-.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16 4v1h5v5h1V4zM2 10h1V5h5V4H2zm19 9h-5v1h6v-6h-1zM3 14H2v6h6v-1H3z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaFullscreenLine;

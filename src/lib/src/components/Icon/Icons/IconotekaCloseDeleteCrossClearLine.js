@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaCloseDeleteCrossClearLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20.18 4.18l-.36-.36L12 11.65 4.18 3.82l-.36.36L11.65 12l-7.83 7.82.36.36L12 12.35l7.82 7.83.36-.36L12.35 12l7.83-7.82z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20.35 4.35l-.7-.7L12 11.29 4.35 3.65l-.7.7L11.29 12l-7.64 7.65.7.7L12 12.71l7.65 7.64.7-.7L12.71 12l7.64-7.65z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaCloseDeleteCrossClearLine;

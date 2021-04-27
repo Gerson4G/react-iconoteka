@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaMergeLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19.83 20.48l-7.58-7.58V2.96l3.19 3.18.35-.35L12 2 8.21 5.79l.35.35 3.19-3.18v9.94l-7.58 7.58.35.35L12 13.35l7.48 7.48.35-.35z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20.01 20.3l-7.51-7.51V3.91l3.29 3.3.71-.71L12 2 7.5 6.5l.71.71 3.29-3.3v8.88L3.99 20.3l.71.71 7.3-7.3 7.3 7.3.71-.71z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaMergeLine;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaTrendingFlatLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18.21 8.21l-.35.35 3.18 3.19H2v.5h19.04l-3.18 3.19.35.35L22 12l-3.79-3.79z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17.5 7.5l-.71.71 3.3 3.29H2v1h18.09l-3.3 3.29.71.71L22 12l-4.5-4.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaTrendingFlatLine;

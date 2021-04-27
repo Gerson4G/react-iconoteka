@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaAlignLeftLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M21 11.75H8l2.6-2.65-.35-.35L7 12l3.25 3.25.35-.35L8 12.25h13zM3.75 21h.5V3h-.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M21 11.5H8.91l2.41-2.41-.7-.71L7 12l3.62 3.62.7-.71-2.41-2.41H21zM3.5 21h1V3h-1z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaAlignLeftLine;

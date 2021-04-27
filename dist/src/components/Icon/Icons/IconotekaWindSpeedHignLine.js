@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaWindSpeedHignLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17 5.75A3.26 3.26 0 0013.75 9h.5A2.75 2.75 0 1117 11.75H6v.5h11a3.25 3.25 0 000-6.5zM11.25 6A2.25 2.25 0 009 3.75H8v.5h1a1.75 1.75 0 010 3.5H4v.5h5A2.25 2.25 0 0011.25 6zM14 15.75H4v.5h10a1.75 1.75 0 010 3.5h-1v.5h1a2.25 2.25 0 000-4.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.5 6A3.5 3.5 0 0013 9.5v.5h1v-.5a2.5 2.5 0 112.5 2.5H6v1h10.5a3.5 3.5 0 000-7zm-5.5.5A2.5 2.5 0 008.5 4H7v1h1.5a1.5 1.5 0 010 3H4v1h4.5A2.5 2.5 0 0011 6.5zm2.5 9.5H4v1h9.5a1.5 1.5 0 010 3H12v1h1.5a2.5 2.5 0 000-5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaWindSpeedHignLine;

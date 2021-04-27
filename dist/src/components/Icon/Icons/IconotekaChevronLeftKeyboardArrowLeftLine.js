@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaChevronLeftKeyboardArrowLeftLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M14.82 19.99L6.83 12l7.99-7.99.35.35L7.54 12l7.63 7.64-.35.35z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M14.82 20.34L6.47 12l8.35-8.34.71.7L7.89 12l7.64 7.64-.71.7z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaChevronLeftKeyboardArrowLeftLine;

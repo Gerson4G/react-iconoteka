@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSortLowToHighFilterListLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M5 5v.5h14V5zm0 14h4v-.5H5zm0-6.75h9v-.5H5z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M5 5v1h14V5zm0 14h4v-1H5zm0-6.5h9v-1H5z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSortLowToHighFilterListLine;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaLineSpacingLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13 19h6v-.5h-6zm0-4.5h6V14h-6zm0-4.5h6v-.5h-6zm0-5v.5h6V5zM9.45 7.09l.36-.35-2.43-2.43-2.44 2.43.36.35 1.82-1.82v13.46L5.3 16.91l-.36.35 2.44 2.43 2.43-2.43-.36-.35-1.83 1.82V5.27z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13 19h6v-1h-6zm0-4.33h6v-1h-6zm0-4.34h6v-1h-6zM13 5v1h6V5zM9.35 7.69l.7-.7-2.67-2.68L4.7 7l.7.7 1.48-1.48v11.56L5.4 16.31l-.7.7 2.68 2.68L10.05 17l-.7-.7-1.47 1.48V6.22z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaLineSpacingLine;

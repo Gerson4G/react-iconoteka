@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaWindSpeedMediumLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17 4.75A3.26 3.26 0 0013.75 8h.5A2.75 2.75 0 1117 10.75H4v.5h13a3.25 3.25 0 000-6.5zm-3 10H6v.5h8a1.75 1.75 0 010 3.5h-1v.5h1a2.25 2.25 0 000-4.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.5 5A3.5 3.5 0 0013 8.5V9h1v-.5a2.5 2.5 0 112.5 2.5H4v1h12.5a3.5 3.5 0 000-7zm-3 10H6v1h7.5a1.5 1.5 0 010 3H12v1h1.5a2.5 2.5 0 000-5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaWindSpeedMediumLine;

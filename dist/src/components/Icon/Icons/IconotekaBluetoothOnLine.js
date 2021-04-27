@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaBluetoothOnLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M22.35 9.45l-4 4-2.56-2.55-.35.35 2.91 2.91 4.3-4.3zm-15.86-8v10.08L1.14 7.91l-.28.41L6.29 12 .86 15.68l.28.41 5.35-3.62v10.12l8.17-5.53L7.18 12l7.48-5.06zm7.28 15.65L7 21.65v-9.18zM7 11.53V2.35l6.78 4.59z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M22.17 9.28l-3.77 3.77-2.4-2.38-.71.71 3.09 3.08 4.5-4.46zM6.55 1.48v9.58L1.41 7.58l-.56.83L6.16 12 .85 15.59l.56.83 5.14-3.48v9.58L15 16.79 7.94 12 15 7.21zm6.69 15.31l-5.69 3.85v-7.7zm-5.69-5.73v-7.7l5.69 3.85z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaBluetoothOnLine;

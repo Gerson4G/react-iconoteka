@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaBorderStyleLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.88 3h-.5v.5h.5zm2.18 0h-.5v.5h.5zm8.75 0h-.5v.5h.5zm-2.19 0h-.5v.5h.5zm-2.18 0h-.5v.5h.5zM5.69 3h-.5v.5h.5zM3.5 16.12H3v.5h.5zm0-2.18H3v.5h.5zm0-8.75H3v.5h.5zm0 2.19H3v.5h.5zm0 2.18H3v.5h.5zm0 8.75H3v.5h.5zM3.5 3H3v.5h.5zm0 8.75H3v.5h.5zM12.25 3h-.5v.5h.5zm8.25 0v17.5H3v.5h18V3zm-5.42 7.47a.76.76 0 000-1.05l-.5-.5a.73.73 0 00-.52-.21.77.77 0 00-.53.21L9 13.46V15h1.54zm-1.19-1.19a.24.24 0 01.17-.07.25.25 0 01.17.07l.49.49a.25.25 0 01.07.17.24.24 0 01-.07.17l-.65.65-.83-.83zM9.5 14.5v-.83l3.39-3.39.83.83-3.39 3.39z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9.67 3h-1v1h1zm8.5 0h-1v1h1zM6.83 3h-1v1h1zm8.5 0h-1v1h1zM4 11.5H3v1h1zm0 2.83H3v1h1zm0-8.5H3v1h1zm0 11.34H3v1h1zm0-8.5H3v1h1zM4 3H3v1h1zm16 0v17H3v1h18V3zm-7.5 0h-1v1h1zM9 15h1.92l4.23-4.24a.89.89 0 000-1.26l-.65-.65a.87.87 0 00-1.26 0L9 13.08zm4.8-5.59a.1.1 0 01.14 0l.65.65a.12.12 0 010 .14l-.56.56-.79-.76zm-4 4l2.88-2.87.78.78-2.87 2.88H9.8z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaBorderStyleLine;

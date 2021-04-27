@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaArrowUpLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3.34 10.41l.35.35 8.06-8.06V23h.5V2.7l8.06 8.06.35-.35L12 1.75l-8.66 8.66z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3.16 10.23l.71.71 7.63-7.63V23h1V3.31l7.63 7.63.71-.71L12 1.39l-8.84 8.84z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaArrowUpLine;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaRedoLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M22.5 9.64v4.5l-3.29-3.29a10.51 10.51 0 00-14.85 0 10.63 10.63 0 00-2.25 3.34q-.16.41-.3.81h.54c.07-.21.14-.41.22-.61a10 10 0 0116.29-3.18l3.29 3.29h-4.51v.5H23V9.64z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M22 8.64v4.65l-2.61-2.61a10.76 10.76 0 00-15.21 0 10.91 10.91 0 00-2.3 3.41c-.13.3-.23.6-.33.91h1.06c.06-.17.12-.35.19-.52a9.76 9.76 0 0115.88-3.1L21.3 14h-4.66v1H23V8.64z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaRedoLine;

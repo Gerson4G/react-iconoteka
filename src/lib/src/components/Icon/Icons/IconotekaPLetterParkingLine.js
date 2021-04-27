@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaPLetterParkingLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12.3 13.41H7.25V2.5h5.05a5.46 5.46 0 010 10.91zM12.3 2H6.75v20h.5v-8.09h5.05A6 6 0 0012.3 2z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12.36 13.27H7.5V3h4.86a5.14 5.14 0 110 10.27zm0-11.27H6.5v20h1v-7.73h4.86a6.14 6.14 0 100-12.27z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaPLetterParkingLine;

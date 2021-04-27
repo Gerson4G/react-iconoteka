@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaChevronSmallDownDropDownExpandMoreLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 15.47l-4.6-4.59.36-.35L12 14.77l4.24-4.24.36.35-4.6 4.59z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 15.83l-4.95-4.95.71-.71L12 14.41l4.24-4.24.71.71L12 15.83z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaChevronSmallDownDropDownExpandMoreLine;

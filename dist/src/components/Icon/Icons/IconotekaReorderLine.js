@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaReorderLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M21.08 16.21l-.5-.5a.74.74 0 00-.52-.22.79.79 0 00-.53.22L15 20.25v1.54h1.54l4.54-4.54a.75.75 0 000-1.04zm-4.75 5.08h-.83v-.84l3.39-3.38.83.83zm4.39-4.39l-.65.65-.83-.84.65-.64a.22.22 0 01.17-.08.23.23 0 01.17.08l.49.49a.24.24 0 010 .34zM19 5H5v.5h14zm0 6.75H5v.5h14zM5 19h8v-.5H5z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M21.15 16.81l-.65-.65a.87.87 0 00-1.26 0L15 20.39v1.92h1.92l4.23-4.24a.89.89 0 000-1.26zm-4.56 4.7h-.79v-.79l2.88-2.87.78.78zm4-4l-.56.56-.79-.79.56-.56a.1.1 0 01.14 0l.65.65a.12.12 0 010 .14zM19 5H5v1h14zM5 19h8v-1H5zm14-7.5H5v1h14z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaReorderLine;

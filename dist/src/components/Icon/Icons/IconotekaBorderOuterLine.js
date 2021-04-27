@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaBorderOuterLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.88 11.75h-.5v.5h.5zm2.18 0h-.5v.5h.5zm8.75 0h-.5v.5h.5zm-2.19 0h-.5v.5h.5zm-2.18 0h-.5v.5h.5zm-8.75 0h-.5v.5h.5zM3 3v18h18V3zm17.5 17.5h-17v-17h17zm-8.25-4.38h-.5v.5h.5zm0-2.18h-.5v.5h.5zm0-8.75h-.5v.5h.5zm0 2.19h-.5v.5h.5zm0 2.18h-.5v.5h.5zm0 8.75h-.5v.5h.5zm0-6.56h-.5v.5h.5z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9.67 11.5h-1v1h1zm8.5 0h-1v1h1zm-11.34 0h-1v1h1zm8.5 0h-1v1h1zM3 3v18h18V3zm17 17H4V4h16zm-7.5-8.5h-1v1h1zm0 2.83h-1v1h1zm0-8.5h-1v1h1zm0 11.34h-1v1h1zm0-8.5h-1v1h1z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaBorderOuterLine;

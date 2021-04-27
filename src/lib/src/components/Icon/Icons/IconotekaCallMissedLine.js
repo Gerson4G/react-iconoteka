@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaCallMissedLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M22.18 9.18l-.36-.36L13 17.65 3.85 8.5h4.51V8H3v5.36h.5V8.85l9.5 9.5 9.18-9.17z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M22.35 9.35l-.7-.7L13 17.29 4.71 9h4.65V8H3v6.36h1V9.71l9 9 9.35-9.36z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaCallMissedLine;

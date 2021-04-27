@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaOLetterLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2.15a5.76 5.76 0 015.75 5.75v8.2a5.75 5.75 0 01-11.5 0V7.9A5.76 5.76 0 0112 2.15m0-.5A6.25 6.25 0 005.75 7.9v8.2a6.25 6.25 0 0012.5 0V7.9A6.25 6.25 0 0012 1.65z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2.65a5.51 5.51 0 015.5 5.5v7.7a5.5 5.5 0 01-11 0v-7.7a5.51 5.51 0 015.5-5.5m0-1a6.5 6.5 0 00-6.5 6.5v7.7a6.5 6.5 0 1013 0v-7.7a6.5 6.5 0 00-6.5-6.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaOLetterLine;

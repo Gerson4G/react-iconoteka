@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaBorderAllLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 3v18h18V3zm.5.5h8.25v8.25H3.5zm0 17v-8.25h8.25v8.25zm17 0h-8.25v-8.25h8.25zm-8.25-8.75V3.5h8.25v8.25z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 3v18h18V3zm1 1h7.5v7.5H4zm0 16v-7.5h7.5V20zm16 0h-7.5v-7.5H20zm-7.5-8.5V4H20v7.5z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaBorderAllLine;

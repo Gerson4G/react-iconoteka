@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaArrowThinLeftBackspaceLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.93 6.52l-.35-.35L1.75 12l5.83 5.83.35-.35-5.23-5.23H23v-.5H2.7l5.23-5.23z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M8.11 6.7l-.71-.71L1.39 12l6.01 6.01.71-.71-4.8-4.8H23v-1H3.31l4.8-4.8z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaArrowThinLeftBackspaceLine;

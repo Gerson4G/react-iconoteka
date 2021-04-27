@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaZoomOutLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.83 15.47a8 8 0 10-.36.36l5.85 5.85.36-.36zM10 17.5a7.5 7.5 0 117.5-7.5 7.5 7.5 0 01-7.5 7.5zm-3.45-7.25h6.9v-.5h-6.9z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16 15.29a8 8 0 10-.7.7l5.86 5.86.7-.7zM10 17a7 7 0 117-7 7 7 0 01-7 7zm-3.45-6.5h6.9v-1h-6.9z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaZoomOutLine;

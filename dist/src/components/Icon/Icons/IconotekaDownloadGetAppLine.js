@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaDownloadGetAppLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17.18 10.25l-.36-.35-4.57 4.57V2h-.5v12.47L7.18 9.9l-.36.35L12 15.43zM3 19.75v.5h18v-.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17.35 10.43l-.7-.71-4.15 4.15V2h-1v11.87L7.35 9.72l-.7.71L12 15.79zM3 19.5v1h18v-1z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaDownloadGetAppLine;

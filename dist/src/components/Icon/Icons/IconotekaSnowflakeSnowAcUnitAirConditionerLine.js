@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSnowflakeSnowAcUnitAirConditionerLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M22 11.72h-5.84l4-4-.32-.32-4.32 4.32h-3.24V8.48l4.32-4.32-.32-.32-4 4V2h-.56v5.84l-4-4-.32.32 4.32 4.32v3.24H8.48L4.16 7.4l-.32.32 4 4H2v.56h5.84l-4 4 .32.32 4.32-4.32h3.24v3.24L7.4 19.84l.32.32 4-4V22h.56v-5.84l4 4 .32-.32-4.32-4.32v-3.24h3.24l4.32 4.32.32-.32-4-4H22v-.56z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M22 11.48h-5.31l3.62-3.61-.62-.61-4.22 4.22h-2.95V8.53l4.22-4.22-.61-.62-3.61 3.62V2h-1.04v5.31L7.87 3.69l-.61.62 4.22 4.22v2.95H8.53L4.31 7.26l-.62.61 3.62 3.61H2v1.04h5.31l-3.62 3.61.62.61 4.22-4.22h2.95v2.95l-4.22 4.22.61.62 3.61-3.62V22h1.04v-5.31l3.61 3.62.61-.62-4.22-4.22v-2.95h2.95l4.22 4.22.62-.61-3.62-3.61H22v-1.04z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSnowflakeSnowAcUnitAirConditionerLine;
