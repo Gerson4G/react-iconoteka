@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaAlarmAddLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 4a9 9 0 109 9 9 9 0 00-9-9zm0 17.5a8.5 8.5 0 118.5-8.5 8.51 8.51 0 01-8.5 8.5zM16.44.8l-.17.47a12.47 12.47 0 016.55 5.49l.43-.25A13 13 0 0016.44.8zm-8.71.47L7.56.8A13 13 0 00.75 6.51l.43.25a12.47 12.47 0 016.55-5.49zm4.52 8.28h-.5v3.2h-3.2v.5h3.2v3.2h.5v-3.2h3.2v-.5h-3.2z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 4a9 9 0 109 9 9 9 0 00-9-9zm0 17a8 8 0 118-8 8 8 0 01-8 8zM16.44.8l-.34.94A12 12 0 0122.38 7l.87-.5A13 13 0 0016.44.8zm-8.54.94L7.56.8A13 13 0 00.75 6.51l.87.5A12 12 0 017.9 1.74zm4.6 7.81h-1v2.95H8.55v1h2.95v2.95h1V13.5h2.95v-1H12.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaAlarmAddLine;

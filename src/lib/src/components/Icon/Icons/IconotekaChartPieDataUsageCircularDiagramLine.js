@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaChartPieDataUsageCircularDiagramLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm-.3.62v8.74L5 5.74a9.34 9.34 0 016.7-3.12zM2.6 12a9.34 9.34 0 012-5.8l7 5.84L5.74 19a9.36 9.36 0 01-3.14-7zm9.4 9.4a9.34 9.34 0 01-5.8-2l6-7.19.07-.08V2.62A9.39 9.39 0 0112 21.4z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm-.5 1v7.9l-6-5.08a8.92 8.92 0 016-2.82zM3 12a8.91 8.91 0 011.81-5.38l6.49 5.44-5.45 6.49A9 9 0 013 12zm9 9a8.91 8.91 0 01-5.38-1.81l5.88-7V3a9 9 0 01-.5 18z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaChartPieDataUsageCircularDiagramLine;

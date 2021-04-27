@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaLockEncryptionSecurityLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17 9V6A5 5 0 007 6v3H3v14h18V9zM7.5 6a4.5 4.5 0 019 0v3h-9zm13 16.5h-17v-13h17zM12 17.75a.25.25 0 00.25-.25v-3a.25.25 0 00-.5 0v3a.25.25 0 00.25.25z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17 9V6A5 5 0 007 6v3H3v14h18V9zM8 6a4 4 0 018 0v3H8zm12 16H4V10h16zm-8-4.17a.5.5 0 00.5-.5v-2.66a.5.5 0 00-1 0v2.66a.5.5 0 00.5.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaLockEncryptionSecurityLine;

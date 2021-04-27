@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaFlipToFrontLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7 3v14h14V3zm13.5 13.5h-13v-13h13zM8.5 21h3v-.5h-3zm-5-8.5H3v3h.5zm0 5H3V21h3.5v-.5h-3zm10 3.5H17v-.5h-3.5zM3.5 7H3v3.5h.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7 3v14h14V3zm13 13H8V4h12zM4 12.5H3v3h1zM8.5 21h3v-1h-3zM4 7H3v3.5h1zm9.5 14H17v-1h-3.5zM4 17.5H3V21h3.5v-1H4z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaFlipToFrontLine;

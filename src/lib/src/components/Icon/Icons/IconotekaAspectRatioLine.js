@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaAspectRatioLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm19.5 15.5h-19v-15h19zM9 16.5H5.5V13H5v4h4zm9.5-5.5h.5V7h-4v.5h3.5z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm19 15H3V5h18zM9 16H6v-3H5v4h4zm9-5h1V7h-4v1h3z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaAspectRatioLine;

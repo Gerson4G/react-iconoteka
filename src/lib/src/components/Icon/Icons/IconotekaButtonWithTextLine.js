@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaButtonWithTextLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 7H6a5 5 0 000 10h12a5 5 0 000-10zm0 9.5H6a4.5 4.5 0 010-9h12a4.5 4.5 0 010 9zM7 12.25h10v-.5H7z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 7H6a5 5 0 000 10h12a5 5 0 000-10zm0 9H6a4 4 0 010-8h12a4 4 0 010 8zM7 12.5h10v-1H7z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaButtonWithTextLine;

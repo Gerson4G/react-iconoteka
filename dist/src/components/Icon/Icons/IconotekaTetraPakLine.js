@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaTetraPakLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.75 3.75V2h-9.5v1.75L4 7v15h16V7zm-9-1.25h8.5V4l.15.14L19.29 7H11L7.75 3.75zm-3.25 19V7.21l3-3 3 3V21.5zm15 0H11v-14h8.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17 4V2H7v2L4 7v15h16V7zM8 3h8v1.41l.29.3L18.59 7H11L8 4zM5 21V7.41l2.5-2.5 2.5 2.5V21zm14 0h-8V8h8z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaTetraPakLine;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaMailEnvelopeLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm19.5.5v2.36L12 12.34 2.5 6.86V4.5zm-19 15V7.43l9.5 5.49 9.5-5.49V19.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm19 1v1.75l-9 5.19-9-5.19V5zM3 19V7.9l9 5.2 9-5.2V19z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaMailEnvelopeLine;

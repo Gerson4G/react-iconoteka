@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaMoonWaxingCrescentLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M11 2.5a9.5 9.5 0 11-5.49 17.24 8 8 0 000-15.48A9.47 9.47 0 0111 2.5m0-.5a9.92 9.92 0 00-6.65 2.55 7.5 7.5 0 010 14.9A10 10 0 1011 2z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M11 3a9 9 0 11-4.32 16.89 8.51 8.51 0 000-15.78A9 9 0 0111 3m0-1a9.92 9.92 0 00-6.65 2.55 7.5 7.5 0 010 14.9A10 10 0 1011 2z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaMoonWaxingCrescentLine;

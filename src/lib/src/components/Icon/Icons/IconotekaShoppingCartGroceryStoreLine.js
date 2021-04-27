@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaShoppingCartGroceryStoreLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 17.55v-.05H7.09L6.46 15 20 12.36V5H4l-.51-2H1v.5h2.09l3.49 14a1.24 1.24 0 101.34 1.23 1.2 1.2 0 00-.28-.73h9.14a1.18 1.18 0 00-.28.75 1.25 1.25 0 002.5 0 1.23 1.23 0 00-1-1.2zm1.5-12V12L6.34 14.47 4.73 8l-.62-2.5zM6.67 19.5a.75.75 0 11.75-.75.76.76 0 01-.75.75zm11.08 0a.75.75 0 11.75-.75.76.76 0 01-.75.75z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 17H7.48L7 14.86l13-2.5V5H4.5L4 3H1v1h2.22l3.24 13a1.5 1.5 0 101.71 1.5 1.44 1.44 0 00-.09-.5h8.26a1.59 1.59 0 00-.09.5A1.5 1.5 0 1018 17zm1-11v5.54L6.71 13.89 4.75 6zM6.67 19a.5.5 0 010-1 .5.5 0 110 1zm11.08 0a.5.5 0 11.5-.5.5.5 0 01-.5.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaShoppingCartGroceryStoreLine;

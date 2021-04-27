@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaAllOutLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2.72 2.54h3.5V2h-4v4h.5zM17.78 2v.5h3.5V6h.5V2zM2.72 18h-.5v4h4v-.5h-3.5zm18.56 3.5h-3.5v.5h4v-4h-.5zM12 5a7 7 0 107 7 7 7 0 00-7-7zm0 13.5a6.5 6.5 0 116.5-6.5 6.51 6.51 0 01-6.5 6.5z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3.22 3h3V2h-4v4h1zm0 15h-1v4h4v-1h-3zM17.78 2v1h3v3h1V2zm3 18.92h-3v1h4V18h-1zM12 5a7 7 0 107 7 7 7 0 00-7-7zm0 13a6 6 0 116-6 6 6 0 01-6 6z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaAllOutLine;

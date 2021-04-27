@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaToddlerBedLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13 7v4h-2.79l-.78-1.56a1.7 1.7 0 00-1.52-.94h-1.7a1.7 1.7 0 00-1.52.94L3.91 11H2.5V7H2v11h.5v-3h19v3h.5V7zM5.14 9.66A1.18 1.18 0 016.21 9h1.7A1.18 1.18 0 019 9.66L9.65 11H4.47zM21.5 14.5h-19v-3h19zm0-3.5h-8V7.5h8z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13 7v4h-2.8l-.53-1.06A1.7 1.7 0 008.15 9H6.46a1.7 1.7 0 00-1.53.94L4.4 11H3V7H2v11h1v-3h18v3h1V7zm-7.17 3.39a.7.7 0 01.63-.39h1.69a.7.7 0 01.63.39l.3.61H5.52zM21 14H3v-2h18zm0-3h-7V8h7z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaToddlerBedLine;

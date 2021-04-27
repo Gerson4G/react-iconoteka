@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaFolderLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.75 3.5L9.6 5.35l.15.15H21.5v15h-19v-17h5.25M8 3H2v18h20V5H10L8 3z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.54 4l1.71 1.71.29.29H21v14H3V4h4.54M8 3H2v18h20V5H10L8 3z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaFolderLine;

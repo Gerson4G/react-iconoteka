@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaFlagLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17.82 10.25L22 3H4.5V1H4v23h.5v-8H22zM4.5 3.5h16.63L17.39 10l-.17.28.19.26 3.61 5H4.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17.82 10.25L22 3H5V1H4v23h1v-8h17zM5 4h15.27L17 9.75l-.32.56.38.53L20 15H5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaFlagLine;

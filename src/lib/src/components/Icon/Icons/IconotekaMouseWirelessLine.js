@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaMouseWirelessLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 8a.25.25 0 00-.25.25v3.5a.25.25 0 00.5 0v-3.5A.25.25 0 0012 8zm2-3h-4a5 5 0 00-5 5v7a7 7 0 0014 0v-7a5 5 0 00-5-5zm4.5 12a6.5 6.5 0 01-13 0v-7A4.51 4.51 0 0110 5.5h4a4.51 4.51 0 014.5 4.5zM11.83 1.37a5.71 5.71 0 014.07 1.69l.35-.36a6.25 6.25 0 00-8.84 0l.36.36a5.69 5.69 0 014.06-1.69z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 8.33a.5.5 0 00-.5.5v3a.5.5 0 001 0v-3a.5.5 0 00-.5-.5zM14 5h-4a5 5 0 00-5 5v7a7 7 0 0014 0v-7a5 5 0 00-5-5zm4 12a6 6 0 01-12 0v-7a4 4 0 014-4h4a4 4 0 014 4zM11.83 1.62a5.46 5.46 0 013.89 1.61l.71-.7a6.48 6.48 0 00-9.19 0l.7.7a5.46 5.46 0 013.89-1.61z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaMouseWirelessLine;

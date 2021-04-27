@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaIceCreamLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19.56 6.4a3.8 3.8 0 00-3.8-3.8h-.41a3.77 3.77 0 00-6.7 0h-.41A3.79 3.79 0 006 9.45l5.54 13.43a.5.5 0 00.92 0L18 9.45a3.77 3.77 0 001.56-3.05zm-14.62 0a3.28 3.28 0 014-3.22 3.29 3.29 0 016.12 0A3.29 3.29 0 0117.77 9H6.23a3.28 3.28 0 01-1.29-2.6zM12 22.69L6.57 9.5h10.86z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19.56 6.63a4 4 0 00-4-4h-.06a4 4 0 00-6.94 0h-.09a4 4 0 00-2.31 7.3l5.34 13a.5.5 0 00.46.31.49.49 0 00.46-.31L17.73 10a4 4 0 001.83-3.37zm-14.12 0a3 3 0 013-3 2.84 2.84 0 01.66.08 3 3 0 015.74 0 2.84 2.84 0 01.66-.08A3 3 0 0117.4 9H6.6a3 3 0 01-1.16-2.37zM12 21.38L7.27 10h9.38z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaIceCreamLine;

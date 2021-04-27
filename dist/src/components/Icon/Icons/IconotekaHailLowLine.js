@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaHailLowLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20.64 8.36v-.3a5 5 0 00-4.94-5 4.87 4.87 0 00-2.4.65 5.67 5.67 0 00-9.74 3.96v.6A4 4 0 005 16h14a4 4 0 001.64-7.64zM19 15.5H5a3.49 3.49 0 01-1.23-6.76l.36-.14v-.38a5.07 5.07 0 010-.55 5.18 5.18 0 015.1-5.17A5.11 5.11 0 0113 4.1l.27.29.34-.19a4.36 4.36 0 012.16-.59 4.45 4.45 0 014.44 4.45.34.34 0 010 .1v.51l.32.15A3.49 3.49 0 0119 15.5zm-8.64 5L12 23l1.61-2.47L12 18.06zM12 22.09l-1-1.56L12 19l1 1.56z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20.64 8.36v-.3a5 5 0 00-4.94-5 4.87 4.87 0 00-2.4.65 5.67 5.67 0 00-9.74 3.96v.6A4 4 0 005 16h14a4 4 0 001.64-7.64zM19 15H5a3 3 0 01-3-3 3 3 0 012-2.8l.72-.27-.08-.77a4 4 0 010-.49A4.67 4.67 0 019.23 3a4.6 4.6 0 013.37 1.45l.54.56.68-.38a3.89 3.89 0 011.91-.52A4 4 0 0119.67 8v.95l.63.28A3 3 0 0119 15zm-8.64 5.53L12 23l1.61-2.47L12 18.06zm1.64 1l-.7-1 .7-1.05.68 1.05z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaHailLowLine;

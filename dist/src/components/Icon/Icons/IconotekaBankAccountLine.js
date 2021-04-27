@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaBankAccountLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9.86 11.75H8.12a1.13 1.13 0 010-2.25H11V9H9.22V8h-.44v1h-.66a1.63 1.63 0 000 3.25h1.74a1.13 1.13 0 110 2.25H6.75v.5h2v1.05h.44V15h.64a1.63 1.63 0 100-3.25zM19.5 4h-15A2.5 2.5 0 002 6.5v11A2.5 2.5 0 004.5 20h15a2.5 2.5 0 002.5-2.5v-11A2.5 2.5 0 0019.5 4zm2 13.5a2 2 0 01-2 2h-15a2 2 0 01-2-2v-11a2 2 0 012-2h15a2 2 0 012 2z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9.73 11.5H8.26a.75.75 0 110-1.5H11V9H9.45V8h-.9v1h-.29a1.75 1.75 0 100 3.5h1.47a.75.75 0 010 1.5h-3v1h1.8v1.05h.9V15h.28a1.75 1.75 0 000-3.5zM19.5 4h-15A2.5 2.5 0 002 6.5v11A2.5 2.5 0 004.5 20h15a2.5 2.5 0 002.5-2.5v-11A2.5 2.5 0 0019.5 4zM21 17.5a1.5 1.5 0 01-1.5 1.5h-15A1.5 1.5 0 013 17.5v-11A1.5 1.5 0 014.5 5h15A1.5 1.5 0 0121 6.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaBankAccountLine;

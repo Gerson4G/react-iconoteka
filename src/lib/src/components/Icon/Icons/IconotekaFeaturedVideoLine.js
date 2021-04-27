@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaFeaturedVideoLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm19.5 15.5h-19v-15h19zM9.28 15.89l2.72-2 2.72 2-1-3.19 2.72-2H13l-1-3.2-1 3.2H7.6l2.72 2zM9 11.18h2.3l.1-.32L12 9l.61 1.87.1.32H15l-1.6 1.16-.26.19.1.31.61 1.88-1.6-1.16-.26-.2-.26.2-1.6 1.16.61-1.88.1-.31-.26-.19z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm19 15H3V5h18zM9.07 16.19L12 14.07l2.93 2.12-1.12-3.44 2.92-2.12h-3.61L12 7.19l-1.12 3.44H7.27l2.92 2.12zm.66-4.76h1.73l.18-.56.36-1.09.36 1.09.18.56h1.73l-.93.68-.47.34.18.55.35 1.1-.93-.68-.47-.34-.47.34-.93.68.4-1.1.18-.55-.47-.34z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaFeaturedVideoLine;

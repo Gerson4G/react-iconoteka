@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaChartAssessmentLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 3v18h18V3zm17.5 17.5h-17v-17h17zM7.5 12H7v5h.5zm6.33 0h-.5v5h.5zm-3.16-5h-.5v10h.5zM17 10h-.5v7h.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 3v18h18V3zm17 17H4V4h16zM8 12H7v5h1zm4.5-5h-1v10h1zm4.5 3h-1v7h1z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaChartAssessmentLine;

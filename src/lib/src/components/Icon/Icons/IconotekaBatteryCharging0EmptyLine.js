@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaBatteryCharging0EmptyLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13.5 3H11a2 2 0 00-4 0H4.5A2.5 2.5 0 002 5.5v15A2.5 2.5 0 004.5 23h9a2.5 2.5 0 002.5-2.5v-15A2.5 2.5 0 0013.5 3zM9 1.5A1.5 1.5 0 0110.5 3h-3A1.5 1.5 0 019 1.5zm6.5 19a2 2 0 01-2 2h-9a2 2 0 01-2-2v-15a2 2 0 012-2h9a2 2 0 012 2zm5.66-16.42V1.17h-.8l-2.72 5.41h2.86v2.91h.8L24 4.08zM21 9V6.08h-2.55l2.21-4.39v2.89h2.56z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13.5 3H11a2 2 0 00-4 0H4.5A2.5 2.5 0 002 5.5v15A2.5 2.5 0 004.5 23h9a2.5 2.5 0 002.5-2.5v-15A2.5 2.5 0 0013.5 3zM9 2a1 1 0 011 1H8a1 1 0 011-1zm6 18.5a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 013 20.5v-15A1.5 1.5 0 014.5 4h9A1.5 1.5 0 0115 5.5zm6.21-16.67V1.17H19.7l-2 5.66h2.8v2.66H22l2-5.66zm.2 4.81h-.06V6h-2.46l1.41-4h.06v2.68h2.47z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaBatteryCharging0EmptyLine;

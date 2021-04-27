@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaOvalVerticalLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 1.5c4.69 0 8.5 4.71 8.5 10.5S16.69 22.5 12 22.5 3.5 17.79 3.5 12 7.31 1.5 12 1.5m0-.5C7 1 3 5.93 3 12s4 11 9 11 9-4.93 9-11-4-11-9-11z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2c4.41 0 8 4.49 8 10s-3.59 10-8 10-8-4.49-8-10S7.59 2 12 2m0-1C7 1 3 5.93 3 12s4 11 9 11 9-4.93 9-11-4-11-9-11z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaOvalVerticalLine;

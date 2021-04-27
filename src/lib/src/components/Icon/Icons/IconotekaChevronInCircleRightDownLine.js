@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaChevronInCircleRightDownLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13.75 13.75H8v.5h6.25V8h-.5zm5.32-8.82a10 10 0 100 14.14 10 10 0 000-14.14zm-.35 13.79A9.51 9.51 0 1121.5 12a9.46 9.46 0 01-2.78 6.72z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13.5 13.5H8v1h6.5V8h-1zm5.57-8.57a10 10 0 100 14.14 10 10 0 000-14.14zm-.71 13.43A9 9 0 1121 12a8.94 8.94 0 01-2.64 6.36z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaChevronInCircleRightDownLine;

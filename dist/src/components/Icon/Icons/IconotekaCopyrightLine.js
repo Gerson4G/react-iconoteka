@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaCopyrightLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 19.5a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5zM12.57 7h-1a3.13 3.13 0 00-3.13 3.13v3.74A3.13 3.13 0 0011.55 17h1a3 3 0 003-3v-.35h-.5V14a2.51 2.51 0 01-2.51 2.51h-1a2.63 2.63 0 01-2.63-2.63v-3.75a2.63 2.63 0 012.64-2.63h1a2.51 2.51 0 012.53 2.5v.35h.5V10a3 3 0 00-3.01-3z", fill: "#231f20" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 19a9 9 0 119-9 9 9 0 01-9 9zm.62-14H11.5a3.22 3.22 0 00-3.22 3.22v3.56A3.22 3.22 0 0011.5 17h1.12a3.1 3.1 0 003.1-3.1v-.26h-1v.26a2.1 2.1 0 01-2.1 2.1H11.5a2.22 2.22 0 01-2.22-2.22v-3.56A2.22 2.22 0 0111.5 8h1.12a2.1 2.1 0 012.1 2.1v.26h1v-.26a3.1 3.1 0 00-3.1-3.1z", fill: "#231f20" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaCopyrightLine;

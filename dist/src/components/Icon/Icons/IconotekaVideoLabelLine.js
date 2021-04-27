@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaVideoLabelLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9.75 7v6L15 10zm.45.78L14.09 10l-3.89 2.25zM3 3v18h18V3zm17.5 17.5h-17V17h17zm0-4h-17v-13h17z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9.75 7v6L15 10zm.8 1.39L13.39 10l-2.84 1.64zM3 3v18h18V3zm17 17H4v-3h16zm0-4H4V4h16z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaVideoLabelLine;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSmartphoneWithOneCameraLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.5 2h-7A2.5 2.5 0 006 4.5v15A2.5 2.5 0 008.5 22h7a2.5 2.5 0 002.5-2.5v-15A2.5 2.5 0 0015.5 2zm2 17.5a2 2 0 01-2 2h-7a2 2 0 01-2-2v-15a2 2 0 012-2h7a2 2 0 012 2zM12 5a.4.4 0 10.4.4.4.4 0 00-.4-.4z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.5 2h-7A2.5 2.5 0 006 4.5v15A2.5 2.5 0 008.5 22h7a2.5 2.5 0 002.5-2.5v-15A2.5 2.5 0 0015.5 2zM17 19.5a1.5 1.5 0 01-1.5 1.5h-7A1.5 1.5 0 017 19.5v-15A1.5 1.5 0 018.5 3h7A1.5 1.5 0 0117 4.5zM12 5a.7.7 0 10.7.7.7.7 0 00-.7-.7z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSmartphoneWithOneCameraLine;

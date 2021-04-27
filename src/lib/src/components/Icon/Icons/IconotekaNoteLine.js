@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaNoteLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.41 3H3v18h18V7.59zm4.09 17.5h-17v-17h12.71l4.29 4.29zM8 14h6v-.5H8zm0-3.5h8V10H8z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.41 3H3v18h18V7.59zM20 20H4V4h12l4 4zM8 14h5v-1H8zm0-3h8v-1H8z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaNoteLine;

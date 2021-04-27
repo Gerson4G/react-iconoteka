@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSmartphoneAppleIphoneLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.5 2h-7A2.5 2.5 0 006 4.5v15A2.5 2.5 0 008.5 22h7a2.5 2.5 0 002.5-2.5v-15A2.5 2.5 0 0015.5 2zm2 17.5a2 2 0 01-2 2h-7a2 2 0 01-2-2v-15a2 2 0 012-2h7a2 2 0 012 2zM12 17.75a1.13 1.13 0 101.12 1.13A1.12 1.12 0 0012 17.75zm0 1.75a.63.63 0 11.62-.62.62.62 0 01-.62.62z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.5 2h-7A2.5 2.5 0 006 4.5v15A2.5 2.5 0 008.5 22h7a2.5 2.5 0 002.5-2.5v-15A2.5 2.5 0 0015.5 2zM17 19.5a1.5 1.5 0 01-1.5 1.5h-7A1.5 1.5 0 017 19.5v-15A1.5 1.5 0 018.5 3h7A1.5 1.5 0 0117 4.5zm-5-2.25a1.38 1.38 0 101.38 1.37A1.38 1.38 0 0012 17.25zm0 1.95a.58.58 0 11.58-.58.58.58 0 01-.58.58z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSmartphoneAppleIphoneLine;

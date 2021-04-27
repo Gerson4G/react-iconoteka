@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaPictureInPictureLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19 12h-6v5h6zm-.5 4.5h-5v-4h5zM2 4v16h20V4zm19.5 15.5h-19v-15h19z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19 12h-6v5h6zm-1 4h-4v-3h4zM2 4v16h20V4zm19 15H3V5h18z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaPictureInPictureLine;

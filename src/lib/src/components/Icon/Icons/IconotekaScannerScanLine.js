@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaScannerScanLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M6.2 15.19a.45.45 0 00.45-.45.45.45 0 00-.9 0 .45.45 0 00.45.45zM3.23 10L21 3.63l-.17-.47L2 10v8a2 2 0 002 2h16a2 2 0 002-2v-8zm18.27 8a1.5 1.5 0 01-1.5 1.5H4A1.5 1.5 0 012.5 18v-7.5h19z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M6.5 15.75a.75.75 0 10-.75-.75.76.76 0 00.75.75zM4.58 10l16.56-5.9-.35-.94L2 10v8a2 2 0 002 2h16a2 2 0 002-2v-8zM21 18a1 1 0 01-1 1H4a1 1 0 01-1-1v-7h18z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaScannerScanLine;

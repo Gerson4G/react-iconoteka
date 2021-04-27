@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaMusicVideoLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm19.5 15.5h-19v-15h19zM9 15.5a1.43 1.43 0 001.52-1.38V9H15v5a2.33 2.33 0 00-1.2-.31.94.94 0 00-1 .9c0 .48.43.9 1.15.9a1.43 1.43 0 001.52-1.38V8.5H10V14a2.33 2.33 0 00-1.2-.31.94.94 0 00-1 .9c0 .49.43.91 1.2.91zm5-.5c-.38 0-.65-.17-.65-.4a.45.45 0 01.47-.4 1.68 1.68 0 011.06.32A1 1 0 0114 15zm-5.18-.8a1.68 1.68 0 011.06.32A1 1 0 019 15c-.38 0-.65-.17-.65-.4a.45.45 0 01.42-.4z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm19 15H3V5h18zM9 15.5a1.35 1.35 0 001.42-1.34V9.5h4v4.68a1.32 1.32 0 00-.72-.17.68.68 0 00-.74.72c0 .48.37.77 1 .77a1.35 1.35 0 001.42-1.34V8.5h-6v5.68a1.32 1.32 0 00-.73-.18.68.68 0 00-.74.72c0 .49.37.78 1.09.78z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaMusicVideoLine;

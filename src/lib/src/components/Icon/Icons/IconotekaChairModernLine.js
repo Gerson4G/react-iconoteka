@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaChairModernLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M14.8 12.71l4-.36-.24-1.35a1.2 1.2 0 00-1.18-1H9.21L7 1.89A1.2 1.2 0 005.88 1H4.45l1.76 9.91a2.8 2.8 0 002.7 2.31 1.79 1.79 0 00-.5.85L6.28 22h.52l2.09-7.8a1.45 1.45 0 011.27-1.07l3.34-.3A1.46 1.46 0 0115 13.9l2.2 8.1h.52l-2.21-8.23a1.92 1.92 0 00-.71-1.06zm-8.1-1.89L5.05 1.5h.83a.71.71 0 01.68.5l2.17 8.11.1.37h8.55a.7.7 0 01.69.57l.16.83-9.06.81H9a2.3 2.3 0 01-2.3-1.87z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.28 13l3.6-.32-.35-1.87a1.39 1.39 0 00-1.37-1.14H9.47L7.42 2a1.39 1.39 0 00-1.35-1h-2l1.85 10.21a2.88 2.88 0 002.52 2.34 2.07 2.07 0 00-.29.64L6.05 22H7l2-7.56a1.33 1.33 0 011.17-1l3.25-.28a1.31 1.31 0 011.4 1L17 22h1l-2.16-8.09a2.31 2.31 0 00-.56-.91zm-8.37-2l-1.6-9h.76a.41.41 0 01.39.3l2.24 8.37h8.46a.4.4 0 01.39.32l.15.8-8.79.77h-.17A1.85 1.85 0 016.91 11z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaChairModernLine;

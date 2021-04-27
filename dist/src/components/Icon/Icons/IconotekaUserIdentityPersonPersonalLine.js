@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaUserIdentityPersonPersonalLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2.5A3.5 3.5 0 118.5 6 3.5 3.5 0 0112 2.5m0 11a10.32 10.32 0 017.35 3l.15.14v3.8h-15V16.7l.15-.14a10.32 10.32 0 017.35-3M12 2a4 4 0 104 4 4 4 0 00-4-4zm0 11a10.9 10.9 0 00-7.71 3.2l-.29.3V21h16v-4.5l-.29-.3A10.9 10.9 0 0012 13z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 3a3 3 0 11-3 3 3 3 0 013-3m0 11a9.82 9.82 0 017 2.89V20H5v-3.09A9.82 9.82 0 0112 14m0-12a4 4 0 104 4 4 4 0 00-4-4zm0 11a10.9 10.9 0 00-7.71 3.2l-.29.3V21h16v-4.5l-.29-.3A10.9 10.9 0 0012 13z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaUserIdentityPersonPersonalLine;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaProgramSoftwareLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm19.5 15.5h-19v-15h19zM14 15l3-3-3-3-.35.35 2.6 2.65-2.65 2.65zm-3.55-.35L7.75 12l2.65-2.65-.35-.35-3 3 3 3z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm19 15H3V5h18zm-6.87-3.82L17.31 12l-3.18-3.18-.71.71L15.89 12l-2.47 2.47zm-3.55-.71L8.11 12l2.47-2.47-.71-.71L6.69 12l3.18 3.18z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaProgramSoftwareLine;
