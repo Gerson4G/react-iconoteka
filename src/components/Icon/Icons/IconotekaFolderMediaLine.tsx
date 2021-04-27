@@ -8,7 +8,7 @@ function SvgIconotekaFolderMediaLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M10 5L8 3H2v18h20V5zm11.5 15.5h-19v-17h5.25L9.6 5.35l.15.15H21.5zM9.75 16L15 13l-5.25-3zm.45-5.28L14.09 13l-3.89 2.25z" />
+      <path d="M10 5L8 3H2v18h20V5zm11 15H3V4h4.54l2 2H21zM9.75 10v6L15 13zm.8 1.39L13.39 13l-2.84 1.64z" />
     </svg>
   );
 }

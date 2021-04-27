@@ -8,7 +8,7 @@ function SvgIconotekaPictureDecorationLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16.24 5L12 .76 7.76 5H2v16h20V5zM12 1.46L15.54 5H8.46zm9.5 19h-19V5.5h19zM19 8H5v10h14zm-.5 9.5h-13v-9h13z" />
+      <path d="M16.24 5L12 .76 7.76 5H2v16h20V5zM12 2.17L14.83 5H9.17zM21 20H3V6h18zM19 8H5v10h14zm-1 9H6V9h12z" />
     </svg>
   );
 }

@@ -8,7 +8,7 @@ function SvgIconotekaViewStreamViewAgendaLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 3v18h18V3zm17.5 17.5h-17v-8.25h17zm-17-8.75V3.5h17v8.25z" />
+      <path d="M3 3v18h18V3zm17 17H4v-7.5h16zM4 11.5V4h16v7.5z" />
     </svg>
   );
 }

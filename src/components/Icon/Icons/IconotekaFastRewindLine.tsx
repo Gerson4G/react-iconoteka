@@ -8,7 +8,7 @@ function SvgIconotekaFastRewindLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M0 12l12 8V4zm11.5 7.07L.9 12l10.6-7.07zM12 12l12 8V4zm11.5 7.07L12.9 12l10.6-7.07z" />
+      <path d="M0 12l12 8V4zm11 6.13L1.8 12 11 5.87zM12 12l12 8V4zm11 6.13L13.8 12 23 5.87z" />
     </svg>
   );
 }

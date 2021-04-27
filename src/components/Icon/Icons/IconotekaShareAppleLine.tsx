@@ -8,7 +8,7 @@ function SvgIconotekaShareAppleLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M20 8h-5v.5h4.5v13h-15v-13H9V8H4v14h16zm-8.25 8h.5V2.1l3.25 3.25.35-.35L12 1.15 8.15 5l.35.35 3.25-3.25z" />
+      <path d="M20 8h-5v1h4v12H5V9h4V8H4v14h16zm-8.5 8h1V2.71l3 3 .71-.71L12 .79 7.79 5l.71.71 3-3z" />
     </svg>
   );
 }

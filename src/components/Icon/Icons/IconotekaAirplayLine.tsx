@@ -3,10 +3,10 @@ import * as React from "react";
 function SvgIconotekaAirplayLine(props: any): JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-      <path
-        d="M2 4v15h5.38l.29-.5H2.5v-14h19v14h-5.17l.29.5H22V4zm6.54 17h6.92L12 15zm.86-.5L12 16l2.6 4.5z"
-        data-name="Clear 3"
-      />
+      <g data-name="Clear 3">
+        <path d="M2 4v15h5.38L8 18H3V5h18v13h-5l.58 1H22V4z" />
+        <path d="M12 17l1.73 3h-3.46L12 17m0-2l-3.46 6h6.92L12 15z" />
+      </g>
     </svg>
   );
 }

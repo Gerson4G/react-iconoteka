@@ -8,8 +8,7 @@ function SvgIconotekaDomainLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 2.5A9.5 9.5 0 112.5 12 9.51 9.51 0 0112 2.5m0-.5a10 10 0 1010 10A10 10 0 0012 2z" />
-      <path d="M12 8.55l3.5 2v3.95h-7v-3.92l3.5-2M12 8l-4 2.29V15h8v-4.71L12 8z" />
+      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 19a9 9 0 119-9 9 9 0 01-9 9zM8 10.29V15h8v-4.71L12 8zM15 14H9v-3.13l3-1.74 3 1.74z" />
     </svg>
   );
 }

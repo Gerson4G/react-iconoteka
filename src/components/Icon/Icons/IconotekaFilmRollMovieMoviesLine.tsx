@@ -8,7 +8,7 @@ function SvgIconotekaFilmRollMovieMoviesLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 3v18h18V3zm12.5.5h2v2h-2zm-9 0h2v2h-2zm2 17h-2v-2h2zm9 0h-2v-2h2zm3 0H18V18h-3v2.5H9V18H6v2.5H3.5v-17H6V6h3V3.5h6V6h3V3.5h2.5zM15 16h3v-3h-3zm.5-2.5h2v2h-2zM15 11h3V8h-3zm.5-2.5h2v2h-2zM6 16h3v-3H6zm.5-2.5h2v2h-2zM6 11h3V8H6zm.5-2.5h2v2h-2z" />
+      <path d="M3 3v18h18V3zm13 1h1v1h-1zM7 4h1v1H7zm1 16H7v-1h1zm9 0h-1v-1h1zm3 0h-2v-2h-3v2H9v-2H6v2H4V4h2v2h3V4h6v2h3V4h2zm-5-4h3v-3h-3zm1-2h1v1h-1zm-1-3h3V8h-3zm1-2h1v1h-1zM6 16h3v-3H6zm1-2h1v1H7zm-1-3h3V8H6zm1-2h1v1H7z" />
     </svg>
   );
 }

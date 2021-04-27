@@ -8,7 +8,7 @@ function SvgIconotekaDeleteSweepLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M23 5.5V5h-8V4a2 2 0 00-2-2h-2a2 2 0 00-2 2v1H3v.5h1.77L6.26 22H23v-.5h-5.22l.45-5H23V16h-4.72l.45-5H23v-.5h-4.23l.46-5zM9.5 4A1.5 1.5 0 0111 2.5h2A1.5 1.5 0 0114.5 4v1h-5zm7.78 17.5H6.72l-1.44-16h13.44z" />
+      <path d="M23 6V5h-8V4a2 2 0 00-2-2h-2a2 2 0 00-2 2v1H3v1h1.82l1.44 16H23v-1h-5.17l.39-4.33H23v-1h-4.69l.39-4.34H23v-1h-4.21L19.18 6zM10 4a1 1 0 011-1h2a1 1 0 011 1v1h-4zm6.82 17H7.18L5.82 6h12.36z" />
     </svg>
   );
 }

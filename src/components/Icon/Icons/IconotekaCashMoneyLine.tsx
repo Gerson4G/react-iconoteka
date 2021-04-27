@@ -8,7 +8,7 @@ function SvgIconotekaCashMoneyLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M1 5v14h22V5zm21.5 13.5h-21v-13h21zM12 15a3 3 0 10-3-3 3 3 0 003 3zm0-5.5A2.5 2.5 0 119.5 12 2.5 2.5 0 0112 9.5z" />
+      <path d="M1 5v14h22V5zm21 13H2V6h20zm-10-3a3 3 0 10-3-3 3 3 0 003 3zm0-5a2 2 0 11-2 2 2 2 0 012-2z" />
     </svg>
   );
 }

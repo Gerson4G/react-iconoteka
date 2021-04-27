@@ -8,7 +8,7 @@ function SvgIconotekaPlayStartLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M4.5 2.44L21.06 12 4.5 21.56V2.44M4 1.57v20.86L22.06 12 4 1.57z" />
+      <path d="M5 3.3L20.06 12 5 20.7V3.3M4 1.57v20.86L22.06 12 4 1.57z" />
     </svg>
   );
 }

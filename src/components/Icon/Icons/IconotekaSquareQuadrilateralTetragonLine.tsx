@@ -8,7 +8,7 @@ function SvgIconotekaSquareQuadrilateralTetragonLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M20.5 3.5v17h-17v-17h17M21 3H3v18h18V3z" />
+      <path d="M20 4v16H4V4h16m1-1H3v18h18V3z" />
     </svg>
   );
 }

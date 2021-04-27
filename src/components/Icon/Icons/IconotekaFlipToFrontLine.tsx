@@ -8,7 +8,7 @@ function SvgIconotekaFlipToFrontLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M7 3v14h14V3zm13.5 13.5h-13v-13h13zM8.5 21h3v-.5h-3zm-5-8.5H3v3h.5zm0 5H3V21h3.5v-.5h-3zm10 3.5H17v-.5h-3.5zM3.5 7H3v3.5h.5z" />
+      <path d="M7 3v14h14V3zm13 13H8V4h12zM4 12.5H3v3h1zM8.5 21h3v-1h-3zM4 7H3v3.5h1zm9.5 14H17v-1h-3.5zM4 17.5H3V21h3.5v-1H4z" />
     </svg>
   );
 }

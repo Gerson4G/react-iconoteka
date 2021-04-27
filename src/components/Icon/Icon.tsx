@@ -7,7 +7,7 @@ function Icon({ name, stroke, type, color, fillColor, borderColor, ...props }: I
   const strokeWidth = {
     lighter: 0.5,
     light: 0.8,
-    regular: 1.2,
+    regular: 1,
     medium: 1.5,
     bold: 1.8,
     bolder: 2,

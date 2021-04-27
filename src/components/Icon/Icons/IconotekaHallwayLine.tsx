@@ -8,7 +8,7 @@ function SvgIconotekaHallwayLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M2.5 14H2v7h.5v-2h19v2h.5v-7H2.5zm19 4.5h-19v-4h19zM2 3v3h7.5v3a1.5 1.5 0 01-3 0V8H6v1a2 2 0 004 0V6h6.5v3a1.5 1.5 0 01-3 0V8H13v1a2 2 0 004 0V6h5V3zm19.5 2.5h-19v-2h19z" />
+      <path d="M3 14H2v7h1v-2h18v2h1v-7H3zm18 4H3v-3h18zM2 3v3h7v3a1 1 0 01-2 0V8H6v1a2 2 0 004 0V6h6v3a1 1 0 01-2 0V8h-1v1a2 2 0 004 0V6h5V3zm19 2H3V4h18z" />
     </svg>
   );
 }

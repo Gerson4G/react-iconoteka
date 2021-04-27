@@ -8,7 +8,7 @@ function SvgIconotekaNanoSimCardLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M8.59 3L4 7.59V22h16V3zM19.5 21.5h-15V7.79L8.79 3.5H19.5zM7 9v8a2 2 0 002 2h6a2 2 0 002-2V9a2 2 0 00-2-2H9a2 2 0 00-2 2zm2-1.5h6A1.5 1.5 0 0116.5 9v8a1.5 1.5 0 01-1.5 1.5H9A1.5 1.5 0 017.5 17V9A1.5 1.5 0 019 7.5z" />
+      <path d="M8.59 3L4 7.59V22h16V3zM19 21H5V8l4-4h10zM7 9v8a2 2 0 002 2h6a2 2 0 002-2V9a2 2 0 00-2-2H9a2 2 0 00-2 2zm9 0v8a1 1 0 01-1 1H9a1 1 0 01-1-1V9a1 1 0 011-1h6a1 1 0 011 1z" />
     </svg>
   );
 }

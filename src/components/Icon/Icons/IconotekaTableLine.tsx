@@ -8,7 +8,7 @@ function SvgIconotekaTableLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M2 6v13h.5V9h19v10h.5V6zm.5 2.5v-2h19v2z" />
+      <path d="M2 6v13h1V9h18v10h1V6zm1 2V7h18v1z" />
     </svg>
   );
 }

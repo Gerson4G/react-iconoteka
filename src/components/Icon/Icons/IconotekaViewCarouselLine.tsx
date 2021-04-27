@@ -8,7 +8,7 @@ function SvgIconotekaViewCarouselLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M22 5h-4V3H6v2H2v14h4v2h12v-2h4zM2.5 18.5v-13H6v13zm15 2h-11v-17h11zm4-2H18v-13h3.5z" />
+      <path d="M22 5h-4V3H6v2H2v14h4v2h12v-2h4zM3 18V6h3v12zm14 2H7V4h10zm4-2h-3V6h3z" />
     </svg>
   );
 }

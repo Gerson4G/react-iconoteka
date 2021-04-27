@@ -8,7 +8,7 @@ function SvgIconotekaDocumentDiagramPollLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M15.41 2H4v20h16V6.59zm4.09 19.5h-15v-19h10.71l4.29 4.29zM8 16h.5v-4H8zm5 0h.5v-4H13zm3-6h-.5v6h.5zm-5.5 6h.5V8h-.5z" />
+      <path d="M15.41 2H4v20h16V6.59zM19 21H5V3h10l4 4zM8 16h1v-4H8zm8-6h-1v6h1zm-4.5 6h1V8h-1z" />
     </svg>
   );
 }

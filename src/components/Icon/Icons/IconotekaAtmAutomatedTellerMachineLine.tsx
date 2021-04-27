@@ -8,7 +8,7 @@ function SvgIconotekaAtmAutomatedTellerMachineLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16.75 14.5h-3.5a.25.25 0 000 .5h3.5a.25.25 0 000-.5zM18 2H6a2 2 0 00-2 2v18h16V4a2 2 0 00-2-2zm1.5 19.5h-15V4A1.5 1.5 0 016 2.5h12A1.5 1.5 0 0119.5 4zM7 12h10V5H7zm.5-6.5h9v6h-9z" />
+      <path d="M18 2H6a2 2 0 00-2 2v18h16V4a2 2 0 00-2-2zm1 19H5V4a1 1 0 011-1h12a1 1 0 011 1zM7 12h10V5H7zm1-6h8v5H8zm8.5 8h-3a.5.5 0 000 1h3a.5.5 0 000-1z" />
     </svg>
   );
 }

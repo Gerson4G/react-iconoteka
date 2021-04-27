@@ -8,7 +8,7 @@ function SvgIconotekaDateRangeLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12.35 10h-.7v.7h.7zM17 10h-.7v.7h.7zm-9.3 5.3H7v.7h.7zm4.65 0h-.7v.7h.7zM18 5V2.25a.25.25 0 00-.5 0V5h-11V2.25a.25.25 0 00-.5 0V5H2v16h20V5zm3.5 15.5h-19v-15h19z" />
+      <path d="M12.55 10h-1.1v1.1h1.1zM17 10h-1.1v1.1H17zm-8.9 4.9H7V16h1.1zm4.45 0h-1.1V16h1.1zM18 5V2.5a.5.5 0 00-1 0V5H7V2.5a.5.5 0 00-1 0V5H2v16h20V5zm3 15H3V6h18z" />
     </svg>
   );
 }

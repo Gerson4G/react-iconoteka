@@ -8,7 +8,7 @@ function SvgIconotekaPowerSocketGLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 3v18h18V3zm17.5 17.5h-17v-17h17zM12.25 7h-.5v3h.5zM17 14h-3v.5h3zm-7 0H7v.5h3z" />
+      <path d="M3 3v18h18V3zm17 17H4V4h16zM12.5 7h-1v3h1zm4.5 7h-3v1h3zm-7 0H7v1h3z" />
     </svg>
   );
 }

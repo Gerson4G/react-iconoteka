@@ -8,7 +8,7 @@ function SvgIconotekaOfferTagPriceLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17 10.5a1.5 1.5 0 101.5 1.5 1.5 1.5 0 00-1.5-1.5zm0 2.5a1 1 0 111-1 1 1 0 01-1 1zm2.44-8H2v14h17.44l4-7zm-.29 13.5H2.5v-13h16.65l3.71 6.5z" />
+      <path d="M19.44 5H2v14h17.44l4-7zm-.58 13H3V6h15.86l3.43 6zM17 10.5a1.5 1.5 0 101.5 1.5 1.5 1.5 0 00-1.5-1.5zm0 2.1a.6.6 0 11.6-.6.6.6 0 01-.6.6z" />
     </svg>
   );
 }

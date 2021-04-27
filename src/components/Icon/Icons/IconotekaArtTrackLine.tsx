@@ -8,7 +8,7 @@ function SvgIconotekaArtTrackLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M1 17h10V7H1zm.5-9.5h9v9h-9zM14 7v.5h9V7zm0 5.25h9v-.5h-9zM14 17h9v-.5h-9z" />
+      <path d="M1 17h10V7H1zm1-9h8v8H2zm12-1v1h9V7zm0 5.5h9v-1h-9zm0 4.5h9v-1h-9z" />
     </svg>
   );
 }

@@ -8,7 +8,7 @@ function SvgIconotekaFlagLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17.82 10.25L22 3H4.5V1H4v23h.5v-8H22zM4.5 3.5h16.63L17.39 10l-.17.28.19.26 3.61 5H4.5z" />
+      <path d="M17.82 10.25L22 3H5V1H4v23h1v-8h17zM5 4h15.27L17 9.75l-.32.56.38.53L20 15H5z" />
     </svg>
   );
 }

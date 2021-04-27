@@ -8,7 +8,7 @@ function SvgIconotekaBookmarkLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19.5 2.5v19.36l-7.25-4.14-.25-.14-.25.14-7.25 4.14V2.5h15M20 2H4v20.72l8-4.57 8 4.57V2z" />
+      <path d="M19 3v18l-6.5-3.72L12 17l-.5.28L5 21V3h14m1-1H4v20.72l8-4.57 8 4.57V2z" />
     </svg>
   );
 }

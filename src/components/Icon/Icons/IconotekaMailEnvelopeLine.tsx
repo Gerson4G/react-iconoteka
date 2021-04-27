@@ -8,7 +8,7 @@ function SvgIconotekaMailEnvelopeLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M2 4v16h20V4zm19.5.5v2.36L12 12.34 2.5 6.86V4.5zm-19 15V7.43l9.5 5.49 9.5-5.49V19.5z" />
+      <path d="M2 4v16h20V4zm19 1v1.75l-9 5.19-9-5.19V5zM3 19V7.9l9 5.2 9-5.2V19z" />
     </svg>
   );
 }

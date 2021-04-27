@@ -8,7 +8,7 @@ function SvgIconotekaHexagonLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 2.19l8.5 4.9v9.82l-8.5 4.9-8.5-4.9V7.09l8.5-4.9m0-.58L3 6.8v10.4l9 5.19 9-5.19V6.8l-9-5.19z" />
+      <path d="M12 2.76l8 4.62v9.24l-8 4.62-8-4.62V7.38l8-4.62m0-1.15L3 6.8v10.4l9 5.19 9-5.19V6.8l-9-5.19z" />
     </svg>
   );
 }

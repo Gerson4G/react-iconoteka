@@ -8,7 +8,7 @@ function SvgIconotekaBookCoverLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M6.5 2A2.5 2.5 0 004 4.5v15A2.5 2.5 0 006.5 22H20V2zm13 19.5h-13a2 2 0 01-2-2V6a2.5 2.5 0 002 1h13zm0-15h-13a2 2 0 010-4h13zM15 10H9v.5h6z" />
+      <path d="M6.5 2A2.5 2.5 0 004 4.5v15A2.5 2.5 0 006.5 22H20V2zM19 21H6.5A1.5 1.5 0 015 19.5v-13a2.45 2.45 0 001.5.5H19zm0-15H6.5a1.5 1.5 0 010-3H19zm-4 4H9v1h6z" />
     </svg>
   );
 }

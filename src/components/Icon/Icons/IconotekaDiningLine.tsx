@@ -8,7 +8,7 @@ function SvgIconotekaDiningLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M18 8H6v.5h5.75V19h.5V8.5H18zm-9.5 4H2.71L1.64 5h-.51l1.12 7.25L1.44 19H2l.77-6.5H8.5V19H9v-6.5a.5.5 0 00-.5-.5zm14.37-7h-.51l-1.07 7H15.5a.5.5 0 00-.5.5V19h.5v-6.5h5.78l.77 6.5h.51l-.81-6.75z" />
+      <path d="M8 12H3.22L2.14 5h-1l1.15 7.51L1.45 19h1l.77-6H8v6h1v-6a1 1 0 00-1-1zm10-4H6v1h5.5v10h1V9H18zm4.87-3h-1l-1.08 7H16a1 1 0 00-1 1v6h1v-6h4.77l.77 6h1l-.83-6.49z" />
     </svg>
   );
 }

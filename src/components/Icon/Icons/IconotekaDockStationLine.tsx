@@ -8,7 +8,7 @@ function SvgIconotekaDockStationLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M9 16h6a2 2 0 002-2V4a2 2 0 00-2-2H9a2 2 0 00-2 2v10a2 2 0 002 2zM7.5 4A1.5 1.5 0 019 2.5h6A1.5 1.5 0 0116.5 4v10a1.5 1.5 0 01-1.5 1.5H9A1.5 1.5 0 017.5 14zM4 18v3h16v-3zm15.5 2.5h-15v-2h15z" />
+      <path d="M9 16h6a2 2 0 002-2V4a2 2 0 00-2-2H9a2 2 0 00-2 2v10a2 2 0 002 2zM8 4a1 1 0 011-1h6a1 1 0 011 1v10a1 1 0 01-1 1H9a1 1 0 01-1-1zM4 18v3h16v-3zm15 2H5v-1h14z" />
     </svg>
   );
 }

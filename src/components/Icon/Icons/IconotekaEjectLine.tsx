@@ -8,7 +8,7 @@ function SvgIconotekaEjectLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M2 18.5v.5h20v-.5zM12 3L2 13h20zm0 .71l8.79 8.79H3.21z" />
+      <path d="M12 3L2 13h20zm0 1.41L19.58 12H4.42zM2 18v1h20v-1z" />
     </svg>
   );
 }

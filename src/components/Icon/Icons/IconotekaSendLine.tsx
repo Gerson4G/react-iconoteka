@@ -8,7 +8,7 @@ function SvgIconotekaSendLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M24 12L2 1l4 11-4 11zM2.9 2l19.56 9.78-16-.06zm3.51 10.33l16.17-.18L2.9 22z" />
+      <path d="M24 12L2 1l4 11-4 11zM3.8 3l17.26 8.63-14.24-.29zm3 9.7l14.42-.45L3.8 21z" />
     </svg>
   );
 }

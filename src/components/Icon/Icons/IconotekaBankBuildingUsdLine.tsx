@@ -8,7 +8,7 @@ function SvgIconotekaBankBuildingUsdLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 2.8L3 8v13h18V8zm8.5 17.7h-17V8.29L12 3.38l8.5 4.91zM11.78 9v1h-.66a1.63 1.63 0 000 3.25h1.74a1.13 1.13 0 110 2.25H9.75v.5h2v1.05h.44V16h.64a1.63 1.63 0 100-3.25h-1.71a1.13 1.13 0 010-2.25H14V10h-1.78V9z" />
+      <path d="M12 2.8L3 8v13h18V8zM20 20H4V8.58L12 4l8 4.62zM11.55 9v1h-.29a1.75 1.75 0 100 3.5h1.47a.75.75 0 010 1.5h-3v1h1.8v1.05h.9V16h.28a1.75 1.75 0 000-3.5h-1.45a.75.75 0 110-1.5H14v-1h-1.55V9z" />
     </svg>
   );
 }

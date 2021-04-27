@@ -8,7 +8,7 @@ function SvgIconotekaCocktailBarDrinkLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M22 4.2V3H2v1.2l9.75 10.53V22a.49.49 0 01-.47.49L7 22.75V23h10v-.25l-4.28-.23a.49.49 0 01-.47-.49v-7.3zM12 14.26L5.74 7.5h12.52zM2.5 3.5h19V4l-2.77 3H5.27L2.5 4z" />
+      <path d="M22 4.2V3H2v1.2l9.5 10.26v6.64a1 1 0 01-.89 1L7 22.5v.5h10v-.5l-3.61-.4a1 1 0 01-.89-1v-6.64zm-10 9.33L6.88 8h10.24zM20.82 4L18 7H6L3.18 4z" />
     </svg>
   );
 }

@@ -8,7 +8,7 @@ function SvgIconotekaDiamondRedDiamondLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 .71L23.29 12 12 23.29.71 12 12 .71M12 0L0 12l12 12 12-12L12 0z" />
+      <path d="M12 1.41L22.59 12 12 22.59 1.41 12 12 1.41M12 0L0 12l12 12 12-12L12 0z" />
     </svg>
   );
 }

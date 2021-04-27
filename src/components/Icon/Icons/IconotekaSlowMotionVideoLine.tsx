@@ -8,7 +8,7 @@ function SvgIconotekaSlowMotionVideoLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M10 4.49v15L23 12zm.5.87L22 12l-11.5 6.64zM6 19.51l.5-.29V4.78L6 4.49zm-4 0l.5-.29V4.78L2 4.49z" />
+      <path d="M10 4.49v15L23 12zm1 1.74L21 12l-10 5.77zM6 19.51l1-.58V5.07l-1-.58zm-4 0l1-.58V5.07l-1-.58z" />
     </svg>
   );
 }

@@ -4,7 +4,7 @@ function SvgIconotekaBlockNotInterestedProhibitedLine(props: any): JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
-        d="M12 2a10 10 0 1010 10A10 10 0 0012 2zM2.5 12a9.49 9.49 0 0116-6.88L5.12 18.53A9.44 9.44 0 012.5 12zm9.5 9.5a9.46 9.46 0 01-6.53-2.62L18.88 5.47A9.49 9.49 0 0112 21.5z"
+        d="M12 2a10 10 0 1010 10A10 10 0 0012 2zM3 12a9 9 0 0115-6.7L5.3 18A9 9 0 013 12zm9 9a9 9 0 01-6-2.3L18.7 6A9 9 0 0112 21z"
         data-name="Clear 3"
       />
     </svg>

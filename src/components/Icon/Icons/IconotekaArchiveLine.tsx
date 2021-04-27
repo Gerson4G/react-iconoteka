@@ -8,7 +8,7 @@ function SvgIconotekaArchiveLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M2 3v4.5h1V21h18V7.5h1V3zm18.5 17.5h-17v-13h17zm1-13.5h-19V3.5h19zm-7.07 7.61l-.35-.35-1.83 1.82V11h-.5v5.08l-1.83-1.82-.35.35L12 17z" />
+      <path d="M2 3v5h1v13h18V8h1V3zm18 17H4V8h16zm1-13H3V4h18zm-6.32 7.36l-.71-.7-1.47 1.47V11h-1v4.13L10 13.66l-.71.7L12 17z" />
     </svg>
   );
 }

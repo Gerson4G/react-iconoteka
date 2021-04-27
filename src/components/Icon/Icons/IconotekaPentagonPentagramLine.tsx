@@ -8,7 +8,7 @@ function SvgIconotekaPentagonPentagramLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 1.54l10 7.23-3.8 11.69H5.85L2.05 8.77 12 1.54m0-.62L1.46 8.58 5.49 21h13l4-12.38L12 .92z" />
+      <path d="M12 2.16L21.36 9l-3.58 11H6.22L2.64 9 12 2.16m0-1.24L1.46 8.58 5.49 21h13l4-12.38L12 .92z" />
     </svg>
   );
 }

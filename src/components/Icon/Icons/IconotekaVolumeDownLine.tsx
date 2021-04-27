@@ -8,7 +8,7 @@ function SvgIconotekaVolumeDownLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 8v8h5.09L14 21.91V2.09L8.09 8zm5.44.35l5.06-5.06v17.42l-5.06-5.06-.15-.15H3.5v-7h4.79zM18 6.87l-.36.36a6.74 6.74 0 010 9.54l.36.36a7.26 7.26 0 000-10.26z" />
+      <path d="M3 8v8h5.09L14 21.91V2.09L8.09 8zm5.79.71L13 4.5v15L8.5 15H4V9h4.5zm9.32-2l-.71.7a6.51 6.51 0 010 9.2l.71.7a7.51 7.51 0 000-10.61z" />
     </svg>
   );
 }

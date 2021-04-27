@@ -8,7 +8,7 @@ function SvgIconotekaSkipNextLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 20.66L18 12 3 3.34zm.5-16.45L17 12 3.5 19.79zm17-.21v16h.5V4z" />
+      <path d="M3 20.66L18 12 3 3.34zM4 5.07L16 12 4 18.93zM20 4v16h1V4z" />
     </svg>
   );
 }

@@ -8,7 +8,7 @@ function SvgIconotekaFloppyDiskSaveDisketteDiskLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M6.5 3L3 6.5V21h18V3zm2 .5h7v4h-7zm12 17h-17V6.71L6.71 3.5H8V8h8V3.5h4.5zm-8.5-10a2 2 0 102 2 2 2 0 00-2-2zm0 3.5a1.5 1.5 0 111.5-1.5A1.5 1.5 0 0112 14z" />
+      <path d="M6.5 3L3 6.5V21h18V3zm2.43 1h6.14v3.4H8.93zM20 20H4V6.91L6.91 4H8v4.33h8V4h4zm-8-9.62a2.29 2.29 0 102.28 2.29A2.29 2.29 0 0012 10.38zM12 14a1.34 1.34 0 111.33-1.33A1.33 1.33 0 0112 14z" />
     </svg>
   );
 }
