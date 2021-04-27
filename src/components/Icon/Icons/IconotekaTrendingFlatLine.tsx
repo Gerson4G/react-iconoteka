@@ -8,7 +8,7 @@ function SvgIconotekaTrendingFlatLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M18.21 8.21l-.35.35 3.18 3.19H2v.5h19.04l-3.18 3.19.35.35L22 12l-3.79-3.79z" />
+      <path d="M17.5 7.5l-.71.71 3.3 3.29H2v1h18.09l-3.3 3.29.71.71L22 12l-4.5-4.5z" />
     </svg>
   );
 }

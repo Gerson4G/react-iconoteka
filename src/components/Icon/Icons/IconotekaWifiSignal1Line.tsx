@@ -8,7 +8,7 @@ function SvgIconotekaWifiSignal1Line(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M9.36 18.36l.35.35a3.21 3.21 0 014.58 0l.35-.35a3.69 3.69 0 00-5.28 0z" />
+      <path d="M9.36 18.36l.7.7a2.73 2.73 0 013.88 0l.7-.7a3.69 3.69 0 00-5.28 0z" />
     </svg>
   );
 }

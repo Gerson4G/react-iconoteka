@@ -10,7 +10,7 @@ function SvgIconotekaChevronRightKeyboardArrowRightLine(
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M9.18 19.99l-.35-.35L16.46 12 8.83 4.36l.35-.35L17.17 12l-7.99 7.99z" />
+      <path d="M9.18 20.34l-.71-.7L16.11 12 8.47 4.36l.71-.7L17.52 12l-8.34 8.34z" />
     </svg>
   );
 }

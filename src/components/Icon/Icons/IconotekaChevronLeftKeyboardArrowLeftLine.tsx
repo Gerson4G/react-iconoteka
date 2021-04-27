@@ -8,7 +8,7 @@ function SvgIconotekaChevronLeftKeyboardArrowLeftLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M14.82 19.99L6.83 12l7.99-7.99.35.35L7.54 12l7.63 7.64-.35.35z" />
+      <path d="M14.82 20.34L6.47 12l8.35-8.34.71.7L7.89 12l7.64 7.64-.71.7z" />
     </svg>
   );
 }

@@ -8,7 +8,7 @@ function SvgIconotekaFoldLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M6.82 20.87l.36.36L12 16.4l4.82 4.83.36-.36L12 15.7zM17.18 3.13l-.36-.36L12 7.6 7.18 2.77l-.36.36L12 8.3z" />
+      <path d="M6.65 20.7l.7.7L12 16.76l4.65 4.64.7-.7L12 15.34zm10.7-17.4l-.7-.7L12 7.24 7.35 2.6l-.7.7L12 8.66z" />
     </svg>
   );
 }

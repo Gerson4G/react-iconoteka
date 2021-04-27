@@ -4,7 +4,7 @@ function SvgIconotekaBorderRightLine(props: any): JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
-        d="M7.38 21h.5v-.5h-.5zm2.18 0h.5v-.5h-.5zm8.75 0h.5v-.5h-.5zm-2.19 0h.5v-.5h-.5zm-2.18 0h.5v-.5h-.5zm-8.75 0h.5v-.5h-.5zM7.38 3.5h.5V3h-.5zm2.18 0h.5V3h-.5zm8.75 0h.5V3h-.5zm-2.19 0h.5V3h-.5zm-2.18 0h.5V3h-.5zm-8.75 0h.5V3h-.5zm2.19 8.75h.5v-.5h-.5zm2.18 0h.5v-.5h-.5zm8.75 0h.5v-.5h-.5zm-2.19 0h.5v-.5h-.5zm-2.18 0h.5v-.5h-.5zm-8.75 0h.5v-.5h-.5zM20.5 3v18h.5V3zM3 16.62h.5v-.5H3zm0-2.18h.5v-.5H3zm0-8.75h.5v-.5H3zm0 2.19h.5v-.5H3zm0 2.18h.5v-.5H3zm0 8.75h.5v-.5H3zM3 3.5h.5V3H3zm0 8.75h.5v-.5H3zM3 21h.5v-.5H3zm8.75-4.38h.5v-.5h-.5zm0-2.18h.5v-.5h-.5zm0-8.75h.5v-.5h-.5zm0 2.19h.5v-.5h-.5zm0 2.18h.5v-.5h-.5zm0 8.75h.5v-.5h-.5zm0-15.31h.5V3h-.5zm0 8.75h.5v-.5h-.5zm0 8.75h.5v-.5h-.5z"
+        d="M8.67 21h1v-1h-1zm8.5 0h1v-1h-1zM5.83 21h1v-1h-1zm8.5 0h1v-1h-1zM8.67 4h1V3h-1zm8.5 0h1V3h-1zM5.83 4h1V3h-1zm8.5 0h1V3h-1zm-5.66 8.5h1v-1h-1zm8.5 0h1v-1h-1zm-11.34 0h1v-1h-1zm8.5 0h1v-1h-1zM20 3v18h1V3zM3 12.5h1v-1H3zm0 2.83h1v-1H3zm0-8.5h1v-1H3zm0 11.34h1v-1H3zm0-8.5h1v-1H3zM3 4h1V3H3zm0 17h1v-1H3zm8.5-8.5h1v-1h-1zm0 2.83h1v-1h-1zm0-8.5h1v-1h-1zm0 11.34h1v-1h-1zm0-8.5h1v-1h-1zm0-5.67h1V3h-1zm0 17h1v-1h-1z"
         data-name="Clear 3"
       />
     </svg>

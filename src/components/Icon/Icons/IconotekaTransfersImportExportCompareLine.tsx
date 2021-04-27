@@ -8,7 +8,7 @@ function SvgIconotekaTransfersImportExportCompareLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M15.4 9.9l.35.35L19 7l-3.25-3.25-.35.35L18 6.75H5v.5h13zm-6.8 4.2l-.35-.35L5 17l3.25 3.25.35-.35L6 17.25h13v-.5H6z" />
+      <path d="M14.68 9.91l.7.71L19 7l-3.62-3.62-.7.71 2.41 2.41H5v1h12.09zm-5.36 4.18l-.7-.71L5 17l3.62 3.62.7-.71-2.41-2.41H19v-1H6.91z" />
     </svg>
   );
 }

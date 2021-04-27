@@ -8,7 +8,7 @@ function SvgIconotekaUnfoldLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 3.4l4.82 4.83.36-.36L12 2.7 6.82 7.87l.36.36zm0 17.2l-4.82-4.83-.36.36L12 21.3l5.18-5.17-.36-.36z" />
+      <path d="M12 3.76l4.65 4.64.7-.7L12 2.34 6.65 7.7l.7.7zm0 16.48L7.35 15.6l-.7.7L12 21.66l5.35-5.36-.7-.7z" />
     </svg>
   );
 }

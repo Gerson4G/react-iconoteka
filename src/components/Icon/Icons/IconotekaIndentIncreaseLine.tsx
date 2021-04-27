@@ -4,7 +4,7 @@ function SvgIconotekaIndentIncreaseLine(props: any): JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
-        d="M11 14.5h8V14h-8zM5 19h14v-.5H5zm6-9h8v-.5h-8zM5 5v.5h14V5zm.75 10.25L9 12 5.75 8.75l-.35.35L8.29 12 5.4 14.9z"
+        d="M5 19h14v-1H5zm6-4.33h8v-1h-8zM5 5v1h14V5zm6 5.33h8v-1h-8zm-5.62 5.29L9 12 5.38 8.38l-.7.71L7.59 12l-2.91 2.91z"
         data-name="Clear 3"
       />
     </svg>

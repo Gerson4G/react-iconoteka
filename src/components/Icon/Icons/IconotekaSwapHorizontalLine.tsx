@@ -8,7 +8,7 @@ function SvgIconotekaSwapHorizontalLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17.4 9.9l.35.35L21 7l-3.25-3.25-.35.35L20 6.75H6v.5h14zM6.6 14.1l-.35-.35L3 17l3.25 3.25.35-.35L4 17.25h14v-.5H4z" />
+      <path d="M16.68 9.91l.7.71L21 7l-3.62-3.62-.7.71 2.41 2.41H6v1h13.09zm-9.36 4.18l-.7-.71L3 17l3.62 3.62.7-.71-2.41-2.41H18v-1H4.91z" />
     </svg>
   );
 }

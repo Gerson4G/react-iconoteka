@@ -8,7 +8,7 @@ function SvgIconotekaNetworkCellSignalCellular1Line(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M4 20h.5v-2l-.5.4z" />
+      <path d="M4 20h1v-2.5l-1 .9z" />
     </svg>
   );
 }

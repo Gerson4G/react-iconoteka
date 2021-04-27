@@ -8,7 +8,7 @@ function SvgIconotekaMistLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 15.75h14v-.5H3zm4-7.5v.5h14v-.5z" />
+      <path d="M7 8v1h14V8zm-4 8h14v-1H3z" fillRule="evenodd" />
     </svg>
   );
 }

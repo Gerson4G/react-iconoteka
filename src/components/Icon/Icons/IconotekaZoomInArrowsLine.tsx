@@ -8,7 +8,7 @@ function SvgIconotekaZoomInArrowsLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M5.4 14.5h3.75l-6.33 6.32.36.36 6.32-6.33v3.75h.5V14H5.4zM21.2 3.2l-.35-.35-6.37 6.27V5.38H14V10h4.59v-.5h-3.75z" />
+      <path d="M4.88 15h3.41l-5.64 5.65.7.7L9 15.71v3.41h1V14H4.88zM21.35 3.35l-.7-.7L15 8.29V4.88h-1V10h5.12V9h-3.41z" />
     </svg>
   );
 }

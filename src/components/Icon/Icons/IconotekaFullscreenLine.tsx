@@ -8,7 +8,7 @@ function SvgIconotekaFullscreenLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16 4v.5h5.5V10h.5V4zM2 10h.5V4.5H8V4H2zm.5 4H2v6h6v-.5H2.5zm19 5.5H16v.5h6v-6h-.5z" />
+      <path d="M16 4v1h5v5h1V4zM2 10h1V5h5V4H2zm19 9h-5v1h6v-6h-1zM3 14H2v6h6v-1H3z" />
     </svg>
   );
 }

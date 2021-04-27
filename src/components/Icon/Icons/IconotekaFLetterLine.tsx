@@ -8,7 +8,7 @@ function SvgIconotekaFLetterLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17.46 2.5V2H6.75v20h.5V12h9.55v-.5H7.25v-9h10.21z" />
+      <path d="M17.54 3V2H6.5v20h1v-9.67h9.37v-1H7.5V3h10.04z" />
     </svg>
   );
 }

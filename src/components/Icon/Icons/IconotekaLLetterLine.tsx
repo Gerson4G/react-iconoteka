@@ -8,7 +8,7 @@ function SvgIconotekaLLetterLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M7.25 21.5V2h-.5v20h11v-.5H7.25z" />
+      <path d="M7.5 21V2h-1v20h11.33v-1H7.5z" />
     </svg>
   );
 }

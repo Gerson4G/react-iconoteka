@@ -48,6 +48,8 @@ export type IconName =
 'ArrowRightDown' |
 'ArrowRightForward' |
 'ArrowRightUpOpenInNew' |
+'ArrowRightUpOpenInNew_(apple)' |
+'ArrowRightUpOpenInNewApple' |
 'ArrowThinDown' |
 'ArrowThinLeftBackspace' |
 'ArrowThinLeftDown' |
@@ -241,6 +243,7 @@ export type IconName =
 'Crop7X5' |
 'CropAndRotate' |
 'CropFree' |
+'Crop_&Rotate' |
 'CropVertical' |
 'CupCoffeeTeaCafeCaffeeTeahouse' |
 'CupPrizeCompetitions' |
@@ -513,6 +516,8 @@ export type IconName =
 'OnDemandVideo' |
 'Opacity' |
 'OpenInBrowser' |
+'OpenInNew_(android)Launch' |
+'OpenInNewAndroidLaunch' |
 'OpenInNewLaunch' |
 'OpenWith' |
 'OvalHorizontal' |

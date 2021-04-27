@@ -8,7 +8,7 @@ function SvgIconotekaArrowThinDownLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12.25 21.3V1h-.5v20.3l-5.23-5.23-.35.35L12 22.25l5.83-5.83-.35-.35-5.23 5.23z" />
+      <path d="M12.5 20.69V1h-1v19.69l-4.8-4.8-.71.71L12 22.61l6.01-6.01-.71-.71-4.8 4.8z" />
     </svg>
   );
 }

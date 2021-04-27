@@ -8,7 +8,7 @@ function SvgIconotekaArrowThinLeftBackspaceLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M7.93 6.52l-.35-.35L1.75 12l5.83 5.83.35-.35-5.23-5.23H23v-.5H2.7l5.23-5.23z" />
+      <path d="M8.11 6.7l-.71-.71L1.39 12l6.01 6.01.71-.71-4.8-4.8H23v-1H3.31l4.8-4.8z" />
     </svg>
   );
 }

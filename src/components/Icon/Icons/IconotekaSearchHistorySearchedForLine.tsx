@@ -8,7 +8,7 @@ function SvgIconotekaSearchHistorySearchedForLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16.83 15.47A8 8 0 005.34 4.34L3.5 6.18V2.44H3V7h4.6v-.5H3.86L5.7 4.7A7.5 7.5 0 113.5 10H3a8 8 0 0013.47 5.83l5.85 5.85.36-.36z" />
+      <path d="M17 15.29A8 8 0 005.34 4.34L4 5.69V2.27H3v5.12h5.12v-1h-3.4l1.33-1.34a7 7 0 11-2 5H3a8 8 0 0013.29 6l5.86 5.86.7-.7z" />
     </svg>
   );
 }

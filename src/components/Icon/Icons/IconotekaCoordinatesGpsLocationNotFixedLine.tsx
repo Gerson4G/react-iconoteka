@@ -10,7 +10,7 @@ function SvgIconotekaCoordinatesGpsLocationNotFixedLine(
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M23 11.75h-3A8 8 0 0012.25 4V1h-.5v3A8 8 0 004 11.75H1v.5h3A8 8 0 0011.75 20v3h.5v-3A8 8 0 0020 12.25h3zM12 19.5a7.5 7.5 0 117.5-7.5 7.5 7.5 0 01-7.5 7.5z" />
+      <path d="M23 11.5h-3A8 8 0 0012.5 4V1h-1v3A8 8 0 004 11.5H1v1h3a8 8 0 007.5 7.5v3h1v-3a8 8 0 007.5-7.5h3zM12 19a7 7 0 117-7 7 7 0 01-7 7z" />
     </svg>
   );
 }

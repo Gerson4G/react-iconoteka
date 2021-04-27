@@ -8,7 +8,7 @@ function SvgIconotekaNetworkCellLockLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M4 20h.5v-2l-.5.4zm5.17 0h.5v-6.7l-.5.45zM20 4l-.49.44V20H20V4zm-5.67 16h.5V8.64l-.5.45zM9 5a2 2 0 00-4 0v1H4v4h6V6H9zM5.5 5a1.5 1.5 0 013 0v1h-3zm4 1.5v3h-5v-3z" />
+      <path d="M9 20h1v-7l-1 .9zm-5 0h1v-2.5l-1 .9zm10 0h1V8.49l-1 .9zm6-16l-1 .89V20h1V4zM9 5a2 2 0 00-4 0v1H4v4h6V6H9zM5.9 5a1.1 1.1 0 112.2 0v1H5.9zM9 9H5V7h4z" />
     </svg>
   );
 }

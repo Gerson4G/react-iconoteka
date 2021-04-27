@@ -8,7 +8,7 @@ function SvgIconotekaPowerOnOffButtonLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17 3.35l-.26.43a9.5 9.5 0 11-9.48 0L7 3.35a10 10 0 1010 0zM12.25 2h-.5v10h.5z" />
+      <path d="M17 3.35l-.51.86a9 9 0 11-9 0L7 3.35a10 10 0 1010 0zM12.5 2h-1v10h1z" />
     </svg>
   );
 }

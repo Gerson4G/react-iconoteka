@@ -8,7 +8,7 @@ function SvgIconotekaRussianRoubleRurLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M13.3 14H7.25V3.1h6.05a5.46 5.46 0 010 10.9zm0-11.41H6.75V14H4v.5h2.75V17H4v.5h2.75v5.1h.5v-5.1H14V17H7.25v-2.49h6.05a6 6 0 005.95-5.95A6.07 6.07 0 0013.3 2.6z" />
+      <path d="M7.5 3.4h5.7a5 5 0 110 9.94H7.5zm5.7-1H6.5v10.94H4v1h2.5v2.33H4v1h2.5v4.73h1v-4.73H14v-1H7.5v-2.33h5.7a6 6 0 006-6 6.05 6.05 0 00-6-5.94z" />
     </svg>
   );
 }

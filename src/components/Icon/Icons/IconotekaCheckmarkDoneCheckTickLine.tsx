@@ -8,7 +8,7 @@ function SvgIconotekaCheckmarkDoneCheckTickLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M9.5 17.34L1.82 9.66l.36-.35 7.32 7.32L21.82 4.31l.36.35L9.5 17.34z" />
+      <path d="M9.5 17.69L1.65 9.84l.7-.71 7.15 7.15L21.65 4.13l.7.71L9.5 17.69z" />
     </svg>
   );
 }

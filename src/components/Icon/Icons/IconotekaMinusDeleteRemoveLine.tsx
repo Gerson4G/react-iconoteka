@@ -3,7 +3,7 @@ import * as React from "react";
 function SvgIconotekaMinusDeleteRemoveLine(props: any): JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-      <path d="M2 11.75h20v.5H2z" data-name="Clear 3" />
+      <path d="M2 11.5h20v1H2z" data-name="Clear 3" />
     </svg>
   );
 }

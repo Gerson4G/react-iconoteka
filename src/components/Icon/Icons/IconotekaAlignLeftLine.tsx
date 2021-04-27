@@ -8,7 +8,7 @@ function SvgIconotekaAlignLeftLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M21 11.75H8l2.6-2.65-.35-.35L7 12l3.25 3.25.35-.35L8 12.25h13zM3.75 21h.5V3h-.5z" />
+      <path d="M21 11.5H8.91l2.41-2.41-.7-.71L7 12l3.62 3.62.7-.71-2.41-2.41H21zM3.5 21h1V3h-1z" />
     </svg>
   );
 }

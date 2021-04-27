@@ -10,7 +10,7 @@ function SvgIconotekaChevronSmallDownDropDownExpandMoreLine(
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 15.47l-4.6-4.59.36-.35L12 14.77l4.24-4.24.36.35-4.6 4.59z" />
+      <path d="M12 15.83l-4.95-4.95.71-.71L12 14.41l4.24-4.24.71.71L12 15.83z" />
     </svg>
   );
 }

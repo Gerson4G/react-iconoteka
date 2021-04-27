@@ -8,7 +8,7 @@ function SvgIconotekaTabButtonLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12.32 6.68l5.08 5.07H1v.5h16.4l-5.08 5.07.36.36L18.35 12l-5.67-5.68zM21.75 6v12h.5V6z" />
+      <path d="M12.15 6.85l4.64 4.65H1v1h15.79l-4.64 4.65.7.7L18.71 12l-5.86-5.85zM21.5 6v12h1V6z" />
     </svg>
   );
 }

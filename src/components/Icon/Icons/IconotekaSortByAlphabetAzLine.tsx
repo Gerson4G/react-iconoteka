@@ -8,7 +8,7 @@ function SvgIconotekaSortByAlphabetAzLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M14 6v.5h10V6zm0 6.25h6.67v-.5H14zM14 18h3.33v-.5H14zM3.65 13.85l2.61-7.12 2.61 7.12zM6 6L1.59 18h.54l1.34-3.65h5.59L10.39 18h.54L6.53 6z" />
+      <path d="M14 6v1h10V6zm0 6.5h6.67v-1H14zm0 5.5h3.33v-1H14zm-9.72-4.36l2.26-6.15 2.25 6.15zM6 6L1.59 18h1.1l1.25-3.43h5.2L10.39 18h1.1L7.09 6z" />
     </svg>
   );
 }

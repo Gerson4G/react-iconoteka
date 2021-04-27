@@ -8,7 +8,7 @@ function SvgIconotekaCapslockLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 3.65l-8.67 8.67.36.35L12 4.35l8.32 8.32.35-.35zm-8 14.6h16v-.5H4z" />
+      <path d="M12 3.29l-8.84 8.85.7.71L12 4.71l8.14 8.14.71-.71zM4 18.5h16v-1H4z" />
     </svg>
   );
 }

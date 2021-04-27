@@ -8,7 +8,7 @@ function SvgIconotekaSignalCellularAlert3Line(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M6.22 8l.13-5h-.7l.13 5zM6 9.6a.4.4 0 10.4.4.4.4 0 00-.4-.4zM4 20h.5v-2l-.5.4zM14.33 9.09V20h.5V8.64zM9.17 20h.5v-6.7l-.5.45z" />
+      <path d="M5.61 8h.78l.23-5H5.38zM6 9.38a.62.62 0 10.62.62.61.61 0 00-.62-.62zM4 20h1v-2.5l-1 .9zM14 9.39V20h1V8.49zM9 20h1v-7l-1 .9z" />
     </svg>
   );
 }
