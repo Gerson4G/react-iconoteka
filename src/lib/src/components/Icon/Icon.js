@@ -43,10 +43,11 @@ var __rest = (this && this.__rest) || function (s, e) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 var react_1 = require("react");
+var NoExisting = function () { return (jsx_runtime_1.jsx(jsx_runtime_1.Fragment, { children: "Icon does not exist" }, void 0)); };
 function Icon(_a) {
     var name = _a.name, stroke = _a.stroke, type = _a.type, color = _a.color, fillColor = _a.fillColor, borderColor = _a.borderColor, props = __rest(_a, ["name", "stroke", "type", "color", "fillColor", "borderColor"]);
     var iconName = "Iconoteka" + name + type[0].toUpperCase() + type.slice(1);
-    var Component = react_1.lazy(function () { return Promise.resolve().then(function () { return __importStar(require("./Icons")); }).then(function (module) { return ({ default: module[iconName] }); }); });
+    var Component = react_1.lazy(function () { return Promise.resolve().then(function () { return __importStar(require("./Icons")); }).then(function (module) { var _a; return ({ default: (_a = module[iconName]) !== null && _a !== void 0 ? _a : NoExisting }); }); });
     var strokeWidth = {
         lighter: 0.5,
         light: 0.8,

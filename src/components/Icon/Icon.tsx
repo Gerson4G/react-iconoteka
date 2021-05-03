@@ -3,7 +3,7 @@ import { IconProps } from './types';
 
 const NoExisting = () => (
   <>Icon does not exist</>
-)
+);
 
 function Icon({ name, stroke, type, color, fillColor, borderColor, ...props }: IconProps): JSX.Element {
   let iconName = `Iconoteka${name}${type[0].toUpperCase()}${type.slice(1)}`;
