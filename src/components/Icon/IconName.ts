@@ -843,7 +843,7 @@ export const names = [
 'ZLetter',
 'ZoomIn',
 'ZoomInArrows',
-'ZoomOut
+'ZoomOut'
 ] as const;
 
 export type IconName = typeof names[number];

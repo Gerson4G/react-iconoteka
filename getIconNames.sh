@@ -5,7 +5,7 @@ for name in * ; do step_1="${name/Iconoteka/}"; step_2="${step_1/Fill/}"; step_3
 uniqueNames=($(printf "%s\n" "${names[@]}" | sort -u))
 printf "'%s',\n" "${uniqueNames[@]}" >> ../IconName.ts
 sed -i '$ d' ../IconName.ts &&
-truncate -s-3 ../IconName.ts &&
+truncate -s-2 ../IconName.ts &&
 echo -e "\n] as const;\n" >> ../IconName.ts &&
 echo "export type IconName = typeof names[number];" >> ../IconName.ts &&
 echo -e "\nexport default IconName;" >> ../IconName.ts

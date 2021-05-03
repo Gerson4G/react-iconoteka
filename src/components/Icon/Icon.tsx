@@ -1,9 +1,13 @@
 import React, { Suspense, lazy } from 'react';
 import { IconProps } from './types';
 
+const NoExisting = () => (
+  <>Icon does not exist</>
+)
+
 function Icon({ name, stroke, type, color, fillColor, borderColor, ...props }: IconProps): JSX.Element {
   let iconName = `Iconoteka${name}${type[0].toUpperCase()}${type.slice(1)}`;
-  const Component = lazy(() => import(`./Icons`).then((module: any) => ({ default: module[iconName] })));
+  const Component = lazy(() => import(`./Icons`).then((module: any) => ({ default: module[iconName] ?? NoExisting })));
   const strokeWidth = {
     lighter: 0.5,
     light: 0.8,
