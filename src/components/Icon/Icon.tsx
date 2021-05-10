@@ -5,7 +5,7 @@ const NoExisting = () => (
   <>Icon does not exist</>
 );
 
-function Icon({ name, stroke, type, color, fillColor, borderColor, ...props }: IconProps): JSX.Element {
+function Icon({ name, stroke, type, color, ...props }: IconProps): JSX.Element {
   let iconName = `Iconoteka${name}${type[0].toUpperCase()}${type.slice(1)}`;
   const Component = lazy(() => import(`./Icons`).then((module: any) => ({ default: module[iconName] ?? NoExisting })));
   const strokeWidth = {
@@ -21,8 +21,7 @@ function Icon({ name, stroke, type, color, fillColor, borderColor, ...props }: I
       <Component 
         width={24}
         height={24}
-        fill={fillColor ?? color}
-        stroke={borderColor ?? color}
+        fill={color}
         strokeWidth={strokeWidth[stroke]}
         {...props} />
     </Suspense>

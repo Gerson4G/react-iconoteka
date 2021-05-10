@@ -45,7 +45,7 @@ var jsx_runtime_1 = require("react/jsx-runtime");
 var react_1 = require("react");
 var NoExisting = function () { return (jsx_runtime_1.jsx(jsx_runtime_1.Fragment, { children: "Icon does not exist" }, void 0)); };
 function Icon(_a) {
-    var name = _a.name, stroke = _a.stroke, type = _a.type, color = _a.color, fillColor = _a.fillColor, borderColor = _a.borderColor, props = __rest(_a, ["name", "stroke", "type", "color", "fillColor", "borderColor"]);
+    var name = _a.name, stroke = _a.stroke, type = _a.type, color = _a.color, props = __rest(_a, ["name", "stroke", "type", "color"]);
     var iconName = "Iconoteka" + name + type[0].toUpperCase() + type.slice(1);
     var Component = react_1.lazy(function () { return Promise.resolve().then(function () { return __importStar(require("./Icons")); }).then(function (module) { var _a; return ({ default: (_a = module[iconName]) !== null && _a !== void 0 ? _a : NoExisting }); }); });
     var strokeWidth = {
@@ -56,7 +56,7 @@ function Icon(_a) {
         bold: 1.8,
         bolder: 2,
     };
-    return (jsx_runtime_1.jsx(react_1.Suspense, __assign({ fallback: jsx_runtime_1.jsx(jsx_runtime_1.Fragment, {}, void 0) }, { children: jsx_runtime_1.jsx(Component, __assign({ width: 24, height: 24, fill: fillColor !== null && fillColor !== void 0 ? fillColor : color, stroke: borderColor !== null && borderColor !== void 0 ? borderColor : color, strokeWidth: strokeWidth[stroke] }, props), void 0) }), void 0));
+    return (jsx_runtime_1.jsx(react_1.Suspense, __assign({ fallback: jsx_runtime_1.jsx(jsx_runtime_1.Fragment, {}, void 0) }, { children: jsx_runtime_1.jsx(Component, __assign({ width: 24, height: 24, fill: color, strokeWidth: strokeWidth[stroke] }, props), void 0) }), void 0));
 }
 Icon.defaultProps = {
     className: '',

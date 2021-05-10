@@ -11,9 +11,6 @@ export default {
   decorators: [withDesign],
   argTypes: {
     color: { control: 'color' },
-    borderColor: { control: 'color' },
-    fillColor: { control: 'color' },
-    strokeWidth: { control: 'text' },
   },
 } as Meta;
 

@@ -24,9 +24,6 @@ exports.default = {
     decorators: [storybook_addon_designs_1.withDesign],
     argTypes: {
         color: { control: 'color' },
-        borderColor: { control: 'color' },
-        fillColor: { control: 'color' },
-        strokeWidth: { control: 'text' },
     },
 };
 var Icon = function (args) { return jsx_runtime_1.jsx(index_1.default, __assign({}, args), void 0); };
