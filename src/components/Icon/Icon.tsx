@@ -9,10 +9,10 @@ function Icon({ name, stroke, type, color, ...props }: IconProps): JSX.Element {
   let iconName = `Iconoteka${name}${type[0].toUpperCase()}${type.slice(1)}`;
   const Component = lazy(() => import(`./Icons`).then((module: any) => ({ default: module[iconName] ?? NoExisting })));
   const strokeWidth = {
-    regular: 1,
-    medium: 1.3,
-    bold: 1.6,
-    bolder: 2,
+    regular: 0,
+    medium: 1,
+    bold: 1.3,
+    bolder: 1.6,
   };
   return (
     <Suspense fallback={<></>}>

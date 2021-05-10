@@ -49,14 +49,12 @@ function Icon(_a) {
     var iconName = "Iconoteka" + name + type[0].toUpperCase() + type.slice(1);
     var Component = react_1.lazy(function () { return Promise.resolve().then(function () { return __importStar(require("./Icons")); }).then(function (module) { var _a; return ({ default: (_a = module[iconName]) !== null && _a !== void 0 ? _a : NoExisting }); }); });
     var strokeWidth = {
-        lighter: 0.5,
-        light: 0.8,
-        regular: 1,
-        medium: 1.5,
-        bold: 1.8,
-        bolder: 2,
+        regular: 0,
+        medium: 1,
+        bold: 1.3,
+        bolder: 1.6,
     };
-    return (jsx_runtime_1.jsx(react_1.Suspense, __assign({ fallback: jsx_runtime_1.jsx(jsx_runtime_1.Fragment, {}, void 0) }, { children: jsx_runtime_1.jsx(Component, __assign({ width: 24, height: 24, fill: color, strokeWidth: strokeWidth[stroke] }, props), void 0) }), void 0));
+    return (jsx_runtime_1.jsx(react_1.Suspense, __assign({ fallback: jsx_runtime_1.jsx(jsx_runtime_1.Fragment, {}, void 0) }, { children: jsx_runtime_1.jsx(Component, __assign({ width: 24, height: 24, fill: color, strokeWidth: strokeWidth[stroke], stroke: stroke !== 'regular' ? color : undefined }, props), void 0) }), void 0));
 }
 Icon.defaultProps = {
     className: '',
