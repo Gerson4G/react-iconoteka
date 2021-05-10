@@ -9,11 +9,9 @@ function Icon({ name, stroke, type, color, ...props }: IconProps): JSX.Element {
   let iconName = `Iconoteka${name}${type[0].toUpperCase()}${type.slice(1)}`;
   const Component = lazy(() => import(`./Icons`).then((module: any) => ({ default: module[iconName] ?? NoExisting })));
   const strokeWidth = {
-    lighter: 0.5,
-    light: 0.8,
     regular: 1,
-    medium: 1.5,
-    bold: 1.8,
+    medium: 1.3,
+    bold: 1.6,
     bolder: 2,
   };
   return (
@@ -23,6 +21,7 @@ function Icon({ name, stroke, type, color, ...props }: IconProps): JSX.Element {
         height={24}
         fill={color}
         strokeWidth={strokeWidth[stroke]}
+        stroke={stroke !== 'regular' ? color : undefined}
         {...props} />
     </Suspense>
   );
