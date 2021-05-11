@@ -8,7 +8,7 @@ function SvgIconotekaLibraryVideoFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19 3H5v.5h14zM3 7v14h18V7zm6.75 10v-6L15 14z" />
+      <path d="M19 3H5v1.5h14zM3 7v14h18V7zm6.75 10v-6L15 14z" />
     </svg>
   );
 }

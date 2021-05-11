@@ -4,7 +4,7 @@ function SvgIconotekaBluetoothLine(props: any): JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
-        d="M9.55 22.52v-9.58l-5.14 3.48-.56-.83L9.16 12 3.85 8.41l.56-.83 5.14 3.48V1.48L18 7.21 10.94 12 18 16.79zm1-9.58v7.7l5.69-3.85zm0-9.58v7.7l5.69-3.85z"
+        d="M9.62 22.46v-9l-4.94 3.29-.84-1.24L9 12 3.84 8.49l.84-1.24 4.94 3.34v-9l8.77 5.94L11.7 12l6.69 4.52zm1.5-9v6.22l4.59-3.11zm0-9v6.22l4.59-3.11z"
         data-name="Clear 3"
       />
     </svg>

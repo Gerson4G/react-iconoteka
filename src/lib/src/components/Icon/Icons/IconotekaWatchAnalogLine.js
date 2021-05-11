@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaWatchAnalogLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16 6.26V3a2 2 0 00-2-2h-4a2 2 0 00-2 2v3.26a7 7 0 000 11.48V21a2 2 0 002 2h4a2 2 0 002-2v-3.26a7 7 0 000-11.48zM9 3a1 1 0 011-1h4a1 1 0 011 1v2.68a7 7 0 00-6 0zm6 18a1 1 0 01-1 1h-4a1 1 0 01-1-1v-2.68a7 7 0 006 0zm-3-3a6 6 0 116-6 6 6 0 01-6 6zm.37-10h-1v4.63h4v-1h-3z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16 6.26V3a2 2 0 00-2-2h-4a2 2 0 00-2 2v3.26a7 7 0 000 11.48V21a2 2 0 002 2h4a2 2 0 002-2v-3.26a7 7 0 000-11.48zM9.5 3a.5.5 0 01.5-.5h4a.5.5 0 01.5.5v2.47a6.88 6.88 0 00-5 0zm5 18a.5.5 0 01-.5.5h-4a.5.5 0 01-.5-.5v-2.47a6.88 6.88 0 005 0zM12 17.5a5.5 5.5 0 115.5-5.5 5.51 5.51 0 01-5.5 5.5zm.59-8.73h-1.45v4.09h3.61v-1.45h-2.16z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaWatchAnalogLine;

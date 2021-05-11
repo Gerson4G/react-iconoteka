@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSingleBedLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19 13V8a2 2 0 00-2-2H7a2 2 0 00-2 2v5H3v7h1v-2h16v2h1v-7zM6 8a1 1 0 011-1h10a1 1 0 011 1v5h-3.1l-.53-1.06a1.7 1.7 0 00-1.52-.94h-1.7a1.7 1.7 0 00-1.52.94L9.1 13H6zm7.78 5h-3.56l.31-.61a.7.7 0 01.62-.39h1.7a.7.7 0 01.62.39zM4 17v-3h16v3z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19 12.5V7a2 2 0 00-2-2H7a2 2 0 00-2 2v5.5H3V20h1.5v-2h15v2H21v-7.5zM6.5 7a.5.5 0 01.5-.5h10a.5.5 0 01.5.5v5.5h-3.15l-.35-.67a1.49 1.49 0 00-1.33-.83h-1.34a1.49 1.49 0 00-1.34.83l-.34.67H6.5zm-2 9.5V14h15v2.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSingleBedLine;

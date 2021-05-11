@@ -8,7 +8,7 @@ function SvgIconotekaPLetterParkingLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12.36 13.27H7.5V3h4.86a5.14 5.14 0 110 10.27zm0-11.27H6.5v20h1v-7.73h4.86a6.14 6.14 0 100-12.27z" />
+      <path d="M12.43 13.14H7.75V3.5h4.68a4.82 4.82 0 010 9.64zm0-11.14H6.25v20h1.5v-7.36h4.68a6.32 6.32 0 000-12.64z" />
     </svg>
   );
 }

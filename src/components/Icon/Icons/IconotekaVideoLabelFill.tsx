@@ -8,7 +8,7 @@ function SvgIconotekaVideoLabelFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 21h18v-3.5H3zM3 3v14h18V3zm6.75 10V7L15 10z" />
+      <path d="M3 3v14h18V3zm6.75 10V7L15 10zM3 21h18v-2.5H3z" />
     </svg>
   );
 }

@@ -8,7 +8,7 @@ function SvgIconotekaAlignBottomLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 19.5v1h18v-1zm12.62-6.12l-.71-.7-2.41 2.41V3h-1v12.09l-2.41-2.41-.71.7L12 17z" />
+      <path d="M3 19.25v1.5h18v-1.5zm12.22-5.47h-2.47V3h-1.5v10.78H8.78L12 17z" />
     </svg>
   );
 }

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaMessageListSpeakerNotesFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19 2H5a3 3 0 00-3 3v19l6-6h11a3 3 0 003-3V5a3 3 0 00-3-3zM8.35 11.6a.35.35 0 11.35-.35.35.35 0 01-.35.35zm0-2.5a.35.35 0 11.35-.35.35.35 0 01-.35.35zM16 11.5h-6V11h6zM16 9h-6v-.5h6z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19 2H5a3 3 0 00-3 3v19l6-6h11a3 3 0 003-3V5a3 3 0 00-3-3zM8.8 12.55a.8.8 0 11.8-.8.8.8 0 01-.8.8zm0-3.5a.8.8 0 11.8-.8.8.8 0 01-.8.8zM16 12.5h-5V11h5zM16 9h-5V7.5h5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaMessageListSpeakerNotesFill;

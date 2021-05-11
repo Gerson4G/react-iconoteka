@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaWifiSignal2Line(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M6.47 15.47l.72.72a6.74 6.74 0 019.62 0l.72-.72a7.8 7.8 0 00-11.06 0zm2.89 2.89l.7.7a2.73 2.73 0 013.88 0l.7-.7a3.69 3.69 0 00-5.28 0z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.1 16.1l1.05 1a5.41 5.41 0 017.7 0l1-1a6.86 6.86 0 00-9.8 0zm3.21 3.21L12 21l1.69-1.69a2.32 2.32 0 00-3.38 0z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaWifiSignal2Line;

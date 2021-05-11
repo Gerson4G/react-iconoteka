@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaPowerSocketLLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 13.7a1.7 1.7 0 10-1.7-1.7 1.7 1.7 0 001.7 1.7zm0-2.5a.8.8 0 11-.8.8.8.8 0 01.8-.8zm5.56 2.5a1.7 1.7 0 10-1.7-1.7 1.7 1.7 0 001.7 1.7zm0-2.5a.8.8 0 11-.8.8.8.8 0 01.8-.8zM6.44 13.7a1.7 1.7 0 10-1.7-1.7 1.7 1.7 0 001.7 1.7zm0-2.5a.8.8 0 11-.8.8.8.8 0 01.8-.8zM1 5v14h22V5zm21 13H2V6h20z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 13.15A1.15 1.15 0 1010.85 12 1.14 1.14 0 0012 13.15zm5.12 0A1.15 1.15 0 1016 12a1.14 1.14 0 001.12 1.15zm-10.24 0A1.15 1.15 0 105.73 12a1.14 1.14 0 001.15 1.15zM1 5v14h22V5zm20.5 12.5h-19v-11h19z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaPowerSocketLLine;

@@ -8,7 +8,7 @@ function SvgIconotekaRouteDirectionsFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 0L0 12l7.75 7.75V14A2.25 2.25 0 0110 11.75h6L13.4 9.1l.35-.35L17 12l-3.25 3.25-.35-.35 2.6-2.65h-6A1.76 1.76 0 008.25 14v6.25L12 24l12-12zm4.29 12z" />
+      <path d="M12 0L0 12l7.25 7.25V14A2.75 2.75 0 0110 11.25h3.78V8.78L17 12l-3.22 3.22v-2.47H10A1.25 1.25 0 008.75 14v6.75L12 24l12-12z" />
     </svg>
   );
 }

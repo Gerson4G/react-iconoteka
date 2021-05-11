@@ -8,7 +8,7 @@ function SvgIconotekaMicroSdCardFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M18 2v4h-.5V2h-1.6v4h-.5V2h-1.6v4h-.5V2h-1.6v4h-.5V2H9.6v4h-.5V2H7.5v4H7V2H5v4L3 8v4h1v2l-1 1v6h17V2h-2z" />
+      <path d="M18 2v4h-1.5V2h-1.67v4h-1.5V2h-1.66v4h-1.5V2H8.5v4H7V2H5v4L3 8v4.67h1v2l-1 1V21h17V2h-2z" />
     </svg>
   );
 }

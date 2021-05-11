@@ -8,7 +8,7 @@ function SvgIconotekaChevronInCircleLeftUpLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M9.5 16h1v-5.5H16v-1H9.5zm9.57-11.07a10 10 0 100 14.14 10 10 0 000-14.14zm-.71 13.43A9 9 0 1121 12a8.94 8.94 0 01-2.64 6.36z" />
+      <path d="M9.25 16h1.5v-5.25H16v-1.5H9.25zm9.82-11.07a10 10 0 100 14.14 10 10 0 000-14.14zM18 18A8.5 8.5 0 116 6a8.5 8.5 0 1112 12z" />
     </svg>
   );
 }

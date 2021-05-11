@@ -10,7 +10,7 @@ function SvgIconotekaMicrophoneVoiceSpeechDictationLine(
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19 10v2a7 7 0 01-14 0v-2H4v2a8 8 0 007.5 8v3h1v-3a8 8 0 007.5-8v-2zm-7 6a4 4 0 004-4V5a4 4 0 00-8 0v7a4 4 0 004 4zM9 5a3 3 0 016 0v7a3 3 0 01-6 0z" />
+      <path d="M18.5 10v2a6.5 6.5 0 01-13 0v-2H4v2a8 8 0 007.25 8v3h1.5v-3A8 8 0 0020 12v-2zM12 16a4 4 0 004-4V5a4 4 0 00-8 0v7a4 4 0 004 4zM9.5 5a2.5 2.5 0 015 0v7a2.5 2.5 0 01-5 0z" />
     </svg>
   );
 }

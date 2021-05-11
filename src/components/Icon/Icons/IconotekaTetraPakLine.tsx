@@ -8,7 +8,10 @@ function SvgIconotekaTetraPakLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17 4V2H7v2L4 7v15h16V7zM8 3h8v1.41l.29.3L18.59 7H11L8 4zM5 21V7.41l2.5-2.5 2.5 2.5V21zm14 0h-8V8h8z" />
+      <path
+        d="M17 5V2H7v3L4 8v14h16V8zM8.5 3.5h7v2.12l.44.44L17.88 8H11.5l-3-3zm-3 17V8.62l2.25-2.25L10 8.62V20.5zm6 0v-11h7v11z"
+        fillRule="evenodd"
+      />
     </svg>
   );
 }

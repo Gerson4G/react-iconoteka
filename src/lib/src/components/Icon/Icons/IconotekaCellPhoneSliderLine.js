@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaCellPhoneSliderLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16 2H8a2 2 0 00-2 2v8a2 2 0 001 1.72V20a2 2 0 002 2h6a2 2 0 002-2v-6.28A2 2 0 0018 12V4a2 2 0 00-2-2zM8 14h3.5v3H8zm1 7a1 1 0 01-1-1v-2h3.5v3zm7-1a1 1 0 01-1 1h-2.5v-3H16zm0-3h-3.5v-3H16zm1-5a1 1 0 01-1 1H8a1 1 0 01-1-1V4a1 1 0 011-1h8a1 1 0 011 1z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16 2H8a2 2 0 00-2 2v8a2 2 0 001 1.72V20a2 2 0 002 2h6a2 2 0 002-2v-6.28A2 2 0 0018 12V4a2 2 0 00-2-2zM7.5 4a.5.5 0 01.5-.5h8a.5.5 0 01.5.5v8a.5.5 0 01-.5.5H8a.5.5 0 01-.5-.5zm1 10h2.8v2.3H8.5zm0 6v-2.3h2.8v2.8H9a.5.5 0 01-.5-.5zm7 0a.5.5 0 01-.5.5h-2.3v-2.8h2.8zm-2.8-3.7V14h2.8v2.3z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaCellPhoneSliderLine;

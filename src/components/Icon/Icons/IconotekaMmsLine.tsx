@@ -8,7 +8,7 @@ function SvgIconotekaMmsLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19 2H5a3 3 0 00-3 3v19l6-6h11a3 3 0 003-3V5a3 3 0 00-3-3zm2 13a2 2 0 01-2 2H7.59l-.3.29L3 21.59V5a2 2 0 012-2h14a2 2 0 012 2zM8 13h8V7H8zm.9-5.1h6.2v4.2H8.9z" />
+      <path d="M19 2H5a3 3 0 00-3 3v19l6-6h11a3 3 0 003-3V5a3 3 0 00-3-3zm1.5 13a1.5 1.5 0 01-1.5 1.5H7.38L3.5 20.38V5A1.5 1.5 0 015 3.5h14A1.5 1.5 0 0120.5 5zM8 13h8V7H8zm1.45-4.55h5.1v3.1h-5.1z" />
     </svg>
   );
 }

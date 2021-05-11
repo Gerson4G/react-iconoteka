@@ -8,7 +8,7 @@ function SvgIconotekaParallelogramLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M21.68 4l-4.44 16H2.32L6.76 4h14.92M23 3H6L1 21h17l5-18z" />
+      <path d="M21 4.5l-4.17 15H3l4.17-15H21M23 3H6L1 21h17l5-18z" />
     </svg>
   );
 }

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSlowMotionVideoFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M10 4.49v15L23 12zm-4 15l.5-.29V4.78L6 4.49zm-4 0l.5-.29V4.78L2 4.49z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M10 4.49v15L23 12zm-4 15l1.5-.87V5.36L6 4.49zm-4 0l1.5-.87V5.36L2 4.49z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSlowMotionVideoFill;

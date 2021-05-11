@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaFindReplaceLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M11 3a7 7 0 015 2.05l1.33 1.34h-3.4v1H19V2.27h-1v3.42l-1.34-1.35A8 8 0 003 10h1a7 7 0 017-7zm6 12.29A7.94 7.94 0 0019 10h-1a7 7 0 01-11.95 5l-1.33-1.39h3.4v-1H3v5.12h1v-3.42l1.34 1.35a8 8 0 0011 .33l5.86 5.86.7-.7z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M17.16 15.1A7.94 7.94 0 0019 10h-1.5a6.49 6.49 0 01-11.09 4.59L5.79 14l1.76-1.75H3v4.54L4.73 15l.61.62a8 8 0 0010.76.5L22 22l1-1zM11 3.5a6.45 6.45 0 014.59 1.91l.62.61-1.76 1.75H19V3.23L17.27 5l-.61-.62A8 8 0 003 10h1.5A6.51 6.51 0 0111 3.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaFindReplaceLine;

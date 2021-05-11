@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSplitLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.88 4v1h3.41L12 12.29 4.71 5h3.41V4H3v5.12h1V5.71l7.5 7.5V21h1v-7.79l7.5-7.5v3.41h1V4h-5.12z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M21 8.55V4h-4.55l1.75 1.74-6.2 6.2-6.2-6.2L7.55 4H3v4.55L4.74 6.8l6.51 6.51V21h1.5v-7.69l6.51-6.51L21 8.55z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSplitLine;

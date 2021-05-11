@@ -8,7 +8,7 @@ function SvgIconotekaViewQuiltFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M2 20h6.33v-7.75H2zm6.83 0h6.34v-7.75H8.83zM2 11.75h6.33V4H2zM15.67 20H22v-7.75h-6.33zM8.83 4v7.75H22V4z" />
+      <path d="M2 11.25h5.67V4H2zM2 20h5.67v-7.25H2zm14.33 0H22v-7.25h-5.67zm-7.16 0h5.66v-7.25H9.17zm0-16v7.25H22V4z" />
     </svg>
   );
 }

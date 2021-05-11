@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaChartMultipleFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M6.75 12v4.72H2A4.49 4.49 0 106.75 12zM2 16.25h4.25V12A4.46 4.46 0 002 16.25zM20.5 12v9h.5v-9zM14 21h.5v-7H14zm3.25 0h.5v-4h-.5zM20.5 3.82l-5.94 5.47-6.12-5.63-6.28 5.78.34.37 5.94-5.47L14.56 10l6.28-5.78z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19.5 21H21v-9h-1.5zM15 21h1.5v-6H15zm5.16-17.55l-5.6 5.16L8.44 3 1.83 9.07l1 1.11L8.44 5l6.12 5.62 6.61-6.09zM7.25 12.08v5.17H2.08a4.49 4.49 0 105.17-5.17zm-5.17 3.67h3.67v-3.67a4.46 4.46 0 00-3.67 3.67z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaChartMultipleFill;

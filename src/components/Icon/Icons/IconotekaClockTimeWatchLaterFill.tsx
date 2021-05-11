@@ -8,7 +8,7 @@ function SvgIconotekaClockTimeWatchLaterFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm4.67 10.54h-5.25V6.29h.5V12h4.75z" />
+      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm4.67 11h-5.75V6.29h1.5v5.25h4.25z" />
     </svg>
   );
 }

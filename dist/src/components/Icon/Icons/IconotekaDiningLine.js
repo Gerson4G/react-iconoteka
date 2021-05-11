@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaDiningLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M8 12H3.22L2.14 5h-1l1.15 7.51L1.45 19h1l.77-6H8v6h1v-6a1 1 0 00-1-1zm10-4H6v1h5.5v10h1V9H18zm4.87-3h-1l-1.08 7H16a1 1 0 00-1 1v6h1v-6h4.77l.77 6h1l-.83-6.49z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 8H6v1.5h5.25V19h1.5V9.5H18zm4.87-3h-1.52l-1.07 7h-4A1.25 1.25 0 0015 13.25V19h1.5v-5.5h3.77L21 19h1.52l-.86-6.24zM7.75 12h-4l-1.1-7H1.13l1.19 7.76L1.46 19H3l.75-5.5H7.5V19H9v-5.75A1.25 1.25 0 007.75 12z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaDiningLine;

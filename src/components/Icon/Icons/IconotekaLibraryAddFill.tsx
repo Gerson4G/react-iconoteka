@@ -8,7 +8,7 @@ function SvgIconotekaLibraryAddFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19 3H5v.5h14zM3 7v14h18V7zm12.45 7.25h-3.2v3.2h-.5v-3.2h-3.2v-.5h3.2v-3.2h.5v3.2h3.2z" />
+      <path d="M19 3H5v1.5h14zM3 7v14h18V7zm12.45 7.7H12.7v2.75h-1.4V14.7H8.55v-1.4h2.75v-2.75h1.4v2.75h2.75z" />
     </svg>
   );
 }

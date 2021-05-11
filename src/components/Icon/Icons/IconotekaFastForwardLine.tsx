@@ -8,7 +8,7 @@ function SvgIconotekaFastForwardLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M24 12L12 4v16zM13 5.87L22.2 12 13 18.13zM0 20l12-8L0 4zM1 5.87L10.2 12 1 18.13z" />
+      <path d="M24 12L12 4v16zM13.5 6.8l7.8 5.2-7.8 5.2zM0 20l12-8L0 4zM1.5 6.8L9.3 12l-7.8 5.2z" />
     </svg>
   );
 }

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaChevronInCircleLeftUpFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19.07 4.93a10 10 0 100 14.14 10 10 0 000-14.14zM16 10.25h-5.75V16h-.5V9.75H16z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19.07 4.93a10 10 0 100 14.14 10 10 0 000-14.14zM16 10.75h-5.25V16h-1.5V9.25H16z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaChevronInCircleLeftUpFill;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaStorageServerLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M4 2v20h16V2zm15 19H5v-5.33h14zm0-6.33H5V9.33h14zm0-6.34H5V3h14zM7.67 6.27a.6.6 0 10-.6-.6.6.6 0 00.6.6zm0 6.33a.6.6 0 10-.6-.6.6.6 0 00.6.6zm0 6.33a.6.6 0 10-.6-.6.6.6 0 00.6.6z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M4 2v20h16V2zm14.5 18.5h-13v-4.67h13zm0-6.17h-13V9.67h13zm0-6.16h-13V3.5h13zM7.83 6.63a.8.8 0 000-1.6.8.8 0 000 1.6zm0 6.17A.8.8 0 107 12a.8.8 0 00.83.8zm0 6.17a.8.8 0 10-.8-.8.8.8 0 00.8.83z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaStorageServerLine;

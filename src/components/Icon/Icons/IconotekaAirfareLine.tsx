@@ -8,7 +8,7 @@ function SvgIconotekaAirfareLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M1 5v14h22V5zm21 13H2V6h20zM9.28 12.57h2.14l-.59 3h.88l1.56-3h2.52a.57.57 0 000-1.13h-2.52l-1.56-3h-.88l.59 3H9.28l-.55-1h-.54v3.16h.54z" />
+      <path d="M1 5v14h22V5zm20.5 12.5h-19v-11h19zM9.57 12.76h1.79l-.58 3h1.13l1.56-3h2.11a.76.76 0 00.77-.77.77.77 0 00-.77-.78h-2.11l-1.56-3h-1.13l.58 3H9.57L9 10.2h-.81v3.58H9z" />
     </svg>
   );
 }

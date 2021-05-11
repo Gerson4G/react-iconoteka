@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaBorderOuterLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9.67 11.5h-1v1h1zm8.5 0h-1v1h1zm-11.34 0h-1v1h1zm8.5 0h-1v1h1zM3 3v18h18V3zm17 17H4V4h16zm-7.5-8.5h-1v1h1zm0 2.83h-1v1h1zm0-8.5h-1v1h1zm0 11.34h-1v1h1zm0-8.5h-1v1h1z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.88 11.25h-1.5v1.5h1.5zm-8.26 0h-1.5v1.5h1.5zM3 3v18h18V3zm16.5 16.5h-15v-15h15zM12.75 7.12h-1.5v1.5h1.5zm0 4.13h-1.5v1.5h1.5zm0 4.13h-1.5v1.5h1.5z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaBorderOuterLine;

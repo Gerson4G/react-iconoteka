@@ -8,7 +8,7 @@ function SvgIconotekaWindSpeedMediumLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16.5 5A3.5 3.5 0 0013 8.5V9h1v-.5a2.5 2.5 0 112.5 2.5H4v1h12.5a3.5 3.5 0 000-7zm-3 10H6v1h7.5a1.5 1.5 0 010 3H12v1h1.5a2.5 2.5 0 000-5z" />
+      <path d="M17 4.25A3.75 3.75 0 0013.25 8h1.5A2.25 2.25 0 1117 10.25H4v1.5h13a3.75 3.75 0 000-7.5zm-3 10H6v1.5h8a1.25 1.25 0 010 2.5h-1v1.5h1a2.75 2.75 0 000-5.5z" />
     </svg>
   );
 }

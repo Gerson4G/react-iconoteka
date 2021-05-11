@@ -8,7 +8,7 @@ function SvgIconotekaMouseClassicLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16 2H8a3 3 0 00-3 3v10a7 7 0 0014 0V5a3 3 0 00-3-3zM6 5a2 2 0 012-2h3.5v6H6zm12 10a6 6 0 01-12 0v-5h12zm-5.5-6V3H16a2 2 0 012 2v4z" />
+      <path d="M16 2H8a3 3 0 00-3 3v10a7 7 0 0014 0V5a3 3 0 00-3-3zM6.5 5A1.5 1.5 0 018 3.5h3.25v5H6.5zm11 10a5.5 5.5 0 01-11 0v-5h11zm-4.75-6.5v-5H16A1.5 1.5 0 0117.5 5v3.5z" />
     </svg>
   );
 }

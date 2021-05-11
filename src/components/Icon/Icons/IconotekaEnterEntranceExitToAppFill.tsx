@@ -8,7 +8,7 @@ function SvgIconotekaEnterEntranceExitToAppFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M4 11.75v.5h6v-.5zM10 3v8.75h7.2L13.85 8.4l.35-.35L18.15 12l-3.95 4-.35-.35 3.35-3.35H10V21h12V3z" />
+      <path d="M4 11.25v1.5h6v-1.5zM10 3v8.25h6L13.14 8.4l1.06-1.06L18.86 12l-4.66 4.66-1.06-1.06L16 12.75h-6V21h12V3z" />
     </svg>
   );
 }

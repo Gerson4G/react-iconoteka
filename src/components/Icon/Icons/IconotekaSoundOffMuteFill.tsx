@@ -8,8 +8,7 @@ function SvgIconotekaSoundOffMuteFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M8.09 8H3v8h5.09L14 21.91V2.09zM16.384 9.738l.354-.354 4.872 4.872-.354.353z" />
-      <path d="M16.384 14.263l4.872-4.872.354.354-4.872 4.872z" />
+      <path d="M3 8v8h5.09L14 21.91V2.09L8.09 8zm18.93 2.06l-1-1L19 11l-1.94-1.93-1 1L18 12l-1.94 1.94 1 1L19 13l1.94 1.94 1-1L20 12z" />
     </svg>
   );
 }

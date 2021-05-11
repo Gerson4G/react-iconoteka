@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaPowerSocketBFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18.31 3H5.69a11 11 0 000 18h12.62a11 11 0 000-18zM8.25 12.75h-.5v-5h.5zM10 17a2 2 0 014 0zm6.25-5h-.5V8.5h.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18.31 3H5.69a11 11 0 000 18h12.62a11 11 0 000-18zm-9.56 9.75h-1.5v-5h1.5zM10 17a2 2 0 014 0zm6.75-5h-1.5V8.5h1.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaPowerSocketBFill;

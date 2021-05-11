@@ -8,7 +8,7 @@ function SvgIconotekaAlighHorizontalCenterLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M23 11.5h-6.09l2.41-2.41-.7-.71L15 12l3.62 3.62.7-.71-2.41-2.41H23zM11.5 21h1V3h-1zM4.68 9.09l2.41 2.41H1v1h6.09l-2.41 2.41.7.71L9 12 5.38 8.38z" />
+      <path d="M18.22 11.25V8.78L15 12l3.22 3.22v-2.47H23v-1.5zm-7 9.75h1.5V3h-1.5zm-5.44-9.75H1v1.5h4.78v2.47L9 12 5.78 8.78z" />
     </svg>
   );
 }

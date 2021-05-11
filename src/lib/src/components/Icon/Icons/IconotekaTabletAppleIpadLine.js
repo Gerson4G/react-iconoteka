@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaTabletAppleIpadLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20 5H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V7a2 2 0 00-2-2zm1 12a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1h16a1 1 0 011 1zM5.38 10.62A1.38 1.38 0 106.75 12a1.38 1.38 0 00-1.37-1.38zm0 2A.58.58 0 116 12a.58.58 0 01-.62.58z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19.5 4h-15A2.5 2.5 0 002 6.5v11A2.5 2.5 0 004.5 20h15a2.5 2.5 0 002.5-2.5v-11A2.5 2.5 0 0019.5 4zm1 13.5a1 1 0 01-1 1h-15a1 1 0 01-1-1v-11a1 1 0 011-1h15a1 1 0 011 1zM6 11.05A.95.95 0 107 12a1 1 0 00-1-.95z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaTabletAppleIpadLine;

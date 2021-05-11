@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaAirfareLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M1 5v14h22V5zm21 13H2V6h20zM9.28 12.57h2.14l-.59 3h.88l1.56-3h2.52a.57.57 0 000-1.13h-2.52l-1.56-3h-.88l.59 3H9.28l-.55-1h-.54v3.16h.54z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M1 5v14h22V5zm20.5 12.5h-19v-11h19zM9.57 12.76h1.79l-.58 3h1.13l1.56-3h2.11a.76.76 0 00.77-.77.77.77 0 00-.77-.78h-2.11l-1.56-3h-1.13l.58 3H9.57L9 10.2h-.81v3.58H9z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaAirfareLine;

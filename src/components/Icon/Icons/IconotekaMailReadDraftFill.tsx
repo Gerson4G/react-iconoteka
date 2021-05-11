@@ -8,7 +8,7 @@ function SvgIconotekaMailReadDraftFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 1.79L2 7.56V21h20V7.56zm0 11.7L2.48 8h19z" />
+      <path d="M12 1.79L2 7.56V21h20V7.56zm0 11L3.74 8h16.52z" />
     </svg>
   );
 }

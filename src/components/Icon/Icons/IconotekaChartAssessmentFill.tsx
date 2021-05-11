@@ -8,7 +8,7 @@ function SvgIconotekaChartAssessmentFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 3v18h18V3zm4.5 14H7v-5h.5zm3.17 0h-.5V7h.5zm3.16 0h-.5v-5h.5zM17 17h-.5v-7h.5z" />
+      <path d="M3 3v18h18V3zm5.5 14H7v-5h1.5zm4.25 0h-1.5V7h1.5zM17 17h-1.5v-7H17z" />
     </svg>
   );
 }

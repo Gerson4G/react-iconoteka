@@ -8,7 +8,7 @@ function SvgIconotekaHouseHomeHousingFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 2.8L3 8v13h18V8zm-2 17.7V13h4v7.5z" />
+      <path d="M12 2.8L3 8v13h18V8zm-2 16.7V13h4v6.5z" />
     </svg>
   );
 }

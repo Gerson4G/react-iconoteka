@@ -8,7 +8,7 @@ function SvgIconotekaCartonBoxCardboardLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 1.61L3 6.8v10.4l9 5.19 9-5.19V6.8zm8 5.76l-3.53 2-8-4.61 3.53-2zM12 12L4 7.37l3.46-2 8 4.61zM4 8.52l7.5 4.33V21L4 16.62zm16 8.1L12.5 21v-8.1L20 8.52z" />
+      <path d="M12 1.61L3 6.8v10.4l9 5.19 9-5.19V6.8zm7.48 6.05l-3.06 1.76-7.48-4.31L12 3.34zM12 12L4.52 7.66 7.44 6l7.48 4.32zM4.5 9.38l6.75 3.9v7L4.5 16.33zm15 6.95l-6.75 3.9v-7l6.75-3.9z" />
     </svg>
   );
 }

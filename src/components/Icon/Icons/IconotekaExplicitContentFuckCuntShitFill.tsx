@@ -8,7 +8,7 @@ function SvgIconotekaExplicitContentFuckCuntShitFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17 3H7a4 4 0 00-4 4v10a4 4 0 004 4h10a4 4 0 004-4V7a4 4 0 00-4-4zm-2.33 13H9.39V8h5.23v.5H9.89v3.13h4.42v.5H9.89v3.27h4.78z" />
+      <path d="M17 3H7a4 4 0 00-4 4v10a4 4 0 004 4h10a4 4 0 004-4V7a4 4 0 00-4-4zm-2.07 13h-5.8V8h5.74v1.3H10.5v2h4v1.24h-4v2.09h4.43z" />
     </svg>
   );
 }

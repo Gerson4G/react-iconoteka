@@ -8,7 +8,7 @@ function SvgIconotekaArrowLeftUpLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17 5.5v-1H4.5V17h1V6.21l13.93 13.92.7-.7L6.21 5.5H17z" />
+      <path d="M17 5.75v-1.5H4.25V17h1.5V6.81l13.5 13.5 1.06-1.06-13.5-13.5H17z" />
     </svg>
   );
 }

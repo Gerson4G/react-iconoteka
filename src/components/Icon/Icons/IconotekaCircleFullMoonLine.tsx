@@ -8,7 +8,7 @@ function SvgIconotekaCircleFullMoonLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 3a9 9 0 11-9 9 9 9 0 019-9m0-1a10 10 0 1010 10A10 10 0 0012 2z" />
+      <path d="M12 3.5A8.5 8.5 0 113.5 12 8.51 8.51 0 0112 3.5M12 2a10 10 0 1010 10A10 10 0 0012 2z" />
     </svg>
   );
 }

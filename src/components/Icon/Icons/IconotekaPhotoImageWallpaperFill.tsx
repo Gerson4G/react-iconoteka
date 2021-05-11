@@ -8,7 +8,7 @@ function SvgIconotekaPhotoImageWallpaperFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 3v18h18V3zm5 3a2 2 0 11-2 2 2 2 0 012-2zm12.5 14.5h-17v-3.24l5-4.44 2.27 2 4.45-3.94 5.28 4.64z" />
+      <path d="M3 3v18h18V3zm5 3a2 2 0 11-2 2 2 2 0 012-2zm11.5 13.5h-15v-3.13l4-3.55 2.27 2 4.45-3.94 4.28 3.76z" />
     </svg>
   );
 }

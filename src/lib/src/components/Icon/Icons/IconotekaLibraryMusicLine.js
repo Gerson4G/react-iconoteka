@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaLibraryMusicLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 7v14h18V7zm17 13H4V8h16zM19 3H5v1h14zM9 17.5a1.35 1.35 0 001.42-1.34V11.5h4v4.68a1.32 1.32 0 00-.72-.17.68.68 0 00-.74.72c0 .48.37.77 1 .77a1.35 1.35 0 001.42-1.34V10.5h-6v5.68a1.32 1.32 0 00-.73-.18.68.68 0 00-.74.72c0 .49.37.78 1.09.78z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 7v14h18V7zm16.5 12.5h-15v-11h15zM19 3H5v1.5h14zm-8.26 14.5a1.78 1.78 0 001.87-1.76v-3.6h1.84V10.5h-3.16v5.26a1.81 1.81 0 00-.95-.23.91.91 0 00-1 1c.02.59.51.97 1.4.97z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaLibraryMusicLine;

@@ -8,7 +8,7 @@ function SvgIconotekaFlagFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17.82 10.25L22 3H4.5V1H4v23h.5v-8H22l-4.18-5.75z" />
+      <path d="M17.82 10.25L22 3H5.5V1H4v23h1.5v-8H22l-4.18-5.75z" />
     </svg>
   );
 }

@@ -8,10 +8,7 @@ function SvgIconotekaFogHazeLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path
-        d="M17 4H3v1h14zM7 9v1h14V9zm10 5H3v1h14zM7 20h14v-1H7z"
-        fillRule="evenodd"
-      />
+      <path d="M7 20.25h14v-1.5H7zm10-6.5H3v1.5h14zm-10-5v1.5h14v-1.5zm10-5H3v1.5h14z" />
     </svg>
   );
 }

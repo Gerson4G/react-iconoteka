@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaOfferTagPriceLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Hot 2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19.44 5H2v14h17.44l4-7zm-.58 13H3V6h15.86l3.43 6zM17 10.5a1.5 1.5 0 101.5 1.5 1.5 1.5 0 00-1.5-1.5zm0 2.1a.6.6 0 11.6-.6.6.6 0 01-.6.6z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Hot 2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19.44 5H2v14h17.44l4-7zm-.87 12.5H3.5v-11h15.07l3.14 5.5zM17 10.85A1.15 1.15 0 1018.15 12 1.14 1.14 0 0017 10.85z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaOfferTagPriceLine;

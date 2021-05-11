@@ -8,7 +8,7 @@ function SvgIconotekaNoteFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16.41 3H3v18h18V7.59zM14 14H8v-.5h6zm2-3.5H8V10h8z" />
+      <path d="M16.41 3H3v18h18V7.59zM13 14.47H8V13h5zM16 11H8V9.53h8z" />
     </svg>
   );
 }

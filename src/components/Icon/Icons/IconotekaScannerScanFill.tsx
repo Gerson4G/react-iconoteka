@@ -8,7 +8,7 @@ function SvgIconotekaScannerScanFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3.23 10L21 3.63l-.17-.47L2 10v7a2 2 0 002 2h16a2 2 0 002-2v-7zm2.97 5a.45.45 0 11.45-.45.45.45 0 01-.45.45z" />
+      <path d="M6 10l15.31-5.43-.52-1.41L2 10v7a2 2 0 002 2h16a2 2 0 002-2v-7zm.75 5.45a.95.95 0 111-.95 1 1 0 01-1.05.95z" />
     </svg>
   );
 }

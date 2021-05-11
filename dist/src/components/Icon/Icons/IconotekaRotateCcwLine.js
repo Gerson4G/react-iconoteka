@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaRotateCcwLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 6a8.43 8.43 0 00-6-2.5H8.91l2.41-2.41-.7-.71L7 4l3.62 3.62.7-.71L8.91 4.5H12a7.5 7.5 0 015.3 12.8A7.5 7.5 0 014.5 12h-1A8.5 8.5 0 0018 18a8.5 8.5 0 000-12z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18.19 5.81A8.72 8.72 0 0012 3.25h-1.78V.78L7 4l3.22 3.22V4.75H12A7.25 7.25 0 114.75 12h-1.5a8.75 8.75 0 1014.94-6.19z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaRotateCcwLine;

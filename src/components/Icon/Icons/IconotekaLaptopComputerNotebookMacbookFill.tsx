@@ -10,7 +10,7 @@ function SvgIconotekaLaptopComputerNotebookMacbookFill(
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M1 19.5v.5h22v-.5zm19.93-1A2.08 2.08 0 0021 18V7a2 2 0 00-2-2H5a2 2 0 00-2 2v11a2.08 2.08 0 00.07.5z" />
+      <path d="M1 18.5V20h22v-1.5zM21 6a2 2 0 00-2-2H5a2 2 0 00-2 2v11.5h18z" />
     </svg>
   );
 }

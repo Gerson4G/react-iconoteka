@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaHeartLikeLoveFavoriteDidaLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.67 4C19.66 4 21 6.41 21 8.81c0 3.87-5.18 9.24-9 12-3.82-2.73-9-8.1-9-12C3 6.41 4.34 4 7.33 4a4.9 4.9 0 013.87 2.29l.8 1.06.8-1.06A4.9 4.9 0 0116.67 4m0-1A5.88 5.88 0 0012 5.69 5.88 5.88 0 007.33 3C4 3 2 5.6 2 8.81 2 13.56 8.46 19.63 12 22c3.54-2.37 10-8.44 10-13.19C22 5.6 20 3 16.67 3z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.67 4.5c2.83 0 3.83 2.32 3.83 4.31 0 3.45-4.69 8.55-8.5 11.36-3.81-2.81-8.5-7.91-8.5-11.36 0-2 1-4.31 3.83-4.31a4.42 4.42 0 013.47 2.09L12 8.18l1.2-1.59a4.42 4.42 0 013.47-2.09m0-1.5A5.88 5.88 0 0012 5.69 5.88 5.88 0 007.33 3C4 3 2 5.6 2 8.81 2 13.56 8.46 19.63 12 22c3.54-2.37 10-8.44 10-13.19C22 5.6 20 3 16.67 3z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaHeartLikeLoveFavoriteDidaLine;

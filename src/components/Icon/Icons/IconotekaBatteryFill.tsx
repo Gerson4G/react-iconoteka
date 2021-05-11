@@ -8,7 +8,7 @@ function SvgIconotekaBatteryFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16 3h-2a2 2 0 00-4 0H8a3 3 0 00-3 3v14a3 3 0 003 3h8a3 3 0 003-3V6a3 3 0 00-3-3zm-1.5 14.25h-5v-.5h5zm0-8h-2.25v2.25h-.5V9.25H9.5v-.5h2.25V6.5h.5v2.25h2.25z" />
+      <path d="M16 3h-2a2 2 0 00-4 0H8a3 3 0 00-3 3v14a3 3 0 003 3h8a3 3 0 003-3V6a3 3 0 00-3-3zm-1.5 14.7h-5v-1.4h5zm0-8h-1.8v1.8h-1.4V9.7H9.5V8.3h1.8V6.5h1.4v1.8h1.8z" />
     </svg>
   );
 }

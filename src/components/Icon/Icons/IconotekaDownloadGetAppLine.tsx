@@ -8,7 +8,7 @@ function SvgIconotekaDownloadGetAppLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17.35 10.43l-.7-.71-4.15 4.15V2h-1v11.87L7.35 9.72l-.7.71L12 15.79zM3 19.5v1h18v-1z" />
+      <path d="M17.53 10.61l-1.06-1.06-3.72 3.72V2h-1.5v11.27L7.53 9.55l-1.06 1.06L12 16.14zM3 19.25v1.5h18v-1.5z" />
     </svg>
   );
 }

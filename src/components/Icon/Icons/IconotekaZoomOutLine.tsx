@@ -8,7 +8,7 @@ function SvgIconotekaZoomOutLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16 15.29a8 8 0 10-.7.7l5.86 5.86.7-.7zM10 17a7 7 0 117-7 7 7 0 01-7 7zm-3.45-6.5h6.9v-1h-6.9z" />
+      <path d="M16.16 15.1a8 8 0 10-1.06 1.06L21 22l1-1zM10 16.5a6.5 6.5 0 116.5-6.5 6.51 6.51 0 01-6.5 6.5zm-3.45-5.8h6.9V9.3h-6.9z" />
     </svg>
   );
 }

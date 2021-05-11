@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaWifiTetheringLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M11.47 12.47a.75.75 0 10.53-.22.75.75 0 00-.53.22zM12 7.62A5.38 5.38 0 006.62 13a5.32 5.32 0 001.58 3.8l.7-.7a4.38 4.38 0 116.2 0l.7.7a5.32 5.32 0 001.58-3.8A5.38 5.38 0 0012 7.62zM12 3a10 10 0 00-7.07 17.07l.71-.71a9 9 0 1112.72 0l.71.71A10 10 0 0012 3z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M11.29 12.29A1 1 0 1012 12a1 1 0 00-.71.29zm.71-4.8a5.52 5.52 0 00-3.9 9.41l1.07-1.07A4 4 0 018 13a4 4 0 018 0 4 4 0 01-1.18 2.83l1.08 1.07A5.52 5.52 0 0012 7.49zM12 3a10 10 0 00-7.07 17.07L6 19a8.5 8.5 0 1112 0l1.06 1.06A10 10 0 0012 3z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaWifiTetheringLine;

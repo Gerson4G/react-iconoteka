@@ -8,7 +8,7 @@ function SvgIconotekaChevronSmallRightLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M10.88 16.95l-.71-.71L14.41 12l-4.24-4.24.71-.71L15.83 12l-4.95 4.95z" />
+      <path d="M10.88 17.3l-1.06-1.06L14.06 12 9.82 7.76l1.06-1.06 5.3 5.3-5.3 5.3z" />
     </svg>
   );
 }

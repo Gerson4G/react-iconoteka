@@ -8,7 +8,7 @@ function SvgIconotekaVolumeMuteLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M15 4.5v15l-4.21-4.21-.29-.29H6V9h4.5l.29-.29L15 4.5m1-2.41L10.09 8H5v8h5.09L16 21.91V2.09z" />
+      <path d="M14.5 5.71v12.58l-3.35-3.35-.44-.44H6.5v-5h4.21l.44-.44 3.35-3.35M16 2.09L10.09 8H5v8h5.09L16 21.91V2.09z" />
     </svg>
   );
 }

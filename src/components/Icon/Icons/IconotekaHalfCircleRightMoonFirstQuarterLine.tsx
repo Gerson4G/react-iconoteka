@@ -10,7 +10,7 @@ function SvgIconotekaHalfCircleRightMoonFirstQuarterLine(
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 3a9 9 0 010 18V3m0-1h-1v20h1a10 10 0 000-20z" />
+      <path d="M12.5 3.51a8.51 8.51 0 010 17v-17M12 2h-1v20h1a10 10 0 000-20z" />
     </svg>
   );
 }

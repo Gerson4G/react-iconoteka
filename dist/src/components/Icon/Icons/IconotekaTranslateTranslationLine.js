@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaTranslateTranslationLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18.24 14H22v-1h-4.53v-2.53h-.94V13H12v1h3.76a11.27 11.27 0 01-3.85 5l.55.8a11.71 11.71 0 004-5.41h.08V21h.94v-6.64h.07a13 13 0 003.93 5.33l.62-.76A12.29 12.29 0 0118.24 14zM5.67 2L1.86 12H3l1.2-3.17h4.06L9.47 12h1.13L6.8 2zM4.55 7.9l1.68-4.41L7.91 7.9z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M5.41 2l-3.8 10h1.71l1-2.69h3.87l1 2.69h1.71L7.12 2zm-.55 6l1.4-3.71L7.67 8zm13.76 6.3H22v-1.36h-4.32v-2.47h-1.36v2.47H12v1.36h3.35a10.87 10.87 0 01-3.57 4.58l.8 1.2a12.2 12.2 0 003.7-5V21h1.36v-5.87A13.65 13.65 0 0021.31 20l.92-1.13a12 12 0 01-3.61-4.57z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaTranslateTranslationLine;

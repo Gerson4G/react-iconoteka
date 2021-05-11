@@ -8,7 +8,7 @@ function SvgIconotekaDocumentTableFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M11.75 12.25H8.5v3.25h3.25zm3.75 0h-3.25v3.25h3.25zM11.75 8.5H8.5v3.25h3.25zm3.75 0h-3.25v3.25h3.25zM15.41 2H4v20h16V6.59zM16 16H8V8h8z" />
+      <path d="M14.8 12.6h-2.2v2.2h2.2zm-3.4 0H9.2v2.2h2.2zm0-3.4H9.2v2.2h2.2zm4-7.2H4v20h16V6.59zm.6 14H8V8h8zm-1.2-6.8h-2.2v2.2h2.2z" />
     </svg>
   );
 }

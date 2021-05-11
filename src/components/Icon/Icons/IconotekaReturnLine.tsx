@@ -8,7 +8,7 @@ function SvgIconotekaReturnLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M20.5 4h-1v8.5H4.21l4.64-4.65-.7-.7L2.29 13l5.86 5.85.7-.7-4.64-4.65H20.5V4z" />
+      <path d="M20.75 4h-1.5v8.25H4.81L9 8 8 7l-6 6 6 6 1-1-4.19-4.25h15.94zM4.06 13z" />
     </svg>
   );
 }

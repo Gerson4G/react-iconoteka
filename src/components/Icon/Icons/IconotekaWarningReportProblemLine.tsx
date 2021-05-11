@@ -8,7 +8,7 @@ function SvgIconotekaWarningReportProblemLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12.42 14.5l.25-5h-1.34l.25 5zm-.42 1a.68.68 0 10.68.68.67.67 0 00-.68-.64zM12 1L.45 21h23.1zm0 2l9.81 17H2.19z" />
+      <path d="M12.59 13.5l.36-4h-1.9l.36 4zM12 15.19a.92.92 0 10.92.92.92.92 0 00-.92-.92zM12 1L.45 21h23.1zm0 3l9 15.5H3.05z" />
     </svg>
   );
 }

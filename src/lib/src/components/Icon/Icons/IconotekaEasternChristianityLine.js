@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaEasternChristianityLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Hot 2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20 9.5v-1h-7.5v-3H16v-1h-3.5V1h-1v3.5H8v1h3.5v3H4v1h7.5v5.63l-3.25-1.87-.5.86 3.75 2.17V23h1v-6.13l3.25 1.87.5-.86-3.75-2.17V9.5H20z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Hot 2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20 9.75v-1.5h-7.25v-2.5H16v-1.5h-3.25V1h-1.5v3.25H8v1.5h3.25v2.5H4v1.5h7.25v4.95l-2.87-1.66-.75 1.3 3.62 2.09V23h1.5v-5.7l2.88 1.66.75-1.3-3.63-2.09V9.75H20z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaEasternChristianityLine;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaChartLineInvestmentLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2.85 17.28l-.7-.7 7.32-7.32 4.57 4.57 7.11-7.11.7.7-7.81 7.82-4.57-4.57-6.62 6.61z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3.03 17.46L1.97 16.4l7.5-7.5 4.57 4.57 6.93-6.93 1.06 1.06-7.99 7.99-4.57-4.56-6.44 6.43z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaChartLineInvestmentLine;

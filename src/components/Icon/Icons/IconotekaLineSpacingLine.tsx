@@ -4,7 +4,7 @@ function SvgIconotekaLineSpacingLine(props: any): JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
-        d="M13 19h6v-1h-6zm0-4.33h6v-1h-6zm0-4.34h6v-1h-6zM13 5v1h6V5zM9.35 7.69l.7-.7-2.67-2.68L4.7 7l.7.7 1.48-1.48v11.56L5.4 16.31l-.7.7 2.68 2.68L10.05 17l-.7-.7-1.47 1.48V6.22z"
+        d="M13 19h6v-1.5h-6zm0-4.17h6v-1.5h-6zM13 5v1.5h6V5zm0 5.67h6v-1.5h-6zM9.88 6.81L8.12 5.06V5l-.69-.69-.75.69h-.06v.06L4.88 6.81h1.74v10.38H4.88l1.74 1.75V19h.06l.7.69.69-.69v-.06l1.76-1.75H8.12V6.81z"
         data-name="Clear 3"
       />
     </svg>

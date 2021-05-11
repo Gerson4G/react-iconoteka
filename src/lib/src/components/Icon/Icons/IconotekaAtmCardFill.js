@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaAtmCardFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M21 4H3a1.5 1.5 0 000 3h1V4.5h1V18a3 3 0 003 3h8a3 3 0 003-3V4.5h1V7h1a1.5 1.5 0 000-3zM11 20.5H8v-16h3z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20.5 4h-17a2 2 0 000 4H4V5.5h1V18a3 3 0 003 3h8a3 3 0 003-3V5.5h1V8h.5a2 2 0 000-4zM11 19.5H8v-14h3z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaAtmCardFill;

@@ -8,7 +8,7 @@ function SvgIconotekaDesktopWindowsLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M20 3H4a2 2 0 00-2 2v10a2 2 0 002 2h5.1v3H7v1h10v-1h-2.1v-3H20a2 2 0 002-2V5a2 2 0 00-2-2zm-6.1 17h-3.8v-3h3.8zm7.1-5a1 1 0 01-1 1H4a1 1 0 01-1-1V5a1 1 0 011-1h16a1 1 0 011 1z" />
+      <path d="M20 3H4a2 2 0 00-2 2v10a2 2 0 002 2h5.1v2.55H7V21h10v-1.45h-2.1V17H20a2 2 0 002-2V5a2 2 0 00-2-2zm-6.55 16.55h-2.9V17h2.9zM20.5 15a.5.5 0 01-.5.5H4a.5.5 0 01-.5-.5V5a.5.5 0 01.5-.5h16a.5.5 0 01.5.5z" />
     </svg>
   );
 }

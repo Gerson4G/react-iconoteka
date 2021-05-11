@@ -8,7 +8,7 @@ function SvgIconotekaLightningFlashLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M13 3l-1.47 5.76-.31 1.24H18L9.9 22.88l1.94-7.65.32-1.23h-6L9.08 3H13m1.28-1H8.31l-3.4 13h6l-2.33 9h1.8l9.43-15H12.5l1.74-7z" />
+      <path d="M12.32 3.5L11 8.64l-.46 1.86h6.66l-6.76 12 1.85-7.13.48-1.88h-6l2.61-10h2.86m2-1.49H8.31l-3.4 13h6l-2.37 9h2.81l8.46-15H12.5l1.74-7z" />
     </svg>
   );
 }

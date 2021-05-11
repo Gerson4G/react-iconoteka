@@ -8,7 +8,7 @@ function SvgIconotekaPauseLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M15 2v20h1V2zM8 22h1V2H8z" />
+      <path d="M15 2v20h1.5V2zM7.5 22H9V2H7.5z" />
     </svg>
   );
 }

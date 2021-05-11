@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaServerDnsServerLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 3v18h18V3zm17 17H4v-7.5h16zm0-8.5H4V4h16zm-3-3.05a.7.7 0 10-.7-.7.7.7 0 00.7.7zm-3 0a.7.7 0 10-.7-.7.7.7 0 00.7.7zM17 17a.7.7 0 10-.7-.7.7.7 0 00.7.7zm-3 0a.7.7 0 10-.7-.7.7.7 0 00.7.7z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16 17.12a1 1 0 10-1-1 1 1 0 001 1zM3 3v18h18V3zm16.5 16.5h-15v-6.75h15zm0-8.25h-15V4.5h15zM16 8.88a1 1 0 10-1-1 1 1 0 001 1zm-4 8.24a1 1 0 10-1-1 1 1 0 001 1zm0-8.24a1 1 0 10-1-1 1 1 0 001 1z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaServerDnsServerLine;

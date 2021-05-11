@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaUnfoldLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 3.76l4.65 4.64.7-.7L12 2.34 6.65 7.7l.7.7zm0 16.48L7.35 15.6l-.7.7L12 21.66l5.35-5.36-.7-.7z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 4.11l4.47 4.47 1.06-1.06L12 2 6.47 7.52l1.06 1.06zm0 15.78l-4.47-4.47-1.06 1.06L12 22l5.53-5.53-1.06-1.06z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaUnfoldLine;

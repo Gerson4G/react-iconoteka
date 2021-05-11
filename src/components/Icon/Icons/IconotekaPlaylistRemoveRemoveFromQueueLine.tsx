@@ -6,7 +6,7 @@ function SvgIconotekaPlaylistRemoveRemoveFromQueueLine(
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
-        d="M15.5 18v1h5v-1zM19 5H5v1h14zm0 6.5H5v1h14zM5 19h8v-1H5z"
+        d="M15.5 17.5V19h5v-1.5zM19 5H5v1.5h14zm0 6.25H5v1.5h14zM5 19h8v-1.5H5z"
         data-name="Clear 3"
       />
     </svg>

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaGolfFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.75 6.5l-9-4.5v17c-2.64.05-4.75.7-4.75 1.5S4.24 22 7 22s5-.67 5-1.5-2.11-1.45-4.75-1.5v-8.25zM19 15a3 3 0 103 3 3 3 0 00-3-3z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19 15a3 3 0 103 3 3 3 0 00-3-3zM7.75 19.52v-9.2L16 6.5 6.28 2v17.52c-2.4.09-4.25.6-4.25 1.23S4.24 22 7 22s5-.56 5-1.25-1.85-1.14-4.25-1.23z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaGolfFill;

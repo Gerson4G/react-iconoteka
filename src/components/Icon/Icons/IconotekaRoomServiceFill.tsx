@@ -8,7 +8,7 @@ function SvgIconotekaRoomServiceFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M13.5 3.5A1.5 1.5 0 1012 5a1.5 1.5 0 001.5-1.5zM0 18.5v.5h24v-.5zM22 15a10 10 0 00-20 0v1h20z" />
+      <path d="M13.5 3.5A1.5 1.5 0 1012 5a1.5 1.5 0 001.5-1.5zM0 18.5V20h24v-1.5zM22 15a10 10 0 00-20 0v1h20z" />
     </svg>
   );
 }

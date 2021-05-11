@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaDiamondRedDiamondLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 1.41L22.59 12 12 22.59 1.41 12 12 1.41M12 0L0 12l12 12 12-12L12 0z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2.12L21.88 12 12 21.88 2.12 12 12 2.12M12 0L0 12l12 12 12-12L12 0z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaDiamondRedDiamondLine;

@@ -8,7 +8,7 @@ function SvgIconotekaMailboxFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M14.5 5H19V2h-5v5h.5zM6.14 7H6a4 4 0 00-4 4v10h8V11a4 4 0 00-3.86-4zM18 7h-3.5v7a.25.25 0 01-.5 0V7H8.06a4.48 4.48 0 012.45 4v10H22V11a4 4 0 00-4-4z" />
+      <path d="M15.5 3.5H18V2h-4v5h1.5zM6 7a4 4 0 00-4 4v10h8V11a4 4 0 00-4-4zm12 0h-2.5v7a.75.75 0 01-1.5 0V7H9.76a5.46 5.46 0 011.74 4v10H22V11a4 4 0 00-4-4z" />
     </svg>
   );
 }

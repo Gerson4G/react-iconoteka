@@ -8,7 +8,7 @@ function SvgIconotekaViewDayLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 3v18h18V3zm17 17H4v-3h16zm0-4H4V8h16zM4 7V4h16v3z" />
+      <path d="M3 3v18h18V3zm16.5 16.5h-15V17h15zm0-4h-15v-7h15zM4.5 7V4.5h15V7z" />
     </svg>
   );
 }

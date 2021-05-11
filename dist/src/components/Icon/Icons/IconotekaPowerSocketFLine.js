@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaPowerSocketFLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.64 10.3a1.7 1.7 0 101.7 1.7 1.7 1.7 0 00-1.7-1.7zm0 2.5a.8.8 0 11.8-.8.8.8 0 01-.8.8zm-9.28-2.5a1.7 1.7 0 101.7 1.7 1.7 1.7 0 00-1.7-1.7zm0 2.5a.8.8 0 11.8-.8.8.8 0 01-.8.8zM13 2.05V4.5h-2V2.05A10 10 0 0011 22v-2.5h2V22a10 10 0 000-19.9zm1 18.73V18.5h-4v2.28a9 9 0 010-17.56V5.5h4V3.22a9 9 0 010 17.56z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm.75 18.46V18h-1.5v2.46a8.49 8.49 0 010-16.92V6h1.5V3.54a8.49 8.49 0 010 16.92zm2.89-9.61A1.15 1.15 0 1016.79 12a1.15 1.15 0 00-1.15-1.15zm-7.28 0A1.15 1.15 0 109.51 12a1.14 1.14 0 00-1.15-1.15z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaPowerSocketFLine;

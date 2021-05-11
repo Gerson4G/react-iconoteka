@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSearchOffLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16 15.29a8 8 0 10-.7.7l5.86 5.86.7-.7zM10 17a7 7 0 117-7 7 7 0 01-7 7zm2.08-9.79L10 9.29 7.92 7.21l-.71.71L9.29 10l-2.08 2.08.71.71L10 10.71l2.08 2.08.71-.71L10.71 10l2.08-2.08z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.16 15.1a8 8 0 10-1.06 1.06L21 22l1-1zM10 16.5a6.5 6.5 0 116.5-6.5 6.51 6.51 0 01-6.5 6.5zm1.94-9.43L10 9 8.06 7.07l-1 1L9 10l-1.93 1.94 1 1L10 11l1.94 1.94 1-1L11 10l1.94-1.94z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSearchOffLine;

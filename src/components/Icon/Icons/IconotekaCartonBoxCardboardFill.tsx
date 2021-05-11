@@ -9,7 +9,7 @@ function SvgIconotekaCartonBoxCardboardFill(props: any): JSX.Element {
       {...props}
     >
       <path
-        d="M3 17.2l8.75 5.05v-9.81L3 7.39zm9.25 5.05L21 17.2V7.39l-8.75 5.05zm-5-17.91L3 6.8l9 5.2 4.26-2.46zM12 1.61L7.77 4.05l9 5.2L21 6.81z"
+        d="M12 1.61L8.27 3.76l9 5.2L21 6.81zm-5.23 3L3 6.8l9 5.2 3.77-2.18zM3 17.2l8.25 4.8v-8.7L3 8.54zm9.75 4.8L21 17.2V8.54l-8.25 4.76z"
         fillRule="evenodd"
       />
     </svg>

@@ -8,7 +8,7 @@ function SvgIconotekaChevronSmallUpExpandLessLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16.24 13.83L12 9.59l-4.24 4.24-.71-.71L12 8.17l4.95 4.95-.71.71z" />
+      <path d="M16.24 14.18L12 9.94l-4.24 4.24-1.06-1.06 5.3-5.3 5.3 5.3-1.06 1.06z" />
     </svg>
   );
 }

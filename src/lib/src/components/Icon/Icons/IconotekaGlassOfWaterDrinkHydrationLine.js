@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaGlassOfWaterDrinkHydrationLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M4 2l2.08 18.23a2 2 0 002 1.77h7.86a2 2 0 002-1.77L20 2zm14.88 1l-.56 4.91a4.25 4.25 0 00-1.94-.48 4.44 4.44 0 00-2.46.78 3.29 3.29 0 01-3.84 0 4.26 4.26 0 00-4.4-.3L5.12 3zm-2 17.11a1 1 0 01-1 .89H8.07a1 1 0 01-1-.89L5.81 9a3.25 3.25 0 013.73.06 4.27 4.27 0 004.92 0 3.44 3.44 0 011.92-.62 3.39 3.39 0 011.81.56z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M4 2l2.08 18.23a2 2 0 002 1.77h7.86a2 2 0 002-1.77L20 2zm14.32 1.5l-.45 4a4.42 4.42 0 00-1.5-.28 4.77 4.77 0 00-2.6.82 3 3 0 01-3.54 0 4.52 4.52 0 00-4.1-.54l-.45-4zm-1.89 16.56a.51.51 0 01-.5.44H8.07a.51.51 0 01-.5-.44L6.31 9a2.94 2.94 0 013.1.26 4.71 4.71 0 002.59.82 4.71 4.71 0 002.59-.82 3.21 3.21 0 011.78-.58 3 3 0 011.32.32z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaGlassOfWaterDrinkHydrationLine;

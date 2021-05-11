@@ -8,7 +8,7 @@ function SvgIconotekaMoreVerticalLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 4.25a.75.75 0 10-.75-.75.76.76 0 00.75.75zm0 7a.75.75 0 10.75.75.76.76 0 00-.75-.75zm0 8.5a.75.75 0 10.75.75.76.76 0 00-.75-.75z" />
+      <path d="M12 4.75a1 1 0 10-1-1 1 1 0 001 1zM12 11a1 1 0 101 1 1 1 0 00-1-1zm0 8.25a1 1 0 101 1 1 1 0 00-1-1z" />
     </svg>
   );
 }

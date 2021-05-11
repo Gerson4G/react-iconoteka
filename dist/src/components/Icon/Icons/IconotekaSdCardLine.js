@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSdCardLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M6.57 2L4 4.57V22h16V2zM19 21H5V5l2-2v3h1V3h1v3h1V3h1v3h1V3h1v3h1V3h1v3h1V3h1v3h1V3h1z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.39 2L4 5.2V22h16V2zM18.5 20.5h-13V5.85L8 3.5V6h1.5V3.5h2V6H13V3.5h2V6h1.5V3.5h2z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSdCardLine;

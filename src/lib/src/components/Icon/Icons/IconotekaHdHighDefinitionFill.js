@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaHdHighDefinitionFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.46 9.5h-2.17v5h2.17a1.63 1.63 0 001.63-1.63v-1.74a1.63 1.63 0 00-1.63-1.63zM1 4v16h22V4zm10.29 11h-.5v-2.76h-3.5V15h-.5V9h.5v2.74h3.5V9h.5zm6.3-2.13A2.13 2.13 0 0115.46 15h-2.67V9h2.67a2.13 2.13 0 012.13 2.13z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.46 10.17H14v3.66h1.5a1 1 0 001-1v-1.7a1 1 0 00-1.04-.96zM1 4v16h22V4zm10.29 11h-1.17v-2.52H8V15H6.79V9H8v2.5h2.16V9h1.17zm6.3-2.13A2.13 2.13 0 0115.46 15h-2.67V9h2.67a2.13 2.13 0 012.13 2.13z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaHdHighDefinitionFill;

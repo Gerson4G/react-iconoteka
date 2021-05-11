@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaToddlerBedLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13 7v4h-2.8l-.53-1.06A1.7 1.7 0 008.15 9H6.46a1.7 1.7 0 00-1.53.94L4.4 11H3V7H2v11h1v-3h18v3h1V7zm-7.17 3.39a.7.7 0 01.63-.39h1.69a.7.7 0 01.63.39l.3.61H5.52zM21 14H3v-2h18zm0-3h-7V8h7z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13 7v4H9.64l-.27-.53a1.74 1.74 0 00-1.57-1h-1a1.74 1.74 0 00-1.57 1l-.29.53H3.5V7H2v11h1.5v-2h17v2H22V7zm7.5 7.5h-17v-2h17zm-6-3.5V8.5h6V11z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaToddlerBedLine;

@@ -8,7 +8,7 @@ function SvgIconotekaShareAppleFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12.25 2.6L16 6.35l.35-.35L12 1.65 7.65 6l.35.35 3.75-3.75V9h.5zM20 9h-7.75v7h-.5V9H4v13h16z" />
+      <path d="M12.75 3.81L16 7.06 17.06 6 12 .94 6.94 6 8 7.06l3.25-3.25V10h1.5zM20 10h-7.25v6h-1.5v-6H4v12h16z" />
     </svg>
   );
 }

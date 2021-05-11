@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaBLetterLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.5 3h5.13a4.2 4.2 0 010 8.4H7.5zm6 18h-6v-8.6h6a4.3 4.3 0 110 8.6zm1.22-9.29a4.79 4.79 0 003.11-4.51 5.2 5.2 0 00-5.2-5.2H6.5v20h7a5.3 5.3 0 005.3-5.3 5 5 0 00-4.04-4.99z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.75 3.5h5a3.85 3.85 0 010 7.7h-5zm5.95 17H7.75v-7.8h5.95a3.9 3.9 0 110 7.8zm1.78-8.84a4.79 4.79 0 002.6-4.31A5.35 5.35 0 0012.73 2H6.25v20h7.45a5.4 5.4 0 005.4-5.4 5 5 0 00-3.62-4.94z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaBLetterLine;

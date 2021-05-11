@@ -8,7 +8,7 @@ function SvgIconotekaWorkspaceLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M14 8V7a2 2 0 00-2-2H7a2 2 0 00-2 2v1H2v13h1V11h2v10h1v-6h7v6h1V11h2v10h6V8zM3 10V9h2v1zm3 4V7a1 1 0 011-1h5a1 1 0 011 1v7zm15 6h-4v-4h1v.5a.5.5 0 00.5.5h1a.5.5 0 00.5-.5V16h1zm0-5h-4v-4h1v.5a.5.5 0 00.5.5h1a.5.5 0 00.5-.5V11h1zm-7-5V9h7v1z" />
+      <path d="M14 8V7a2 2 0 00-2-2H8a2 2 0 00-2 2v1H2v13h1.5v-8H6v8h1.5v-6h5v6H14v-8h2v8h6V8zM3.5 11.5v-2H6v2zm4 2V7a.5.5 0 01.5-.5h4a.5.5 0 01.5.5v6.5zm6.5-4h6.5v2H14zm6.5 10h-3V17h3zm0-4h-3V13h3z" />
     </svg>
   );
 }

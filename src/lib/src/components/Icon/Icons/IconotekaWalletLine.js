@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaWalletLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm2 10h-3a2 2 0 010-4h3zm0-5h-3a3 3 0 000 6h3v2a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2zm-3.65 3a.65.65 0 10.65-.65.65.65 0 00-.65.65z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1.5 10.5H17a2.5 2.5 0 010-5h3.5zm0-6.5H17a4 4 0 000 8h3.5v1a1.5 1.5 0 01-1.5 1.5H5A1.5 1.5 0 013.5 17V7A1.5 1.5 0 015 5.5h14A1.5 1.5 0 0120.5 7zm-4.4 4a.9.9 0 10.9-.9.9.9 0 00-.9.9z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaWalletLine;

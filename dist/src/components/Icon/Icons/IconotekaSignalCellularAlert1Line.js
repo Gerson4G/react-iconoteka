@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSignalCellularAlert1Line(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M6 9.38a.62.62 0 10.62.62.61.61 0 00-.62-.62zM6.39 8l.23-5H5.38l.23 5zM4 20h1v-2.5l-1 .9z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M6 9.1a.9.9 0 10.9.9.9.9 0 00-.9-.9zM6.57 8l.34-5H5.09l.34 5zM4 20h1.5v-2.95L4 18.4z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSignalCellularAlert1Line;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaVolumeUpLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 8v8h5.09L14 21.91V2.09L8.09 8zm10-3.5v15l-4.21-4.21L8.5 15H4V9h4.5zm3.57 5.73a2.5 2.5 0 010 3.54l.71.7a3.5 3.5 0 000-4.94zm3.54-3.53l-.71.7a6.51 6.51 0 010 9.2l.71.7a7.51 7.51 0 000-10.6z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 8v8h5.09L14 21.91V2.09L8.09 8zm9.5-2.29v12.58L8.71 14.5H4.5v-5h4.21zm3.86 4.7a2.25 2.25 0 010 3.18l1.06 1.06a3.75 3.75 0 000-5.3zm3.95-3.89l-1.07 1.05a6.26 6.26 0 01-.1 8.84l1.05 1.07a7.76 7.76 0 00.12-10.96z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaVolumeUpLine;

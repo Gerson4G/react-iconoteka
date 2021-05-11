@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaFrowningMoodBadFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 13a4.14 4.14 0 00-3.8 2.5h7.6A4.14 4.14 0 0012 13zm0-11a10 10 0 1010 10A10 10 0 0012 2zM7.1 9.65a.5.5 0 11.5.5.5.5 0 01-.5-.5zM7.5 16a4.64 4.64 0 019 0zm8.9-5.85a.5.5 0 11.5-.5.5.5 0 01-.5.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm-4.2 9.15A1.15 1.15 0 119 10a1.14 1.14 0 01-1.2 1.15zM8.66 17a3.45 3.45 0 016.68 0zm7.54-5.85A1.15 1.15 0 1117.35 10a1.14 1.14 0 01-1.15 1.15z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaFrowningMoodBadFill;

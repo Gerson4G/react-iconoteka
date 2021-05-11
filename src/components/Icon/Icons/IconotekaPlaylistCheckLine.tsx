@@ -4,7 +4,7 @@ function SvgIconotekaPlaylistCheckLine(props: any): JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
-        d="M21.17 15.74l-3.77 3.77-2.4-2.37-.71.7 3.09 3.09 4.48-4.48zM19 5H5v1h14zM5 19h7v-1H5zm14-7.5H5v1h14z"
+        d="M21.05 15.39L17.4 19l-2.26-2.26-1 1L17.4 21l4.6-4.66zM19 11.25H5v1.5h14zM19 5H5v1.5h14zM5 19h7v-1.5H5z"
         data-name="Clear 3"
       />
     </svg>

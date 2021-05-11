@@ -8,7 +8,7 @@ function SvgIconotekaAtmCashWithdrawalFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M15.25 2.55l-.35-.35L12 5.09 9.1 2.2l-.35.35L12 5.8zM21 8H3a1.5 1.5 0 000 3h1V8.5h1V22h14V8.5h1V11h1a1.5 1.5 0 000-3zm-9 8a3 3 0 113-3 3 3 0 01-3 3z" />
+      <path d="M15.22 1.78H8.78L12 5zM20.5 8h-17a2 2 0 000 4H4V9.5h1V22h14V9.5h1V12h.5a2 2 0 000-4zM12 16a3 3 0 113-3 3 3 0 01-3 3z" />
     </svg>
   );
 }

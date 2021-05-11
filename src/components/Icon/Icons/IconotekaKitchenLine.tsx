@@ -8,7 +8,7 @@ function SvgIconotekaKitchenLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19 11V8a2 2 0 00-4 0v1h1V8a1 1 0 012 0v3H3v10h18V11zm-7.5 9H4v-8h7.5zm8.5 0h-7.5v-4.5H20zm0-5.5h-7.5V12H20zm-7.5-7.92l-1.9-1.9V2.3H4.9v2.38L3 6.58V8h9.5zm-1 .42H4l1.9-1.9V3.3h3.7v1.79L11.5 7z" />
+      <path d="M18 5a3 3 0 00-3 3v1h1.5V8a1.5 1.5 0 013 0v3H3v10h18V8a3 3 0 00-3-3zm-6.75 14.5H4.5v-7h6.75zm8.25 0h-6.75v-3.75h6.75zm0-5.25h-6.75V12.5h6.75zM13 6.91l-2-2V2H5v2.91l-2 2V9h10zm-8.47.59l2-2v-2h3v2l2 2z" />
     </svg>
   );
 }

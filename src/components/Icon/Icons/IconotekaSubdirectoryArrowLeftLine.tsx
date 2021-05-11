@@ -8,7 +8,7 @@ function SvgIconotekaSubdirectoryArrowLeftLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19.5 3h-1v12.5H5.91l3.3-3.29-.71-.71L4 16l4.5 4.5.71-.71-3.3-3.29H19.5V3z" />
+      <path d="M18.25 3v12.25H7V12l-4 4 4 4v-3.25h12.75V3h-1.5z" />
     </svg>
   );
 }

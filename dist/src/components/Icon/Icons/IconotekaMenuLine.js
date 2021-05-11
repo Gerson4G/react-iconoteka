@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaMenuLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7 2a3 3 0 00-3 3v14a3 3 0 003 3h13V2zm12 19H7a2 2 0 01-2-2V5a2 2 0 012-2h12zm-4.82-8.2l1 .61-.4 2.9a.61.61 0 101.21.08V8a1 1 0 00-1.92-.27l-.8 2.81a2 2 0 00.91 2.26zm.06-2L15 8.12v4l-.3-.12a1 1 0 01-.46-1.21zM9 11.21l.51.3-.3 4.79a.65.65 0 101.3 0l-.3-4.79.51-.3a2 2 0 001-2.12l-.12-.66a1.75 1.75 0 00-3.44 0L8 9.09a2 2 0 001 2.12zm0-1.94l.13-.66a.74.74 0 011.46 0l.13.66a1 1 0 01-.5 1.08l-.36.2-.36-.2A1 1 0 019 9.27z", fill: "#231f20" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7 2a3 3 0 00-3 3v14a3 3 0 003 3h13V2zm11.5 18.5H7A1.5 1.5 0 015.5 19V5A1.5 1.5 0 017 3.5h11.5zM9.49 12l-.34 4.07a.85.85 0 101.7 0L10.51 12l.68-.92a2.58 2.58 0 00.38-2.37L11.32 8a1.39 1.39 0 00-2.64 0l-.25.77a2.58 2.58 0 00.38 2.37zm3.78.44L14 13l-.4 3.21a.7.7 0 101.4.09V7.61a.61.61 0 00-1.16-.25l-1.19 2.69a2 2 0 00.62 2.4z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaMenuLine;

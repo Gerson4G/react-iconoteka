@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSdCardFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 2v4h-.5V2h-1.6v4h-.5V2h-1.6v4h-.5V2h-1.6v4h-.5V2H9.6v4h-.5V2H7.5v4H7V2L4 5v17h16V2h-2z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 2v4h-1.5V2h-1.67v4h-1.5V2h-1.66v4h-1.5V2H8.5v4H7V2L4 5v17h16V2h-2z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSdCardFill;

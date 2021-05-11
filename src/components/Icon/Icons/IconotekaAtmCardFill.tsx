@@ -8,7 +8,7 @@ function SvgIconotekaAtmCardFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M21 4H3a1.5 1.5 0 000 3h1V4.5h1V18a3 3 0 003 3h8a3 3 0 003-3V4.5h1V7h1a1.5 1.5 0 000-3zM11 20.5H8v-16h3z" />
+      <path d="M20.5 4h-17a2 2 0 000 4H4V5.5h1V18a3 3 0 003 3h8a3 3 0 003-3V5.5h1V8h.5a2 2 0 000-4zM11 19.5H8v-14h3z" />
     </svg>
   );
 }

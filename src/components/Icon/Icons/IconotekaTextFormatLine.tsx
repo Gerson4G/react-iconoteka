@@ -8,7 +8,7 @@ function SvgIconotekaTextFormatLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M9.4 11.57h5.2L15.85 15H17L12.55 3h-1.1l-4.4 12h1.1zM12 4.49l2.26 6.15H9.74zM3 19v1h18v-1z" />
+      <path d="M9.6 11.78h4.8L15.58 15h1.64l-4.4-12h-1.64l-4.4 12h1.64zM12 5.24l1.9 5.18h-3.8zM3 18.5V20h18v-1.5z" />
     </svg>
   );
 }

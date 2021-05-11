@@ -10,7 +10,7 @@ function SvgIconotekaInfoMonospacedMoreDetailsInformationAboutFill(
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 4.85a.45.45 0 11-.45.45.45.45 0 01.45-.45zM14.5 17h-5v-.5h2.25V11H9.5v-.5h2.75v6h2.25z" />
+      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 4.85a.92.92 0 11-.92.92.92.92 0 01.92-.92zM14.5 17h-5v-1.4h1.75v-3.7H9.5v-1.4h3.25v5.1h1.75z" />
     </svg>
   );
 }

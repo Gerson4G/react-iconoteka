@@ -8,7 +8,7 @@ function SvgIconotekaLayersLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M22.67 9L12 1 1.33 9l4 3-4 3L12 23l10.67-8-4-3zM12 2.28L21 9l-9 6.72L3 9zM21 15l-9 6.72L3 15l3.18-2.38L12 17l5.82-4.35z" />
+      <path d="M22.67 9L12 1 1.33 9l4 3-4 3L12 23l10.67-8-4-3zM12 2.9L20.16 9 12 15.1 3.84 9zM20.16 15L12 21.1 3.84 15l2.76-2.06L12 17l5.4-4z" />
     </svg>
   );
 }

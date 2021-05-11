@@ -8,7 +8,7 @@ function SvgIconotekaPrinterPrintPrintshopLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M20 7h-2V3H6v4H4a2 2 0 00-2 2v10h4v2h12v-2h4V9a2 2 0 00-2-2zM7 4h10v3H7zm10 16H7v-3h10zm4-2h-3v-2H6v2H3V9a1 1 0 011-1h16a1 1 0 011 1zM6.5 11.25a.75.75 0 10.75.75.76.76 0 00-.75-.75z" />
+      <path d="M19 7h-1V3H6v4H5a3 3 0 00-3 3v9h4v2h12v-2h4v-9a3 3 0 00-3-3zM7.5 4.5h9V7h-9zm9 15h-9v-3h9zm4-2H18V15H6v2.5H3.5V10A1.5 1.5 0 015 8.5h14a1.5 1.5 0 011.5 1.5zM6.7 10.79a.95.95 0 101 1 .95.95 0 00-1-1z" />
     </svg>
   );
 }

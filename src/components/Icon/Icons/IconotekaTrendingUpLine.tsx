@@ -8,7 +8,7 @@ function SvgIconotekaTrendingUpLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M15.64 5v1h4.65l-7.17 7.17L9.92 10l-8 8 .71.71 7.27-7.28 3.2 3.21L21 6.71v4.65h1V5zM21 6z" />
+      <path d="M22 5h-5.66l2.3 2.3-6.01 6.01-3.21-3.2-7.66 7.65 1.06 1.06 6.6-6.59 3.21 3.21 7.07-7.08 2.3 2.3V5z" />
     </svg>
   );
 }

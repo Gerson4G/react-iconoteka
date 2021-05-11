@@ -8,7 +8,7 @@ function SvgIconotekaCreateNewFolderLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M10 5L8 3H2v18h20V5zm11 15H3V4h4.54l2 2H21zM8.55 13.5h2.95v2.95h1V13.5h2.95v-1H12.5V9.55h-1v2.95H8.55z" />
+      <path d="M11 5L9 3H2v18h20V5zm9.5 14.5h-17v-15h4.84l2 2H20.5zM8.55 13.7h2.75v2.75h1.4V13.7h2.75v-1.4H12.7V9.55h-1.4v2.75H8.55z" />
     </svg>
   );
 }

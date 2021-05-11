@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaHostelLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Hot 2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M6.9 8.8A1.9 1.9 0 105 6.9a1.9 1.9 0 001.9 1.9zm0-3a1.05 1.05 0 11-1.05 1.1A1 1 0 016.9 5.85zm0 11A1.9 1.9 0 105 14.9a1.9 1.9 0 001.9 1.9zm0-3a1 1 0 11-1.05 1.1 1 1 0 011.05-1.05zM21 3v7h-2V8a3 3 0 00-3-3h-6v5H3V3H2v18h1v-2h18v2h1V3zM11 6h5a2 2 0 012 2v2h-7zm7 12h-7v-4h5a2 2 0 012 2zm3 0h-2v-2a3 3 0 00-3-3h-6v5H3v-7h18z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Hot 2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.1 15.8a1.2 1.2 0 10-1.2-1.2 1.2 1.2 0 001.2 1.2zm0-8a1.2 1.2 0 10-1.2-1.2 1.2 1.2 0 001.2 1.2zM20.5 3v6.5H19V8a3 3 0 00-3-3h-6v4.5H3.5V3H2v18h1.5v-2h17v2H22V3zm-9 3.5H16A1.5 1.5 0 0117.5 8v1.5h-6zm6 11h-6v-3H16a1.5 1.5 0 011.5 1.5zm3 0H19V16a3 3 0 00-3-3h-6v4.5H3.5V11h17z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaHostelLine;

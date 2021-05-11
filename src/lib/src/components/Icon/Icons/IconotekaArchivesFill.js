@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaArchivesFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9.5 11.5h5a.5.5 0 000-1h-5a.5.5 0 000 1zM3 21h18V7.5H3zm6.5-11h5a1 1 0 010 2h-5a1 1 0 010-2zM2 3v4h20V3z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 3v3h20V3zm1 18h18V7.5H3zm6.75-9.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 010-1.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaArchivesFill;

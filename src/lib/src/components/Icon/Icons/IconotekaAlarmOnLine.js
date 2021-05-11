@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaAlarmOnLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M11.26 14.18l-2.51-2.62-.75.69 3.23 3.37 4.68-4.89-.69-.73zM12 4a9 9 0 109 9 9 9 0 00-9-9zm0 17a8 8 0 118-8 8 8 0 01-8 8zM16.44.8l-.34.94A12 12 0 0122.38 7l.87-.5A13 13 0 0016.44.8zm-8.54.94L7.56.8A13 13 0 00.75 6.51l.87.5A12 12 0 017.9 1.74z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M11.32 13.67L9.2 11.45l-1.09 1 3.21 3.34 4.56-4.76L14.8 10zM12 4a9 9 0 109 9 9 9 0 00-9-9zm0 16.5a7.5 7.5 0 117.5-7.5 7.5 7.5 0 01-7.5 7.5zM16.44.8l-.51 1.41a11.52 11.52 0 016 5.05l1.3-.75A13 13 0 0016.44.8zM8.07 2.21L7.56.8A13 13 0 00.75 6.51l1.3.75a11.52 11.52 0 016.02-5.05z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaAlarmOnLine;

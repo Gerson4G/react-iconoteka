@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaTvTelevisionCableLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20 5H4a2 2 0 00-2 2v10a2 2 0 002 2h4v2h8v-2h4a2 2 0 002-2V7a2 2 0 00-2-2zm-5 15H9v-1h6zm6-3a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1h16a1 1 0 011 1z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20 5H4a2 2 0 00-2 2v10a2 2 0 002 2h4v1.5h8V19h4a2 2 0 002-2V7a2 2 0 00-2-2zm.5 12a.5.5 0 01-.5.5H4a.5.5 0 01-.5-.5V7a.5.5 0 01.5-.5h16a.5.5 0 01.5.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaTvTelevisionCableLine;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaFlipToBackLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M8 8.5H7v3h1zM8 4h2.5V3H7v3.5h1zm7.5 12h-3v1h3zm-5 0H8v-2.5H7V17h3.5zm5-13h-3v1h3zm4.5 8.5h1v-3h-1zm0 4.5h-2.5v1H21v-3.5h-1zM17.5 3v1H20v2.5h1V3zM4 7H3v14h14v-1H4z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.5 15.5h-3V17h3zm-7-11h2V3H7v3.5h1.5zm0 4H7v3h1.5zm7-5.5h-3v1.5h3zm4 8.5H21v-3h-1.5zm-2-8.5v1.5h2v2H21V3zm-7 12.5h-2v-2H7V17h3.5zm9 0h-2V17H21v-3.5h-1.5zM4.5 7H3v14h14v-1.5H4.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaFlipToBackLine;

@@ -8,7 +8,7 @@ function SvgIconotekaCallMissedLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M22.35 9.35l-.7-.7L13 17.29 4.71 9h4.65V8H3v6.36h1V9.71l9 9 9.35-9.36z" />
+      <path d="M22.53 9.53l-1.06-1.06L13 16.94 5.36 9.3 7.66 7H2v5.66l2.3-2.3 8.7 8.7 9.53-9.53z" />
     </svg>
   );
 }

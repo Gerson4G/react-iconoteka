@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaChristianityLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Hot 2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20 8.5h-7.5V1h-1v7.5H4v1h7.5V23h1V9.5H20v-1z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Hot 2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M20 8.25h-7.25V1h-1.5v7.25H4v1.5h7.25V23h1.5V9.75H20v-1.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaChristianityLine;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaLoopCachedSyncLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M8.63 8.17H5.22L6.7 6.7A7.5 7.5 0 0119.5 12h1A8.5 8.5 0 006 6L4.51 7.46v-3.4h-1v5.11h5.12zm6.74 7.66h3.41L17.3 17.3A7.5 7.5 0 014.5 12h-1A8.5 8.5 0 0018 18l1.48-1.47v3.4h1v-5.1h-5.11z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M6.32 7.43l.55-.56A7.25 7.25 0 0119.25 12h1.5A8.75 8.75 0 005.81 5.81l-.55.56-1.75-1.75v4.55h4.55zm11.33 9.11c-.16.2-.34.4-.52.59A7.25 7.25 0 014.75 12h-1.5a8.75 8.75 0 0014.94 6.19c.18-.19.35-.39.52-.59l1.78 1.78v-4.55h-4.55z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaLoopCachedSyncLine;

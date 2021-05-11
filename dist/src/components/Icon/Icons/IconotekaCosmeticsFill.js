@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaCosmeticsFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Hot 2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 15.65a2 2 0 002 1.85h3a2 2 0 002-1.85L11 3H2zM5 20h3v-2H5zm8 0h9v-6.5h-9zm7.2-10h-5.4a1.81 1.81 0 00-1.8 1.8V13h9v-1.2a1.81 1.81 0 00-1.8-1.8z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Hot 2", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 14.67a2 2 0 002 1.83h3a2 2 0 002-1.83L11 3H2zM5 20h3v-2H5zm8 0h9v-5.5h-9zm7.2-10h-5.4a1.81 1.81 0 00-1.8 1.8V13h9v-1.2a1.81 1.81 0 00-1.8-1.8z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaCosmeticsFill;

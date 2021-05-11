@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaInvertColorsLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M22 12a10 10 0 00-9.5-10V0h-1v2a10 10 0 000 20v2h1v-2A10 10 0 0022 12zm-1-.5h-8.5v-4h7.28a8.93 8.93 0 011.22 4zm-8.47 1H21a8.93 8.93 0 01-1.19 4H12.5zm6.61-6H12.5V3a8.94 8.94 0 016.61 3.5zM3 12a9 9 0 018.5-9v18A9 9 0 013 12zm9.5 9v-3.5h6.61A8.94 8.94 0 0112.5 21z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M22 12a10 10 0 00-9.25-10V0h-1.5v2a10 10 0 000 19.92v2h1.5V22A10 10 0 0022 12zm-1.54-.75h-7.71V8h6.75a8.47 8.47 0 01.96 3.25zm-7.71 1.5h7.71a8.47 8.47 0 01-1 3.25h-6.71zm5.72-6.25h-5.72v-3a8.49 8.49 0 015.72 3zM3.5 12a8.5 8.5 0 017.75-8.46v16.92A8.5 8.5 0 013.5 12zm9.25 8.46v-3h5.72a8.49 8.49 0 01-5.72 3z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaInvertColorsLine;

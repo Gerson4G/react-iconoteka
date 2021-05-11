@@ -8,7 +8,7 @@ function SvgIconotekaHospitalRedCrossHealthDoctorLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M14 4v6h6v4h-6v6h-4v-6H4v-4h6V4h4m1-1H9v6H3v6h6v6h6v-6h6V9h-6V3z" />
+      <path d="M14.5 4.5v5h5v5h-5v5h-5v-5h-5v-5h5v-5h5M16 3H8v5H3v8h5v5h8v-5h5V8h-5V3z" />
     </svg>
   );
 }

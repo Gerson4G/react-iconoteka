@@ -8,7 +8,7 @@ function SvgIconotekaBunkBedFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M20.5 4v4h-5V4H15v4h-4.89L9.6 7A1.75 1.75 0 008 6H7a1.73 1.73 0 00-1.56 1l-.52 1H3.5V4H3v16h.5v-2H15v2h.5v-2h5v2h.5V4zM10.11 16l-.51-1A1.75 1.75 0 008 14H7a1.73 1.73 0 00-1.56 1l-.52 1H3.5v-6H15v6zm10.39 0h-5v-2.75h5zm0-3.25h-5V10h5z" />
+      <path d="M19.5 4v4h-4V4H14v4h-2.92l-.52-1A1.73 1.73 0 009 6H8a1.75 1.75 0 00-1.6 1l-.51 1H4.5V4H3v16h1.5v-2H14v2h1.5v-2h4v2H21V4zm-8.42 12l-.52-1A1.73 1.73 0 009 14H8a1.75 1.75 0 00-1.6 1l-.51 1H4.5v-6H14v6zm8.42 0h-4v-2.25h4zm0-3.75h-4V10h4z" />
     </svg>
   );
 }

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaDocumentBackupFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.41 2H4v20h16V6.59zM14.3 14.3a3.26 3.26 0 01-4.6 0 3.42 3.42 0 01-.7-1l.47-.2a2.44 2.44 0 00.59.87 2.75 2.75 0 100-3.88l-.88.87h2.6v.5H8.34V8h.5v2.58l.86-.88a3.25 3.25 0 014.6 4.6z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.41 2H4v20h16V6.59zm-.83 12.58a3.65 3.65 0 01-5.16 0 3.49 3.49 0 01-.56-.72l1.14-.67a2.35 2.35 0 00.36.47 2.35 2.35 0 103.32-3.32 2.4 2.4 0 00-3.32 0l-.14.14 1.37 1.37H8V8.31l1.28 1.25.14-.14a3.73 3.73 0 015.16 0 3.65 3.65 0 010 5.16z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaDocumentBackupFill;

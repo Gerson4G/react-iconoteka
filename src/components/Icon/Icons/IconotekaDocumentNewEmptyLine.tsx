@@ -8,7 +8,7 @@ function SvgIconotekaDocumentNewEmptyLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M15 3l4 4v14H5V3h10m.41-1H4v20h16V6.59L15.41 2z" />
+      <path d="M14.79 3.5l3.71 3.71V20.5h-13v-17h9.29m.62-1.5H4v20h16V6.59L15.41 2z" />
     </svg>
   );
 }

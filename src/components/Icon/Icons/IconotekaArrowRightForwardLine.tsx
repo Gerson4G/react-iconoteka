@@ -8,7 +8,7 @@ function SvgIconotekaArrowRightForwardLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M13.06 3.87l7.63 7.63H1v1h19.69l-7.63 7.63.71.71L22.61 12l-8.84-8.84-.71.71z" />
+      <path d="M12.88 4.04l7.21 7.21H1v1.5h19.09l-7.21 7.2 1.06 1.07L22.96 12l-9.02-9.02-1.06 1.06z" />
     </svg>
   );
 }

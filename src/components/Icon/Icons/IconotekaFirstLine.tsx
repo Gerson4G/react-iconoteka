@@ -8,7 +8,7 @@ function SvgIconotekaFirstLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M18.86 4l-.71-.71L9.47 12l8.68 8.68.71-.71-8-8zM5.5 21h1V3h-1z" />
+      <path d="M19 4.2l-1-1.06L9.12 12 18 20.86l1-1.06-7.76-7.8zM5.25 21h1.5V3h-1.5z" />
     </svg>
   );
 }

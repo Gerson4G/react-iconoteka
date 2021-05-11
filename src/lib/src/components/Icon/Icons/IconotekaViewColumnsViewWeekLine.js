@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaViewColumnsViewWeekLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2 4v16h20V4zm1 15V5h5.33v14zm6.33 0V5h5.34v14zM21 19h-5.33V5H21z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M15.83 4H2v16h20V4zM3.5 18.5v-13h4.67v13zm6.17 0v-13h4.66v13zm10.83 0h-4.67v-13h4.67z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaViewColumnsViewWeekLine;

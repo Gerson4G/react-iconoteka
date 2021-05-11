@@ -8,7 +8,7 @@ function SvgIconotekaChartAssessmentLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 3v18h18V3zm17 17H4V4h16zM8 12H7v5h1zm4.5-5h-1v10h1zm4.5 3h-1v7h1z" />
+      <path d="M3 3v18h18V3zm16.5 16.5h-15v-15h15zM8.5 12H7v5h1.5zm4.25-5h-1.5v10h1.5zM17 10h-1.5v7H17z" />
     </svg>
   );
 }

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaRussianRoubleRurLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.5 3.4h5.7a5 5 0 110 9.94H7.5zm5.7-1H6.5v10.94H4v1h2.5v2.33H4v1h2.5v4.73h1v-4.73H14v-1H7.5v-2.33h5.7a6 6 0 006-6 6.05 6.05 0 00-6-5.94z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.75 3.7h5.35a4.49 4.49 0 010 9H7.75zm5.35-1.5H6.25v10.47H4v1.5h2.25v2.16H4v1.5h2.25v4.37h1.5v-4.37H14v-1.5H7.75v-2.16h5.35a6 6 0 000-12z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaRussianRoubleRurLine;

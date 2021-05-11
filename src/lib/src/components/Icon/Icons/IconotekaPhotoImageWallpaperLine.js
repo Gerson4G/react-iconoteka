@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaPhotoImageWallpaperLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 3v18h18V3zm17 17H4v-1.85l4.5-4 1.61 1.43.66.59.67-.6 4.19-3.74L20 15.69zm0-5.65l-4.38-3.85-4.85 4.34-2.27-2-4.5 4V4h16zM8.5 10.5a2 2 0 10-2-2 2 2 0 002 2zm0-3a1 1 0 11-1 1 1 1 0 011-1z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 3v18h18V3zm16.5 16.5h-15v-2.12l4-3.55L9.77 15l1 .88 1-.88 3.46-3.06 4.27 3.76zm0-5.84L15.22 9.9l-4.45 3.94-2.27-2-4 3.55V4.5h15zm-11-3.91A1.25 1.25 0 107.25 8.5 1.25 1.25 0 008.5 9.75z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaPhotoImageWallpaperLine;

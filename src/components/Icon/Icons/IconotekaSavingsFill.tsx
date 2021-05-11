@@ -8,7 +8,7 @@ function SvgIconotekaSavingsFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 17h18v-.5H3zm0 4h18v-.5H3zM3 3v10h18V3zm9 7.25A2.25 2.25 0 1114.25 8 2.25 2.25 0 0112 10.25z" />
+      <path d="M3 17h18v-1.5H3zm0 4h18v-1.5H3zM3 3v10h18V3zm9 7.25A2.25 2.25 0 1114.25 8 2.25 2.25 0 0112 10.25z" />
     </svg>
   );
 }

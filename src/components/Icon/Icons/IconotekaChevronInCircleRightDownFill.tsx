@@ -8,7 +8,7 @@ function SvgIconotekaChevronInCircleRightDownFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19.07 4.93a10 10 0 100 14.14 10 10 0 000-14.14zm-4.82 9.32H8v-.5h5.75V8h.5z" />
+      <path d="M19.07 4.93a10 10 0 100 14.14 10 10 0 000-14.14zm-4.32 9.82H8v-1.5h5.25V8h1.5z" />
     </svg>
   );
 }

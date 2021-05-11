@@ -8,7 +8,7 @@ function SvgIconotekaNavigationLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 3l7.43 17.57-7-3.11-.4-.18-.4.18-7 3.11L12 3m0-2.57L2.66 22.5 12 18.37l9.34 4.13L12 .43z" />
+      <path d="M12 4.28l6.48 15.32-5.87-2.6-.61-.27-.61.27-5.87 2.6L12 4.28m0-3.85L2.66 22.5 12 18.37l9.34 4.13L12 .43z" />
     </svg>
   );
 }

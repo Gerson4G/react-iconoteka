@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaShoppingCartGroceryStoreLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 17H7.48L7 14.86l13-2.5V5H4.5L4 3H1v1h2.22l3.24 13a1.5 1.5 0 101.71 1.5 1.44 1.44 0 00-.09-.5h8.26a1.59 1.59 0 00-.09.5A1.5 1.5 0 1018 17zm1-11v5.54L6.71 13.89 4.75 6zM6.67 19a.5.5 0 010-1 .5.5 0 110 1zm11.08 0a.5.5 0 11.5-.5.5.5 0 01-.5.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7 19a1.25 1.25 0 101.25 1.25A1.25 1.25 0 007 19zm11 0a1.25 1.25 0 101.25 1.25A1.25 1.25 0 0018 19zm0-1v-1.5H7.87l-.43-1.72L20 12.36V5H5l-.48-2H1v1.5h2.34L6.7 18zM5.39 6.5H18.5v4.62L7.08 13.31 5.47 6.83z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaShoppingCartGroceryStoreLine;

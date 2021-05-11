@@ -8,7 +8,7 @@ function SvgIconotekaDashboardViewDashboardFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M3 21h8.75V10H3zM3 9.5h8.75V3H3zM12.25 3v11H21V3zm0 18H21v-6.5h-8.75z" />
+      <path d="M3 8.5h8.25V3H3zM3 21h8.25V10H3zm9.75-18v11H21V3zm0 18H21v-5.5h-8.25z" />
     </svg>
   );
 }

@@ -8,7 +8,7 @@ function SvgIconotekaTodayDateFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16.5 10.5h-5v5h5zM18 5V2.25a.25.25 0 00-.5 0V5h-11V2.25a.25.25 0 00-.5 0V5H2v16h20V5zm-1 11h-6v-6h6z" />
+      <path d="M15.6 11.4h-3.2v3.2h3.2zM18 5V2.75a.75.75 0 00-1.5 0V5h-9V2.75a.75.75 0 00-1.5 0V5H2v16h20V5zm-1 11h-6v-6h6z" />
     </svg>
   );
 }

@@ -8,7 +8,7 @@ function SvgIconotekaAddNoteLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16.41 3H3v18h18V7.59zM20 20H4V4h12l4 4zM12.5 8.55h-1v2.95H8.55v1h2.95v2.95h1V12.5h2.95v-1H12.5z" />
+      <path d="M16.41 3H3v18h18V7.59zm3.09 16.5h-15v-15h11.29l3.71 3.71zM12.7 8.55h-1.4v2.75H8.55v1.4h2.75v2.75h1.4V12.7h2.75v-1.4H12.7z" />
     </svg>
   );
 }

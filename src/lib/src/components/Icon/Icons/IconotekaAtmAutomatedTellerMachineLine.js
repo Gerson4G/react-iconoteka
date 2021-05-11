@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaAtmAutomatedTellerMachineLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 2H6a2 2 0 00-2 2v18h16V4a2 2 0 00-2-2zm1 19H5V4a1 1 0 011-1h12a1 1 0 011 1zM7 12h10V5H7zm1-6h8v5H8zm8.5 8h-3a.5.5 0 000 1h3a.5.5 0 000-1z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 2H6a2 2 0 00-2 2v18h16V4a2 2 0 00-2-2zm.5 18.5h-13V4a.5.5 0 01.5-.5h12a.5.5 0 01.5.5zM8 12h8V6H8zm1.5-4.5h5v3h-5zm5.75 6.5h-2.5a.75.75 0 000 1.5h2.5a.75.75 0 000-1.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaAtmAutomatedTellerMachineLine;

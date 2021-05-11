@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSwapVerticalLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3.38 6.62l.71.7L6.5 4.91V18h1V4.91l2.41 2.41.71-.7L7 3zm16.53 10.06l-2.41 2.41V6h-1v13.09l-2.41-2.41-.71.7L17 21l3.62-3.62z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3.78 5.22h2.47V18h1.5V5.22h2.47L7 2zm14 13.56V6h-1.5v12.78h-2.5L17 22l3.22-3.22z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSwapVerticalLine;

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaInfoSansSerifMoreDetailsInformationAboutFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm.25 15h-.5v-6.5h.5zM12 7.75a.45.45 0 11.45-.45.45.45 0 01-.45.45z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm.75 15h-1.5v-6.5h1.5zM12 8.68a.92.92 0 11.92-.91.92.92 0 01-.92.91z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaInfoSansSerifMoreDetailsInformationAboutFill;

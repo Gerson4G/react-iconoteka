@@ -8,7 +8,7 @@ function SvgIconotekaEjectCircleFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm4 13H8v-.5h8zm-8-3l4-4 4 4z" />
+      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm4 13H8v-1.23h8zm-8-3l4-4 4 4z" />
     </svg>
   );
 }

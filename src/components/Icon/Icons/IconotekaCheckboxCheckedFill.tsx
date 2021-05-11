@@ -8,7 +8,7 @@ function SvgIconotekaCheckboxCheckedFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M17 3H7a4 4 0 00-4 4v10a4 4 0 004 4h10a4 4 0 004-4V7a4 4 0 00-4-4zm-5.6 11.11L8.49 11.2l.35-.35 2.56 2.55 3.95-4 .35.36z" />
+      <path d="M17 3H7a4 4 0 00-4 4v10a4 4 0 004 4h10a4 4 0 004-4V7a4 4 0 00-4-4zm-5.6 11.71L8.19 11.5l1-1 2.21 2.3 3.65-3.65.95 1z" />
     </svg>
   );
 }

@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaPlasticPetLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M2.39 19.25a3.48 3.48 0 010-3.5l2.83-4.91.38 1.42 1-.26-.85-3.06-3.06.82.25 1 1.42-.38-2.84 4.87A4.5 4.5 0 005.42 22H9v-1H5.42a3.46 3.46 0 01-3.03-1.75zm20.09-4l-1.79-3.1-.87.5 1.79 3.1a3.5 3.5 0 01-3 5.25h-5.7l1-1-.71-.71L11 21.5l2.24 2.24L14 23l-1-1h5.67a4.5 4.5 0 003.81-6.75zM15 4.35l2.83 4.91-1.41-.38-.26 1 3.06.82.82-3.06-1-.26-.38 1.41-2.76-4.94a4.5 4.5 0 00-7.8 0L6.31 7l.87.5L9 4.35a3.5 3.5 0 016.06 0zM11.59 16h.83v-6h-.74l-1.31.73.27.59.95-.48z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9.4 4.6a3 3 0 015.2 0L17 8.83l-1.22.7 2.94.78.79-2.93-1.21.7-2.4-4.23a4.5 4.5 0 00-7.8 0l-2.29 4 1.3.75zM2.82 19a3 3 0 010-3l2.44-4.22 1.21.7-.78-2.94-2.94.79L4 11l-2.48 4.25A4.5 4.5 0 005.42 22H10v-1.5H5.42a3 3 0 01-2.6-1.5zm19.66-3.75l-2.29-4-1.3.75 2.29 4a3 3 0 01-2.6 4.5H13.7v-1.4l-2.15 2.15 2.15 2.15V22h4.88a4.5 4.5 0 003.9-6.75zm-9.89.75v-6h-1l-1.45.81.38.83.92-.46V16z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaPlasticPetLine;

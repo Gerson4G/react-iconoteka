@@ -8,7 +8,7 @@ function SvgIconotekaDiskAlertFullFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16 12V2.84A9.92 9.92 0 0012 2a10 10 0 1010 10zm-4 2a2 2 0 112-2 2 2 0 01-2 2zm8.22-7l.13-5h-.7l.13 5zM20 9.4a.4.4 0 10-.4-.4.4.4 0 00.4.4z" />
+      <path d="M16 12V2.84A9.92 9.92 0 0012 2a10 10 0 1010 10zm-4 2a2 2 0 112-2 2 2 0 01-2 2zm7.1-5a.9.9 0 10.9-.9.9.9 0 00-.9.9zm1.47-2l.34-5h-1.82l.34 5z" />
     </svg>
   );
 }

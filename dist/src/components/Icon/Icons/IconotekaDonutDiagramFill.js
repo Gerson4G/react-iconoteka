@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaDonutDiagramFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M6 12a6 6 0 011.25-3.66L4.19 5.77a10 10 0 001.2 13.72L8 16.42A6 6 0 016 12zm5.75-6V2a10 10 0 00-7.24 3.39L7.58 8a6 6 0 014.17-2zm.5-4v4a6 6 0 11-3.91 10.75l-2.57 3.06A10 10 0 1012.25 2z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M11.25 6.05V2a9.94 9.94 0 00-6.4 3l3.08 2.61a6 6 0 013.32-1.56zm1.5-4v4a6 6 0 11-4 11l-2.58 3.06A9.88 9.88 0 0012 22a10 10 0 00.75-20zM6 12a6 6 0 011-3.25L3.89 6.17A10 10 0 005 19.15l2.6-3.08A6 6 0 016 12z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaDonutDiagramFill;

@@ -8,7 +8,7 @@ function SvgIconotekaExpensesOutcomePaymentLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M11.5 2.87V7h1V2.87L14 4.34l.71-.7L12 1 9.32 3.64l.71.7zM2 9v12h20V9zm19 11H3V10h18zm-9-2.5A2.5 2.5 0 109.5 15a2.5 2.5 0 002.5 2.5zm0-4a1.5 1.5 0 11-1.5 1.5 1.5 1.5 0 011.5-1.5z" />
+      <path d="M11.25 7h1.5V3.46h1.75L12 1 9.5 3.46h1.75zM2 9v12h20V9zm18.5 10.5h-17v-9h17zm-8.5-2A2.5 2.5 0 109.5 15a2.5 2.5 0 002.5 2.5zm0-3.7a1.2 1.2 0 11-1.2 1.2 1.2 1.2 0 011.2-1.2z" />
     </svg>
   );
 }

@@ -8,7 +8,7 @@ function SvgIconotekaESimEmbeddedMff2Line(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M4 2v20h16V2zm15 19h-2v-1h-1v1h-2v-1h-1v1h-2v-1h-1v1H8v-1H7v1H5V3h2v1h1V3h2v1h1V3h2v1h1V3h2v1h1V3h2zM7 9.5V17h10V7H9.5zM16 8v8H8V9.91L9.91 8z" />
+      <path d="M4 2v20h16V2zm14.5 18.5H16V18h-1.5v2.5h-1.75V18h-1.5v2.5H9.5V18H8v2.5H5.5v-17H8V6h1.5V3.5h1.75V6h1.5V3.5h1.75V6H16V3.5h2.5zM8 10v6h8V8h-6zm6.5-.5v5h-5v-3.88l1.12-1.12z" />
     </svg>
   );
 }

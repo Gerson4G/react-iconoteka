@@ -8,7 +8,7 @@ function SvgIconotekaDesktopMacFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19.67 3h-16a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V5a2 2 0 00-2-2zm-5 16v-2h-6v2a1 1 0 01-.56.9l-1.44.72V21h10v-.34l-1.45-.72a1 1 0 01-.55-.94z" />
+      <path d="M19.67 3h-16a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V5a2 2 0 00-2-2zm-5 15v-1h-6v1a1 1 0 01-.56.89l-1.44.73V21h10v-1.35l-1.45-.73a1 1 0 01-.55-.92z" />
     </svg>
   );
 }

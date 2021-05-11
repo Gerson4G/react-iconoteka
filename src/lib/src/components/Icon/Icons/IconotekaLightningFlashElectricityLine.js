@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaLightningFlashElectricityLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13.1 3l-1.17 4.73-.38 1.5-.15.61.3.16h6.36L9.6 22.8l-.21.2 1.69-6.76.37-1.47.16-.63-.28-.14H5.92L8.79 3h4.31m1.28-1H8L4.62 15h5.74L8.1 24H10l9.86-15h-7.22l1.74-7z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M13.05 3.5L11.9 8.12l-.37 1.46-.15.61.1.31h6.21l-7.5 11.9-.25.09 1.68-6.63.38-1.45.15-.62-.08-.31H6.72l2.61-10h3.72M15 2H8.17L4.78 15h5.51L8 24h3l9.35-15h-7.13L15 2z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaLightningFlashElectricityLine;

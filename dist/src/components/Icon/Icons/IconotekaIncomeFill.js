@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaIncomeFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M14.43 4.61l-.35-.35-1.83 1.82V1h-.5v5.08L9.92 4.26l-.35.35L12 7zM2 9v12h20V9zm10 9a3 3 0 113-3 3 3 0 01-3 3z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M14.5 4.54h-1.75V1h-1.5v3.54H9.5L12 7zM2 9v12h20V9zm10 9a3 3 0 113-3 3 3 0 01-3 3z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaIncomeFill;

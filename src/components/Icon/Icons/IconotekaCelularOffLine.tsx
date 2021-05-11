@@ -8,7 +8,7 @@ function SvgIconotekaCelularOffLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M9 20h1v-7l-1 .9zm-5 0h1v-2.5l-1 .9zM20 4l-1 .89V20h1V4zm-6 16h1V8.49l-1 .9zM9.79 9.08L7.71 7l2.08-2.08-.71-.71L7 6.29 4.92 4.21l-.71.71L6.29 7 4.21 9.08l.71.71L7 7.71l2.08 2.08z" />
+      <path d="M4 20h1.5v-2.95L4 18.4zM20 4l-1.5 1.34V20H20V4zM8.83 20h1.5v-7.3l-1.5 1.35zm4.84 0h1.5V8.34l-1.5 1.35zM9.93 8.94L8 7l1.93-1.94-1-1L7 6 5.06 4.07l-1 1L6 7 4.07 8.94l1 1L7 8l1.94 1.93z" />
     </svg>
   );
 }

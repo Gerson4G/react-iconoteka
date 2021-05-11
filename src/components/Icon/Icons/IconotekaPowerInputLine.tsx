@@ -8,7 +8,7 @@ function SvgIconotekaPowerInputLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M2 8v1h20V8zm8 8h4v-1h-4zm8 0h4v-1h-4zM2 16h4v-1H2z" />
+      <path d="M2 8v1.5h20V8zm8 8h4v-1.5h-4zm8 0h4v-1.5h-4zM2 16h4v-1.5H2z" />
     </svg>
   );
 }

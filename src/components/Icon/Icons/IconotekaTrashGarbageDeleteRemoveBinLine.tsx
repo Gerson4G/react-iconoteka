@@ -8,7 +8,7 @@ function SvgIconotekaTrashGarbageDeleteRemoveBinLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M21 5h-6V4a2 2 0 00-2-2h-2a2 2 0 00-2 2v1H3v1h1.82l1.44 16h11.48l1.44-16H21zM10 4a1 1 0 011-1h2a1 1 0 011 1v1h-4zm6.82 17H7.18L5.82 6h12.36z" />
+      <path d="M21 5h-5V3a2 2 0 00-2-2h-4a2 2 0 00-2 2v2H3v1.5h1.86L6.26 22h11.48l1.4-15.5H21zM9.5 3a.5.5 0 01.5-.5h4a.5.5 0 01.5.5v2h-5zm6.86 17.5H7.64l-1.27-14h11.26z" />
     </svg>
   );
 }

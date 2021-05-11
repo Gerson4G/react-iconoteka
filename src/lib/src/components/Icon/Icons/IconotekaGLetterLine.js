@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaGLetterLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 12.45v1h5.28V16a5.26 5.26 0 01-5.35 5.31 5.43 5.43 0 01-5.43-5.39V8.08a5.43 5.43 0 015.43-5.43 5.28 5.28 0 015.3 4.83h1a6.31 6.31 0 00-6.33-5.83 6.43 6.43 0 00-6.4 6.43v7.84a6.43 6.43 0 006.43 6.43A6.26 6.26 0 0018.28 16v-3.55z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 12.23v1.5h5v2.15a4.88 4.88 0 01-5.07 5 5.22 5.22 0 01-5.21-5.21V8.36A5.22 5.22 0 0112 3.15a5 5 0 015 4.59h1.52A6.46 6.46 0 0012 1.65a6.72 6.72 0 00-6.75 6.71v7.28A6.72 6.72 0 0012 22.35a6.39 6.39 0 006.57-6.47v-3.65z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaGLetterLine;

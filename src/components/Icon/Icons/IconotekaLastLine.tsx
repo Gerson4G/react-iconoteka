@@ -8,7 +8,7 @@ function SvgIconotekaLastLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M5.14 4l8 8-8 8 .71.71L14.53 12 5.85 3.32zM17.5 3v18h1V3z" />
+      <path d="M5 4.2l7.8 7.8L5 19.8l1 1.06L14.88 12 6 3.14zM17.25 3v18h1.5V3z" />
     </svg>
   );
 }

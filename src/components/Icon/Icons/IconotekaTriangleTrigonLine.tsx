@@ -8,7 +8,7 @@ function SvgIconotekaTriangleTrigonLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 3l9.81 17H2.19L12 3m0-2L.45 21h23.1L12 1z" />
+      <path d="M12 4l9 15.5H3.05L12 4m0-3L.45 21h23.1L12 1z" />
     </svg>
   );
 }

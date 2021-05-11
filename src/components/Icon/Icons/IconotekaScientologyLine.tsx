@@ -8,7 +8,7 @@ function SvgIconotekaScientologyLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M20 8.5h-6.83l3.33-4-4 3.33V1h-1v6.83l-4-3.33 3.33 4H4v1h6.83l-3.33 4 4-3.33V23h1V10.17l4 3.33-3.33-4H20v-1z" />
+      <path d="M20 8.25h-6.23L16.5 4.5l-3.75 2.73V1h-1.5v6.23L7.5 4.5l2.73 3.75H4v1.5h6.23L7.5 13.5l3.75-2.73V23h1.5V10.77l3.75 2.73-2.73-3.75H20v-1.5z" />
     </svg>
   );
 }

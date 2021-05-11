@@ -4,7 +4,7 @@ function SvgIconotekaCloseAllClearLine(props: any): JSX.Element {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
-        d="M18.35 2.35l-.7-.7L12 7.29 6.35 1.65l-.7.7L11.29 8l-5.64 5.65.7.7L12 8.71l5.65 5.64.7-.7L12.71 8zm-12.7 18.3l.7.7L12 15.71l5.65 5.64.7-.7L12 14.29z"
+        d="M18.53 2.53l-1.06-1.06L12 6.94 6.53 1.47 5.47 2.53 10.94 8l-5.47 5.47 1.06 1.06L12 9.06l5.47 5.47 1.06-1.06L13.06 8zM5.47 20.47l1.06 1.06L12 16.06l5.47 5.47 1.06-1.06L12 13.94z"
         data-name="Clear 3"
       />
     </svg>

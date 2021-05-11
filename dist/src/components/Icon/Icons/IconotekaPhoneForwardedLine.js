@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaPhoneForwardedLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.53 13.58l-2.64 2.64a13.68 13.68 0 01-6.11-6.11l2.64-2.64L7.53 2l-2.42.77a4.46 4.46 0 00-3.05 5.1 18.48 18.48 0 0014.07 14.07 4.46 4.46 0 005.14-3.05l.73-2.42zm3.78 5a3.46 3.46 0 01-4 2.38A17.55 17.55 0 013 7.66a3.46 3.46 0 012.38-4L7 3.17l2.19 4.11L7.07 9.4l-.51.52.33.64a14.55 14.55 0 006.55 6.55l.64.33.52-.51 2.12-2.12L20.83 17zM18.66 8l.7.71L22 6l-2.64-2.68-.7.71 1.47 1.47H14v1h6.13z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.53 13.23l-2.44 2.44a13.08 13.08 0 01-5.76-5.76l2.44-2.44L7.86 1.9 5 2.8a4.45 4.45 0 00-3 5.13A18.54 18.54 0 0016.07 22a4.45 4.45 0 005.13-3l.9-2.82zm3.24 5.27a3 3 0 01-3.38 2A17 17 0 013.46 7.61a3 3 0 012-3.38l1.62-.52 1.85 3.47-1.66 1.67-.77.77.49 1A14.65 14.65 0 0013.41 17l1 .49.77-.77 1.67-1.66 3.47 1.81zm-.23-10L22 6l-2.5-2.5v1.75H14v1.5h5.54z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaPhoneForwardedLine;

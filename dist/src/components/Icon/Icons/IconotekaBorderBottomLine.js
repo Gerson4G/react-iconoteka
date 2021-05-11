@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaBorderBottomLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 21h18v-1H3zM4 8.67H3v1h1zm0 8.5H3v1h1zM4 5.83H3v1h1zm0 8.5H3v1h1zm16-4.66h1v-1h-1zm0 8.5h1v-1h-1zm0-11.34h1v-1h-1zm0 8.5h1v-1h-1zm-7.5-6.66h-1v1h1zm0 8.5h-1v1h1zm0-11.34h-1v1h1zm0 8.5h-1v1h1zM12.5 3h-1v1h1zM9.67 3h-1v1h1zm8.5 0h-1v1h1zM6.83 3h-1v1h1zm8.5 0h-1v1h1zM20 3v1h1V3zM4 3H3v1h1zm8.5 8.5h-1v1h1zm-2.83 0h-1v1h1zm8.5 0h-1v1h1zm-11.34 0h-1v1h1zm8.5 0h-1v1h1zm4.67 1h1v-1h-1zm-16-1H3v1h1z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 21h18v-1.5H3zm1.5-5.62H3v1.5h1.5zm0-8.26H3v1.5h1.5zm8.25 8.26h-1.5v1.5h1.5zm0-8.26h-1.5v1.5h1.5zm6.75 9.76H21v-1.5h-1.5zm0-8.26H21v-1.5h-1.5zm0 4.13H21v-1.5h-1.5zm-2.62-1.5h-1.5v1.5h1.5zm-4.13 0h-1.5v1.5h1.5zm-4.13 0h-1.5v1.5h1.5zm-4.12 0H3v1.5h1.5zM19.5 3v1.5H21V3zm-2.62 0h-1.5v1.5h1.5zm-4.13 0h-1.5v1.5h1.5zM8.62 3h-1.5v1.5h1.5zM4.5 3H3v1.5h1.5z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaBorderBottomLine;

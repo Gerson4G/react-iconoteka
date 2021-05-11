@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaBroadcastTvFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M8 20h8v-.5H8zM20 5h-7.42l2.35-3h-.64L12 4.93 9.71 2h-.64l2.35 3H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V7a2 2 0 00-2-2zm-10 9.53V8.47l5.24 3z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M8 21h8v-1.5H8zM20 5h-6.44l1.95-3h-1.67L12 4.83 10.16 2H8.49l1.95 3H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V7a2 2 0 00-2-2zm-10 9.53V8.47l5.24 3z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaBroadcastTvFill;

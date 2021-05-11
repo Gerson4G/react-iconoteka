@@ -8,7 +8,7 @@ function SvgIconotekaNoSimCardFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M8.59 2L4 6.59V22h16V2zm6 12.26l-.35.35L12 12.35l-2.26 2.26-.35-.35L11.65 12 9.39 9.74l.35-.35L12 11.65l2.26-2.26.35.35L12.35 12z" />
+      <path d="M8.59 2L4 6.59V22h16V2zm6.34 11.94l-1 1L12 13l-1.94 1.94-1-1L11 12l-1.93-1.94 1-1L12 11l1.94-1.94 1 1L13 12z" />
     </svg>
   );
 }

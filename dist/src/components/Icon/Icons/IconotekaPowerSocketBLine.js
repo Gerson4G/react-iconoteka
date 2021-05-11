@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaPowerSocketBLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18.31 3H5.69a11 11 0 000 18h12.62a11 11 0 000-18zM18 20H6A10 10 0 016 4h12a10 10 0 010 16zm-2.5-8h1V8.5h-1zm-8 .75h1v-5h-1zm4.5 1.53A2.72 2.72 0 009.28 17h5.44A2.72 2.72 0 0012 14.28zm-1.58 1.82a1.82 1.82 0 013.16 0z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18.31 3H5.69a11 11 0 000 18h12.62a11 11 0 000-18zm-.49 16.5H6.18a9.48 9.48 0 010-15h11.64a9.48 9.48 0 010 15zM15.25 12h1.5V8.5h-1.5zm-8 .75h1.5v-5h-1.5zm4.75 2.5A1.75 1.75 0 0010.25 17h3.5A1.75 1.75 0 0012 15.25z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaPowerSocketBLine;

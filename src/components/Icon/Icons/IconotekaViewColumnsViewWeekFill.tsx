@@ -8,7 +8,7 @@ function SvgIconotekaViewColumnsViewWeekFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M8.83 20h6.34V4H8.83zM2 20h6.33V4H2zM15.67 4v16H22V4z" />
+      <path d="M9.17 20h5.66V4H9.17zM2 20h5.67V4H2zM16.33 4v16H22V4z" />
     </svg>
   );
 }

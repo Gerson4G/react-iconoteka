@@ -8,7 +8,7 @@ function SvgIconotekaArrowRightUpOpenInNewAppleLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M7 5.5h10.79L3.87 19.43l.71.7L18.5 6.21V17h1V4.5H7v1z" />
+      <path d="M7 5.75h10.19l-13.5 13.5 1.06 1.06 13.5-13.5V17h1.5V4.25H7v1.5z" />
     </svg>
   );
 }

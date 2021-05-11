@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaFolderSharedLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M14.7 10.6a.45.45 0 11-.45.45.45.45 0 01.45-.45m-5.4 0a.45.45 0 11-.45.45.45.45 0 01.45-.45m5.4 3.34a2 2 0 011.15.37v.89h-2.3v-.89a2 2 0 011.15-.37m-5.4 0a2 2 0 011.15.37v.89h-2.3v-.89a2 2 0 011.15-.37M8 3H2v18h20V5H10L8 3zM3 20V4h4.54l2 2H21v14zM14.7 9.8a1.25 1.25 0 101.3 1.25 1.25 1.25 0 00-1.3-1.25zm-5.4 0a1.25 1.25 0 101.25 1.25A1.25 1.25 0 009.3 9.8zm5.4 3.34a2.74 2.74 0 00-1.95.81V16h3.9v-2a2.74 2.74 0 00-1.95-.81zm-5.4 0a2.74 2.74 0 00-2 .81V16h3.9v-2a2.74 2.74 0 00-1.95-.81z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M11 5L9 3H2v18h20V5zm9.5 14.5h-17v-15h4.84l2 2H20.5zM14.7 12a1 1 0 10-1-1 1 1 0 001 1zm1.8 2.15a2.55 2.55 0 00-3.6 0V16h3.6zM9.3 12a1 1 0 10-1-1 1 1 0 001 1zm-1.8 2.1V16h3.6v-1.9a2.55 2.55 0 00-3.6 0z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaFolderSharedLine;

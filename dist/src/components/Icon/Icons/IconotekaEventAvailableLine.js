@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaEventAvailableLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 5V2.5a.5.5 0 00-1 0V5H7V2.5a.5.5 0 00-1 0V5H2v16h20V5zm3 15H3V6h18zm-5.06-9.27l-.72-.73-4 4.14-2.47-2.58-.75.69 3.23 3.37z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 5V2.75a.75.75 0 00-1.5 0V5h-9V2.75a.75.75 0 00-1.5 0V5H2v16h20V5zm2.5 14.5h-17v-13h17zm-4.62-8.43L14.8 10l-3.48 3.63-2.12-2.18-1.09 1 3.21 3.34z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaEventAvailableLine;

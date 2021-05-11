@@ -10,7 +10,7 @@ function SvgIconotekaCheckAllDoneAllDoubleCheckTickAllLine(
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M20.35 2.09l-.7-.71L10 11 4.35 5.38l-.7.71L10 12.44zM10 20l-5.65-5.62-.7.71L10 21.44l10.35-10.35-.7-.71z" />
+      <path d="M20.53 2.27L19.47 1.2 10 10.67 4.53 5.2 3.47 6.27 10 12.8zM10 19.67L4.53 14.2l-1.06 1.07L10 21.8l10.53-10.53-1.06-1.07z" />
     </svg>
   );
 }

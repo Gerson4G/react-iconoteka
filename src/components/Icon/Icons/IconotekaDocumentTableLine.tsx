@@ -8,7 +8,7 @@ function SvgIconotekaDocumentTableLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M15.41 2H4v20h16V6.59zM19 21H5V3h10l4 4zM8 16h8V8H8zm4.45-7.1h2.65v2.65h-2.65zm0 3.55h2.65v2.65h-2.65zM8.9 8.9h2.65v2.65H8.9zm0 3.55h2.65v2.65H8.9z" />
+      <path d="M15.41 2H4v20h16V6.59zm3.09 18.5h-13v-17h9.29l3.71 3.71zM8 16h8V8H8zm4.6-6.8h2.2v2.2h-2.2zm0 3.4h2.2v2.2h-2.2zM9.2 9.2h2.2v2.2H9.2zm0 3.4h2.2v2.2H9.2z" />
     </svg>
   );
 }

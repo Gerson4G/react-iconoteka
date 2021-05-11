@@ -8,7 +8,7 @@ function SvgIconotekaTrapezoidLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M18.2 4l3.55 16H2.25L5.8 4h12.4m.8-1H5L1 21h22L19 3z" />
+      <path d="M17.8 4.5l3.33 15H2.87l3.33-15h11.6M19 3H5L1 21h22L19 3z" />
     </svg>
   );
 }

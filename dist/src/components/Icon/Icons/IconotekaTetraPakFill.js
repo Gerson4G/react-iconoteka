@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaTetraPakFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M5 8v14h6V8L8 5zm11-3H8.71l2.5 2.5h7.29zm0-.5V2H8v2.5h8zM11.5 8v14H19V8z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16 4.38V2H8.5v2.38l2.12 2.12h7.5zM11.5 8v14H19V8zM5 8v14h5V8L7.5 5.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaTetraPakFill;

@@ -8,7 +8,7 @@ function SvgIconotekaAtmCashDepositFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 2.91l2.9 2.89.35-.35L12 2.2 8.75 5.45l.35.35zM21 8H3a1.5 1.5 0 000 3h1V8.5h1V22h14V8.5h1V11h1a1.5 1.5 0 000-3zm-9 8a3 3 0 113-3 3 3 0 01-3 3z" />
+      <path d="M12 2L8.78 5.22h6.44zm8.5 6h-17a2 2 0 000 4H4V9.5h1V22h14V9.5h1V12h.5a2 2 0 000-4zM12 16a3 3 0 113-3 3 3 0 01-3 3z" />
     </svg>
   );
 }

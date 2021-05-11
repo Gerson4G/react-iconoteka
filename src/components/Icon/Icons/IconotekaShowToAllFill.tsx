@@ -8,7 +8,7 @@ function SvgIconotekaShowToAllFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M2 4v16h9.75V9.96L9.1 12.6l-.35-.35L12 9l3.25 3.25-.35.35-2.65-2.64V20H22V4H2z" />
+      <path d="M2 4v16h9.25v-7.78H8.78L12 9l3.22 3.22h-2.47V20H22V4H2z" />
     </svg>
   );
 }

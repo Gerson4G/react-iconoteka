@@ -8,7 +8,7 @@ function SvgIconotekaArchivesFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M9.5 11.5h5a.5.5 0 000-1h-5a.5.5 0 000 1zM3 21h18V7.5H3zm6.5-11h5a1 1 0 010 2h-5a1 1 0 010-2zM2 3v4h20V3z" />
+      <path d="M2 3v3h20V3zm1 18h18V7.5H3zm6.75-9.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 010-1.5z" />
     </svg>
   );
 }

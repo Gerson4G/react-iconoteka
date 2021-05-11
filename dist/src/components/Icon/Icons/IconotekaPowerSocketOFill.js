@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaPowerSocketOFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M16.64 11a1 1 0 101 1 1 1 0 00-1-1zM12 8a1 1 0 101 1 1 1 0 00-1-1zm-4.64 3a1 1 0 101 1 1 1 0 00-1-1zM3 3v18h18V3zm4.36 10.5a1.5 1.5 0 111.5-1.5 1.5 1.5 0 01-1.5 1.5zm4.64-3A1.5 1.5 0 1113.5 9a1.5 1.5 0 01-1.5 1.5zm4.64 3a1.5 1.5 0 111.5-1.5 1.5 1.5 0 01-1.5 1.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 3v18h18V3zm4 10.15A1.15 1.15 0 118.16 12 1.14 1.14 0 017 13.15zm5-3A1.15 1.15 0 1113.15 9 1.14 1.14 0 0112 10.15zm5 3A1.15 1.15 0 1118.14 12 1.15 1.15 0 0117 13.15z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaPowerSocketOFill;

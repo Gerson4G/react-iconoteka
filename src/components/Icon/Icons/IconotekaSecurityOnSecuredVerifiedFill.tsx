@@ -8,7 +8,7 @@ function SvgIconotekaSecurityOnSecuredVerifiedFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 .92L3 4.49v7.57a11 11 0 005.5 9.53l3.5 2 3.5-2a11 11 0 005.5-9.53V4.49zm-.6 12.89L8.49 10.9l.35-.35 2.56 2.55 3.95-3.95.35.36z" />
+      <path d="M12 .92L3 4.49v7.57a11 11 0 005.5 9.53l3.5 2 3.5-2a11 11 0 005.5-9.53V4.49zm-.6 13.74l-3.34-3.34 1.21-1.2 2.13 2.13 3.52-3.52 1.2 1.2z" />
     </svg>
   );
 }

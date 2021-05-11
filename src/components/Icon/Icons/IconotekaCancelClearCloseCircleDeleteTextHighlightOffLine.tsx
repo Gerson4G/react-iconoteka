@@ -6,7 +6,7 @@ function SvgIconotekaCancelClearCloseCircleDeleteTextHighlightOffLine(
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
-        d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 19a9 9 0 119-9 9 9 0 01-9 9zm2.08-11.79L12 11.29 9.92 9.21l-.71.71L11.29 12l-2.08 2.08.71.71L12 12.71l2.08 2.08.71-.71L12.71 12l2.08-2.08z"
+        d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18.5a8.5 8.5 0 118.5-8.5 8.51 8.51 0 01-8.5 8.5zm1.94-11.43L12 11l-1.94-1.93-1 1L11 12l-1.93 1.94 1 1L12 13l1.94 1.94 1-1L13 12l1.94-1.94z"
         data-name="Clear 3"
       />
     </svg>

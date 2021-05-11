@@ -8,7 +8,7 @@ function SvgIconotekaEjectFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M2 18.5v.5h20v-.5zM12 3L2 13h20z" />
+      <path d="M12 3L2 13h20zM2 17.5V19h20v-1.5z" />
     </svg>
   );
 }

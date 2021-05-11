@@ -8,7 +8,7 @@ function SvgIconotekaCheckCheckingFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M1 5v14h22V5zm13 5.5H4V10h10zm6 0h-4V10h4z" />
+      <path d="M1 5v14h22V5zm13 6.5H4V10h10zm6 0h-4V10h4z" />
     </svg>
   );
 }

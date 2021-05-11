@@ -8,7 +8,7 @@ function SvgIconotekaLabelLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M18.86 6l3.43 6-3.43 6H3V6h15.86m.58-1H2v14h17.44l4-7-4-7z" />
+      <path d="M18.57 6.5l3.14 5.5-3.14 5.5H3.5v-11h15.07m.87-1.5H2v14h17.44l4-7-4-7z" />
     </svg>
   );
 }

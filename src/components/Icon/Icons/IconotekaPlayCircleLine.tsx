@@ -8,7 +8,7 @@ function SvgIconotekaPlayCircleLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 19a9 9 0 119-9 9 9 0 01-9 9zm-1.88-6l5.24-3-5.24-3zm.8-4.67L13.76 12l-2.84 1.64z" />
+      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18.5a8.5 8.5 0 118.5-8.5 8.51 8.51 0 01-8.5 8.5zm-1.53-5.89L15 12l-4.53-2.61z" />
     </svg>
   );
 }

@@ -8,7 +8,7 @@ function SvgIconotekaCribLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M4 10V7a2 2 0 012-2h4V4H6a3 3 0 00-3 3v14h1v-2h16v2h1V10zm3.25 8H4v-7h3.25zm4.25 0H8.25v-7h3.25zm4.25 0H12.5v-7h3.25zM20 18h-3.25v-7H20zM11.2 7.6a.8.8 0 10-.8-.8.8.8 0 00.8.8zM8 6.8a.8.8 0 10.8-.8.8.8 0 00-.8.8z" />
+      <path d="M4.5 10V6A1.5 1.5 0 016 4.5h4V3H6a3 3 0 00-3 3v15h1.5v-2h15v2H21V10zm2.62 7.5H4.5v-6h2.62zm4.13 0H8.62v-6h2.63zm4.13 0h-2.63v-6h2.63zm4.12 0h-2.62v-6h2.62zm-8-10a1 1 0 10-1-1 1 1 0 001 1zm-4-1a1 1 0 101-1 1 1 0 00-1 1z" />
     </svg>
   );
 }

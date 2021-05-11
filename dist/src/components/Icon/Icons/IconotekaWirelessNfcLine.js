@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaWirelessNfcLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M4.22 14.22l.71.71a9.95 9.95 0 0114.14 0l.71-.71a11 11 0 00-15.56 0zm3.53 3.53l.7.7a5 5 0 017.1 0l.7-.7a5.94 5.94 0 00-8.5 0zM12 6A15.91 15.91 0 00.69 10.69l.72.72a14.92 14.92 0 0121.18 0l.72-.72A15.91 15.91 0 0012 6z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.74 17.74l1 1.05a4.54 4.54 0 016.42 0l1.05-1.05a6 6 0 00-8.52 0zM12 6A15.91 15.91 0 00.69 10.69l1.07 1.07a14.44 14.44 0 0120.48 0l1.07-1.07A15.91 15.91 0 0012 6zm-7.78 8.22l1.06 1.06a9.46 9.46 0 0113.44 0l1.06-1.06a11 11 0 00-15.56 0z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaWirelessNfcLine;

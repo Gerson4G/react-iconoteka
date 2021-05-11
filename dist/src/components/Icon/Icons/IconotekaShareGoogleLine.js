@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaShareGoogleLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 16a3 3 0 00-2.36 1.16L7.83 13a2.74 2.74 0 000-1.9l7.81-4.21A3 3 0 1015 5a3.07 3.07 0 00.17 1l-7.81 4.17a3 3 0 100 3.66L15.17 18a3.07 3.07 0 00-.17 1 3 3 0 103-3zm0-13a2 2 0 11-2 2 2 2 0 012-2zM5 14a2 2 0 112-2 2 2 0 01-2 2zm13 7a2 2 0 112-2 2 2 0 01-2 2z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M18 16a3 3 0 00-2.19 1l-7.9-4.26a2.85 2.85 0 000-1.42L15.81 7A3 3 0 1015 5a3.29 3.29 0 00.09.71L7.2 10a3 3 0 100 4l7.89 4.26A3.29 3.29 0 0015 19a3 3 0 103-3zm0-12.5A1.5 1.5 0 1116.5 5 1.5 1.5 0 0118 3.5zm-13 10A1.5 1.5 0 116.5 12 1.5 1.5 0 015 13.5zm13 7a1.5 1.5 0 111.5-1.5 1.5 1.5 0 01-1.5 1.5z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaShareGoogleLine;

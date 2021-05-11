@@ -8,7 +8,7 @@ function SvgIconotekaArrowInCircleLeftDownFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19.07 4.93a10 10 0 100 14.14 10 10 0 000-14.14zM15 14.75v.5H8.75V9h.5v5.4l6.11-6.11.35.35-6.11 6.11z" />
+      <path d="M19.07 4.93a10 10 0 100 14.14 10 10 0 000-14.14zM15 14.25v1.5H8.25V9h1.5v4.19L15 7.93 16.07 9l-5.26 5.25z" />
     </svg>
   );
 }

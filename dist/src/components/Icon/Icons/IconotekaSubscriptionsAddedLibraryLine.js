@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaSubscriptionsAddedLibraryLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 7v14h18V7zm17 13H4V8h16zM19 3H5v1h14zm-3.06 8.73l-.72-.73-4 4.14-2.47-2.58-.75.69 3.23 3.37z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M3 7v14h18V7zm16.5 12.5h-15v-11h15zM19 3H5v1.5h14zm-3.12 9.07L14.8 11l-3.48 3.63-2.13-2.18-1.08 1 3.21 3.34z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaSubscriptionsAddedLibraryLine;

@@ -8,7 +8,7 @@ function SvgIconotekaPauseCircleFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm-1 13h-.5V9h.5zm2.5 0H13V9h.5z" />
+      <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm-1 13H9.5V9H11zm3.5 0H13V9h1.5z" />
     </svg>
   );
 }

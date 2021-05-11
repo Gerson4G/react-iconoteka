@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaTextAlignRightLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9 5v1h10V5zm-4 5.33h14v-1H5zm4 4.34h10v-1H9zM5 19h14v-1H5z", "data-name": "Clear 3" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M9 5v1.5h10V5zm-4 5.67h14v-1.5H5zm4 4.16h10v-1.5H9zM5 19h14v-1.5H5z", "data-name": "Clear 3" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaTextAlignRightLine;

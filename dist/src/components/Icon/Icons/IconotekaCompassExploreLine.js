@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaCompassExploreLine(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M7.2 16.8l7.2-2.4 2.4-7.2-7.2 2.4zm8-8l-1.61 4.83-4.81 1.59 1.61-4.83zM12 2a10 10 0 1010 10A10 10 0 0012 2zm0 19a9 9 0 119-9 9 9 0 01-9 9zm0-8.15a.85.85 0 10-.85-.85.85.85 0 00.85.85z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18.5a8.5 8.5 0 118.5-8.5 8.51 8.51 0 01-8.5 8.5zm-4.33-4.17l5.82-2.84 2.84-5.82-5.82 2.84zm3.62-5a1 1 0 110 1.42 1 1 0 010-1.46z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaCompassExploreLine;

@@ -8,7 +8,7 @@ function SvgIconotekaWindSpeedLowLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M16.5 15H4v-1h12.5a2.5 2.5 0 10-2.5-2.5v.5h-1v-.5a3.5 3.5 0 113.5 3.5z" />
+      <path d="M17 14.75H4v-1.5h13A2.25 2.25 0 1014.75 11h-1.5A3.75 3.75 0 1117 14.75z" />
     </svg>
   );
 }

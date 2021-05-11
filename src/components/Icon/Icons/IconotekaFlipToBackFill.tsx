@@ -8,7 +8,7 @@ function SvgIconotekaFlipToBackFill(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M7.5 3.5h3V3H7v3.5h.5zm8 13h-3v.5h3zm0-13.5h-3v.5h3zm-5 13.5h-3v-3H7V17h3.5zm-3-8H7v3h.5zm13 3h.5v-3h-.5zm-3-8.5v.5h3v3h.5V3zm3 13.5h-3v.5H21v-3.5h-.5zM5 7H3v14h14v-2H5z" />
+      <path d="M8.5 4.5h2V3H7v3.5h1.5zm0 4H7v3h1.5zm7-5.5h-3v1.5h3zm-5 12.5h-2v-2H7V17h3.5zm5 0h-3V17h3zm4-4H21v-3h-1.5zm-2-8.5v1.5h2v2H21V3zm2 12.5h-2V17H21v-3.5h-1.5zM5 7H3v14h14v-2H5z" />
     </svg>
   );
 }

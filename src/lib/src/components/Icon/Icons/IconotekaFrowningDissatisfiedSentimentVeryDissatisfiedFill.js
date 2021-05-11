@@ -13,6 +13,6 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 function SvgIconotekaFrowningDissatisfiedSentimentVeryDissatisfiedFill(props) {
-    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm-4.4 8.15a.5.5 0 11.5-.5.5.5 0 01-.5.5zm8 6.62a3.76 3.76 0 00-7.1 0L8 16.6a4.26 4.26 0 018 0zm.85-6.62a.5.5 0 11.5-.5.5.5 0 01-.55.5z" }, void 0) }), void 0));
+    return (jsx_runtime_1.jsx("svg", __assign({ "data-name": "Layer 1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24" }, props, { children: jsx_runtime_1.jsx("path", { d: "M12 2a10 10 0 1010 10A10 10 0 0012 2zm-5.35 8a1.15 1.15 0 111.15 1.15A1.14 1.14 0 016.65 10zm8.43 7.94a3.26 3.26 0 00-6.16 0l-1.41-.5a4.75 4.75 0 019 0zm1.12-6.79A1.15 1.15 0 1117.35 10a1.14 1.14 0 01-1.15 1.15z" }, void 0) }), void 0));
 }
 exports.default = SvgIconotekaFrowningDissatisfiedSentimentVeryDissatisfiedFill;

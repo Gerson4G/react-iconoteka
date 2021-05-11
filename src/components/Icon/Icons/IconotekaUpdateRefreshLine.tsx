@@ -8,7 +8,7 @@ function SvgIconotekaUpdateRefreshLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19.5 12a7.5 7.5 0 11-2.2-5.3l1.48 1.47h-3.41v1h5.12V4.06h-1v3.4L18 6a8.5 8.5 0 102.49 6z" />
+      <path d="M19.25 12a7.24 7.24 0 11-2.12-5.13l.55.56-1.74 1.74h4.55V4.62l-1.75 1.75-.55-.56A8.76 8.76 0 1020.75 12z" />
     </svg>
   );
 }

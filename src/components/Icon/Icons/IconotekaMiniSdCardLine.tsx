@@ -8,7 +8,7 @@ function SvgIconotekaMiniSdCardLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19 6V2H4v19h17V8zm1 14H5V3h1v3h1V3h1v3h1V3h1v3h1V3h1v3h1V3h1v3h1V3h1v3h1V3h1v3.41l2 2z" />
+      <path d="M19 6V2H4v19h17V8zm.5 13.5h-14v-16H7V6h1.5V3.5h2V6H12V3.5h2V6h1.5V3.5h2v3.12l.44.44 1.56 1.56z" />
     </svg>
   );
 }

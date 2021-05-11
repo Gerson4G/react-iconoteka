@@ -8,7 +8,7 @@ function SvgIconotekaChevronUpKeyboardArrowUpLine(props: any): JSX.Element {
       viewBox="0 0 24 24"
       {...props}
     >
-      <path d="M19.64 15.53L12 7.89l-7.64 7.64-.7-.71L12 6.47l8.34 8.35-.7.71z" />
+      <path d="M19.64 15.88L12 8.24l-7.64 7.64-1.06-1.06 8.7-8.7 8.7 8.7-1.06 1.06z" />
     </svg>
   );
 }
