@@ -10,25 +10,6 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
-    return result;
-};
 var __rest = (this && this.__rest) || function (s, e) {
     var t = {};
     for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
@@ -43,11 +24,12 @@ var __rest = (this && this.__rest) || function (s, e) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 var react_1 = require("react");
+var utils_1 = require("./utils");
 var NoExisting = function () { return (jsx_runtime_1.jsx(jsx_runtime_1.Fragment, { children: "Icon does not exist" }, void 0)); };
 function Icon(_a) {
     var name = _a.name, stroke = _a.stroke, type = _a.type, color = _a.color, props = __rest(_a, ["name", "stroke", "type", "color"]);
     var iconName = "Iconoteka" + name + type[0].toUpperCase() + type.slice(1);
-    var Component = react_1.lazy(function () { return Promise.resolve().then(function () { return __importStar(require("./Icons")); }).then(function (module) { var _a; return ({ default: (_a = module[iconName]) !== null && _a !== void 0 ? _a : NoExisting }); }); });
+    var Component = utils_1.getCachedLazy(iconName, './Icons', NoExisting);
     var strokeWidth = {
         regular: 0,
         medium: 1,
