@@ -1,6 +1,6 @@
 {
   "name": "react-iconoteka",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "license" : "MIT",
   "description": "A React wrapper to be able to use Iconoteka (https://iconoteka.com/) icons easily",
   "keywords": ["iconoteka", "react", "react-iconoteka", "icons", "wrapper"],
@@ -58,7 +58,6 @@
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.1.16",
     "@svgr/cli": "^5.5.0",
-    "storybook-addon-designs": "^5.4.3",
     "@babel/cli": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",

@@ -16,12 +16,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Icon = void 0;
 var jsx_runtime_1 = require("react/jsx-runtime");
-var storybook_addon_designs_1 = require("storybook-addon-designs");
 var index_1 = __importDefault(require("./index"));
 exports.default = {
     title: 'Icon',
     component: index_1.default,
-    decorators: [storybook_addon_designs_1.withDesign],
+    decorators: [],
     argTypes: {
         color: { control: 'color' },
     },

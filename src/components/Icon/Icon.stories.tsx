@@ -1,5 +1,4 @@
 import React from 'react';
-import { withDesign } from 'storybook-addon-designs';
 import { Story, Meta } from '@storybook/react';
 
 import Component from './index';
@@ -8,7 +7,7 @@ import { IconProps } from './types';
 export default {
   title: 'Icon',
   component: Component,
-  decorators: [withDesign],
+  decorators: [],
   argTypes: {
     color: { control: 'color' },
   },
