@@ -2,10 +2,10 @@ import React, { lazy } from 'react';
 
 const componentsMap = new Map();
 
-export const getCachedLazy = (name: string, path: string = './Icons', NotFound: React.ReactNode = () => <></>) => {
+export const getCachedLazy = (name: string,  NotFound: React.ReactNode = () => <></>) => {
   if (componentsMap.has(name)) return componentsMap.get(name);
 
-  const Component = lazy(() => import(`${path}`).then((module: any) => ({ default: module[name] ?? NotFound})));
+  const Component = lazy(() => import('./Icons').then((module: any) => ({ default: module[name] ?? NotFound})));
 
   componentsMap.set(name, Component);
 

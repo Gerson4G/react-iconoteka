@@ -29,7 +29,7 @@ var NoExisting = function () { return (jsx_runtime_1.jsx(jsx_runtime_1.Fragment,
 function Icon(_a) {
     var name = _a.name, stroke = _a.stroke, type = _a.type, color = _a.color, props = __rest(_a, ["name", "stroke", "type", "color"]);
     var iconName = "Iconoteka" + name + type[0].toUpperCase() + type.slice(1);
-    var Component = utils_1.getCachedLazy(iconName, './Icons', NoExisting);
+    var Component = utils_1.getCachedLazy(iconName, NoExisting);
     var strokeWidth = {
         regular: 0,
         medium: 1,

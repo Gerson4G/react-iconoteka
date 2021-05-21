@@ -23,12 +23,11 @@ exports.getCachedLazy = void 0;
 var jsx_runtime_1 = require("react/jsx-runtime");
 var react_1 = require("react");
 var componentsMap = new Map();
-var getCachedLazy = function (name, path, NotFound) {
-    if (path === void 0) { path = './Icons'; }
+var getCachedLazy = function (name, NotFound) {
     if (NotFound === void 0) { NotFound = function () { return jsx_runtime_1.jsx(jsx_runtime_1.Fragment, {}, void 0); }; }
     if (componentsMap.has(name))
         return componentsMap.get(name);
-    var Component = react_1.lazy(function () { return Promise.resolve().then(function () { return __importStar(require("" + path)); }).then(function (module) { var _a; return ({ default: (_a = module[name]) !== null && _a !== void 0 ? _a : NotFound }); }); });
+    var Component = react_1.lazy(function () { return Promise.resolve().then(function () { return __importStar(require('./Icons')); }).then(function (module) { var _a; return ({ default: (_a = module[name]) !== null && _a !== void 0 ? _a : NotFound }); }); });
     componentsMap.set(name, Component);
     return Component;
 };
